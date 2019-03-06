@@ -1,0 +1,14 @@
+<div data-full-screen-page class="fp-block fp-block--three t-cyan" data-full-screen-page-callback="$('body').removeClass('fp-inverse fp-index-first').addClass('fp-default');">
+  <div class="fp-block__title fp-block__title--cyan">
+    <img class="o-title-brand" src="http://1.citynews.stgy.ovh/~shared/images/v2015/today-logo.svg" alt="">
+  </div>
+  <div class="fp-block__cell fp-block__cell--list">
+    {% render "@story-featuredv6" %}
+  </div>
+  <div class="fp-block__cell fp-block__cell--list">
+    {% render "@story-listv6" %}
+  </div>
+  <div class="fp-block__cell fp-block__cell--list u-border-none">
+    {% render "@story-listv6" %}
+  </div>
+</div>

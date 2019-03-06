@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ '/css/v6.css' | path }}">
+    <link rel="stylesheet" href="{{ '/css/v6.css' | path }}">
+
     <title>versione v6</title>
 </head>
 <body>

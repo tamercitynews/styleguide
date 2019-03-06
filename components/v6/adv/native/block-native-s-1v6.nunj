@@ -1,0 +1,10 @@
+<div data-full-screen-page class="fp-block fp-block--single fp-block--native-s" data-full-screen-page-callback="$('body').removeClass('fp-inverse').addClass('fp-default');">
+  <div class="fp-block__title t-border">
+    <h3 class="o-title">In evidenza</h3>
+  </div>
+  <div class="fp-block__cell a-native-s-mobile a-native-s-mobile-home" data-natives-counter="1">
+    <div class="a-native-s-1" data-native-position="1">
+      {% render "@native-sv6" %}
+    </div>
+  </div>
+</div>

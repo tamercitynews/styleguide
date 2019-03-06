@@ -1,0 +1,36 @@
+<article class="card inline-card">
+  <header class="card-header">
+    <span class="card-label label">Trattoria</span>
+    <h2 class="card-heading">
+      <a href="/ristoranti/da-pinuccio-via-val-maggia.html" class="link">Ristorante Da Pinuccio</a>
+    </h2>
+    <p class="summary">In un ambiente luminoso e accogliente con cucina a vista, alla pizzeria trattoria da Pinuccio...</p>
+  </header>
+  <figure class="card-media">
+    <a href="/ristoranti/da-pinuccio-via-val-maggia.html" class="link">
+    <img alt="Ristorante Da Pinuccio" title="Ristorante Da Pinuccio" src="http://1.citynews-romatoday.stgy.ovh/~media/vertical-mid/7309806852092/da-pinuccio.png">
+    </a>
+  </figure>
+  <div class="card-meta">
+    <ul class="u-unstyled">
+      <li>
+        {% render "@ratingv2015" %}
+      </li>
+      <li>
+        <span class="card-info">
+          <svg class="icon inline-icon small cutlery-icon"><use xlink:href="#cutlery-icon"></use></svg>
+          Italiano
+        </span>
+      </li>
+      <li>
+        <span class="card-info">
+          <svg class="icon inline-icon small theme-fill">
+            <use xlink:href="#location-pin-icon"></use>
+          </svg>
+          Conca d'Oro
+          <span class="card-info-address">Via Val Maggia, 44</span>
+        </span>
+      </li>
+    </ul>
+  </div>
+</article>

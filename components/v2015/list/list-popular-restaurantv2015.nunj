@@ -1,0 +1,7 @@
+<ul class="u-unstyled l-row multirow">
+  {% for item in restaurants[0].restaurant %}
+    <li class="unit size1of4 l-row-item l-row--item-span-1">
+      {% include "partials/v2015/card/card-restaurant--popular.njkv2015" %}
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,97 @@
+{# {% render "partials/v2015/sidemenu/sidemenu.njk" as sidemenu %} #}
+
+<a class="back-to-top-link" href="#top">
+	Torna su
+	<svg class="icon small top-icon"><use xlink:href="#top-icon"></use></svg>
+</a>
+
+<footer class="site-footer">
+
+    <div class="line">
+        <div class="unit size1of4 footer-col footer-list-link visible-md visible-lg">
+            <div class="site-brand">
+              {% render "@brandv2015" %}
+            </div>
+
+            <ul class="u-unstyled list-link">
+                <li><a class="link" href="#">Presentazione</a></li>
+                <li><a class="link" href="#">Registrati</a></li>
+                <li><a class="link" href="#">Privacy</a></li>
+                <li><a class="link" href="#">Invia contenuti</a></li>
+                <li><a class="link" href="#">Help</a></li>
+                <li><a class="link" href="#">Condizioni generali</a></li>
+            </ul>
+            <button class="btn btn-sm default-btn inverse-btn">La tua pubblicit&agrave; su RomaToday</button>
+        </div>
+
+        <div class="unit size1of4 footer-col footer-list-link footer-nav">
+            <h5 class="footer-col-title theme-color">Canali</h5>
+
+            <ul class="u-unstyled list-link">
+                <li><a class="link" href="#">Cronaca</a></li>
+                <li><a class="link" href="#">Sport</a></li>
+                <li><a class="link" href="#">Politica</a></li>
+                <li><a class="link" href="#">Economia e Lavoro</a></li>
+                <li><a class="link" href="#">Smart City</a></li>
+                <li><a class="link" href="#">Cosa fare in città</a></li>
+                <li><a class="link" href="#">Zone</a></li>
+                <li><a class="link" href="#">Segnalazioni</a></li>
+            </ul>
+        </div>
+
+        <div class="unit size1of4 footer-col footer-site-link visibile-md visible-lg">
+            <h5 class="footer-col-title theme-color">Altri siti</h5>
+
+            <img class="footer-network-map" src="http://2.citynews.stgy.ovh/~shared/images/v4/elementi/mappa-centro.gif" alt="Altri siti del Centro Italia">
+
+            <ul class="u-unstyled list-link">
+                <li><a class="link" href="#">Perugia Today</a></li>
+                <li><a class="link" href="#">Latina Today</a></li>
+                <li><a class="link" href="#">Ancona Today</a></li>
+                <li><a class="link" href="#">Napoli Today</a></li>
+                <li><a class="link" href="#">IlPescara</a></li>
+                <li><a class="link" href="#">Tutte</a></li>
+            </ul>
+        </div>
+
+        <div class="unit size1of4 footer-col footer-col-social">
+            <h5 class="footer-col-title theme-color">Apps & SOcial</h5>
+            <ul class="u-unstyled inline-list">
+                <li>
+                    <a href="#"><svg class="icon large top-icon"><use xlink:href="#facebook-circle-icon"></use></svg></a>
+                </li>
+                <li>
+                    <a href="#"><svg class="icon large top-icon"><use xlink:href="#twitter-circle-icon"></use></svg></a>
+                </li>
+                <li>
+                    <a href="#"><svg class="icon large feed-icon"><use xlink:href="#feed-icon"></use></svg></a>
+                </li>
+            </ul>
+
+            <div class="footer-app-links visible-md visible-lg">
+                <a class="link" href="#"><img src="http://1.citynews.stgy.ovh/~shared/images/v2015/icons/badge-apple.svg" alt="Download Citynews App per iOS"/></a>
+                <a class="link" href="#"><img src="http://3.citynews.stgy.ovh/~shared/images/v2015/icons/badge-google.png" alt="Download Citynews Android App"/></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="line">
+        <div class="unit size1of1 footer-note">
+            <div class="company-logo">
+                <img src="/assets/images/site/horizontal-white-full.svg" alt="Citynews" />
+								<svg class="icon light-icon small u-pointer js-sidemenu-toggle" data-name="network"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu"></use></svg>
+            </div>
+            <ul class="u-unstyled inline-list list-link visible-md visible-lg">
+                <li><a href="#" class="link">Chi siamo</a> <span class="middot">&middot;</span></li>
+                <li><a href="#" class="link">Press</a> <span class="middot">&middot;</span></li>
+                <li><a href="#" class="link">Contatti</a></li>
+            </ul>
+            <p class="footer-copy">&copy; Copyright 2009-2015 RomaToday plurisettimanale telematico reg. tribunale di Roma n. 93/2010 P.iva 10786801000</p>
+        </div>
+    </div>
+
+		{# {{ sidemenu.sidemenu('menu', menu) }}
+
+		{{ sidemenu.sidemenu('network', brands) }} #}
+
+</footer>

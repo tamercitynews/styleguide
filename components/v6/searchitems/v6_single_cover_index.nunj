@@ -1,7 +1,0 @@
-<div data-full-screen-page class="fp-block fp-block--first" data-full-screen-page-callback="$('body').addClass('fp-index-first');">
-  <div class="fp-block__cell">
-    {% render "@header" %}
-
-    {% render "@story-cover-index" %}
-  </div>
-</div>

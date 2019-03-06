@@ -1,0 +1,32 @@
+<section class="section grid-section filled-section">
+  <div class="line">
+    <div class="unit size1of1">
+      <div class="section-title has-no-border align-center">
+        <div class="section-title-overline theme-element-bg align-center">
+          <h2 class="section-heading theme-color">{{ text.section-title }}</h2></div>
+      </div>
+    </div>
+  </div>
+  <div class="line">
+    <ul class="u-unstyled l-row multirow">
+      <li class="unit l-row-item item-span-1 size1of3">
+        {% include "partials/v2015/story/story-card.njkv2015" %}
+      </li>
+      <li class="unit l-row-item item-span-1 size1of3">
+        {% include "partials/v2015/story/story-card.njkv2015" %}
+      </li>
+      <li class="unit l-row-item item-span-1 size1of3">
+        {% include "partials/v2015/story/story-card.njkv2015" %}
+      </li>
+      <li class="unit l-row-item item-span-1 size1of3">
+        {% include "partials/v2015/story/story-card.njkv2015" %}
+      </li>
+      <li class="unit l-row-item item-span-1 size1of3">
+        {% include "partials/v2015/story/story-card.njkv2015" %}
+      </li>
+      <li class="unit l-row-item item-span-1 size1of3">
+        {% include "partials/v2015/story/story-card.njkv2015" %}
+      </li>
+    </ul>
+  </div>
+</section>

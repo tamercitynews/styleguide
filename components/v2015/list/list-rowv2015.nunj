@@ -1,0 +1,26 @@
+<section class="section grid-section">
+  <div class="line">
+    <div class="unit size1of1">
+      <div class="section-title has-no-border">
+        <h2 class="section-heading">Potrebbe Interessarti</h2>
+      </div>
+    </div>
+  </div>
+  <div class="line">
+    <ul id="native-desktop-news" class="u-unstyled u-bordered l-row multirow a-native-desktop-news">
+      <li class="unit size1of4 l-row-item item-span-1">
+        {% render "@native-sv6" %}
+      </li>
+      {% for story in newslist %}
+        {% set loopStart = loop.index %}
+        {% set loopSlice = 3 %}
+        {% if loopStart <= loopSlice %}
+          <li class="unit size1of4 l-row-item item-span-1">
+            {% set story_label = true %}
+            {% render "@story-defaultv2015" %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
