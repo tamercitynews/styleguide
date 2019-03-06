@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/black/scroller</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons/black/scroller" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6,22 C6,21.872 6.049,21.744 6.146,21.646 C6.341,21.451 6.658,21.451 6.853,21.646 L15.499,30.292 L24.145,21.646 C24.34,21.451 24.657,21.451 24.852,21.646 C25.047,21.841 25.047,22.158 24.852,22.353 L15.852,31.353 C15.657,31.548 15.34,31.548 15.145,31.353 L6.145,22.353 C6.047,22.255 5.999,22.127 5.999,21.999 L6,22 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+        <path d="M6,10 C6,10.128 6.049,10.256 6.146,10.354 C6.341,10.549 6.658,10.549 6.853,10.354 L15.499,1.708 L24.145,10.354 C24.34,10.549 24.657,10.549 24.852,10.354 C25.047,10.159 25.047,9.842 24.852,9.647 L15.852,0.647 C15.657,0.452 15.34,0.452 15.145,0.647 L6.145,9.647 C6.047,9.745 5.999,9.873 5.999,10.001 L6,10 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>
