@@ -1,0 +1,72 @@
+<div id="events-dropdown-group" class="dropdown-group dropdown-group--fluid" role="group">
+  <div class="dropdown">
+    <a class="btn dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Cosa fare <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection">Eventi</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li class="dropdown-menu__item--size-lg">
+        <a href="#"><svg class="icon inline-icon medium icon-event"><use xlink:href="#icon-event"></use></svg>Eventi</a>
+      </li>
+      <li>
+        <a href="#"><svg class="icon inline-icon medium icon-cinema"><use xlink:href="#icon-cinema"></use></svg>Cinema</a>
+      </li>
+      <li>
+        <a href="#"><svg class="icon inline-icon medium icon-restaurant"><use xlink:href="#icon-restaurant"></use></svg>Ristoranti</a>
+      </li>
+      <li><a href="#"><svg class="icon inline-icon medium icon-store"><use xlink:href="#icon-store"></use></svg>Shopping</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <a class="btn dropdown-toggle" href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Dove <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection">tutte</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu2">
+      {% for item in zone %}
+        <li data-itemattr-name="{{item.data}}">
+          <a class="link" href="{{item.link}}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="dropdown dropdown--scrollable">
+    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Tipologia <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection dropdown-toggle__selection--multiple">Tutti</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu--size-lg dropdown-menu-right bordered-dropdown-menu" aria-labelledby="dropdownMenu3">
+      <span class="dropdown-menu__header">Filtra per</span>
+      <div class="dropdown-menu__filters">
+        <span class="dropdown-menu__subheader">Data di uscita</span>
+        <div class="checkbox">
+          <input type="checkbox" value="" id="mcheckbox1">
+          <label class="checkbox-label" for="mcheckbox1">Film di oggi <span class="text-sm checkbox-counter">(7)</span></label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" value="" id="mcheckbox2">
+          <label class="checkbox-label" for="mcheckbox2">Nuove uscite <span class="text-sm checkbox-counter">(7)</span></label>
+        </div>
+        <hr>
+        <span class="dropdown-menu__subheader">Generi</span>
+        {% for item in movies[0].type %}
+          <div class="checkbox">
+              <input data-filter="bambini" type="checkbox" name="bs_checkbox_bambini" id="mcheckbox{{loop.index}}" value="">
+              <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}}</label>
+          </div>
+        {% endfor %}
+        <hr>
+        <span class="dropdown-menu__subheader">Sala</span>
+        {% for item in movies[1].cinema %}
+          <div class="checkbox">
+              <input data-filter="bambini" type="checkbox" name="bs_checkbox_bambini" id="mcheckbox{{loop.index}}" value="">
+              <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}}</label>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="dropdown-menu__actions">
+        <a href="#" class="btn btn-sm btn-block primary-btn remove-html-locked">Applica filtri</a>
+      </div>
+    </div>
+  </div>
+</div>

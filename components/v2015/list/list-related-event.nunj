@@ -1,0 +1,10 @@
+<ul class="u-unstyled l-row">
+  {% set maxItems = 3 %}
+  {% for item in events[0].event %}
+    {% if loop.index <= maxItems %}
+      <li class="unit l-row-item item-span-1 card-item card-item-md">
+        {% include "partials/v2015/card/card-event.njk" %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,0 +1,170 @@
+<div class="OUTBRAIN" data-src="http://www.romatoday.it/politica/bando-sistemi-antincendio-atac.html" data-widget-id="AR_4" data-ob-template="todayit" data-ob-mark="true" data-browser="safari" data-os="macintel" data-dynload="" data-idx="0" id="outbrain_widget_0"><div class="ob-widget ob-one-column-layout CR_4">
+      <style type="text/css">
+      /* dynamic basic css */
+.CR_4.ob-widget .ob-widget-items-container {margin:0;padding:0;}
+.CR_4.ob-widget .ob-widget-items-container .ob-clearfix {display:block;width:100%;float:none;clear:both;height:0px;line-height:0px;font-size:0px;}
+.CR_4.ob-widget .ob-widget-items-container.ob-multi-row {padding-top: 2%;}
+.CR_4.ob-widget .ob-dynamic-rec-container {position:relative;margin:0;padding;0;}
+.CR_4.ob-widget .ob-dynamic-rec-link,
+.CR_4.ob-widget .ob-dynamic-rec-link:hover {text-decoration:none;}
+.CR_4.ob-widget .ob-rec-image-container .ob-video-icon-container {position:absolute;left:0;height:30%;width:100%;text-align:center;top:35%;}
+.CR_4.ob-widget .ob-rec-image-container .ob-video-icon {display:inline-block;height:100%;float:none;opacity:0.7;transition: opacity 500ms;}
+.CR_4.ob-widget .ob-rec-image-container .ob-video-icon:hover {opacity:1;}
+.CR_4.ob-widget .ob_what{direction:ltr;clear:both;padding:5px 10px 0px;}
+            .CR_4 .ob_what a:after {content: "";vertical-align:text-bottom;;margin-left:5px;;background-image: url('http://widgets.outbrain.com/assets/images/widgetIcons/achoice.svg');background-size:75% 75%;width:12px;height:12px;padding-left:4px;display:inline-block;background-repeat:no-repeat;background-position:right center;border-left:1px solid #999;}
+    .CR_4.ob-widget .ob_what a{color:#999;font-size:11px;font-family:arial;text-decoration: none;}
+.CR_4.ob-widget .ob_what.ob-hover:hover a{text-decoration: underline;}
+.CR_4.ob-widget .ob_amelia,
+.CR_4.ob-widget .ob_logo,
+.CR_4.ob-widget .ob_feed_logo,
+.CR_4.ob-widget .ob_sfeed_logo,
+.CR_4.ob-widget .ob_text_logo{vertical-align:baseline !important;display:inline-block;vertical-align:text-bottom;padding:0px 5px;box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;}
+.CR_4.ob-widget .ob_amelia{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_logo_16x16.png') no-repeat center top;width:16px;height:16px;margin-bottom:-2px;}
+.CR_4.ob-widget .ob_logo{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_logo_67x12.png') no-repeat center top;width:67px;height:12px;}
+.CR_4.ob-widget .ob_text_logo{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_text_logo_67x22.png') no-repeat center top;width:67px;height:22px;}
+.CR_4.ob-widget .ob_feed_logo{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_feed_logo.png') no-repeat center top;width:86px;height:23px;}
+.CR_4.ob-widget .ob_sfeed_logo{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_smartFeedLogo.min.svg') no-repeat center top;width:140px;height:21px;}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+.CR_4.ob-widget .ob_amelia{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_logo_16x16@2x.png') no-repeat center top;width:16px;height:16px;margin-bottom:-2px; background-size:16px 32px;}
+.CR_4.ob-widget .ob_logo{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_logo_67x12@2x.png') no-repeat center top;width:67px;height:12px; background-size:67px 24px;}
+.CR_4.ob-widget .ob_text_logo{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_text_logo_67x22@2x.png') no-repeat center top;width:67px;height:20px; background-size:67px 40px;}
+.CR_4.ob-widget .ob_feed_logo{background:url('http://widgets.outbrain.com/assets/images/widgetIcons/ob_feed_logo@2x.png') no-repeat center top;width:86px;height:23px;background-size: 86px 23px;}
+}
+@media only screen and (max-width: 600px) {
+.CR_4.ob-widget .ob_sfeed_logo{width:90px;height:20px;background-size:90px 20px;}
+}
+.CR_4.ob-widget:hover .ob_amelia,
+.CR_4.ob-widget:hover .ob_logo,
+.CR_4.ob-widget:hover .ob_text_logo{background-position:center bottom;}
+  .CR_4.ob-widget .ob_what{text-align:right;}
+.CR_4.ob-widget .ob-rec-image-container .ob-rec-image {display:block;}
+      /* dynamic one-column css */
+.CR_4.ob-widget .ob-rec-image-container {position:relative;}
+.CR_4.ob-widget .ob-rec-image-container .ob-image-ratio {height:0px;line-height:0px;padding-top:66.66666666666666%;}
+.CR_4.ob-widget .ob-rec-image-container img.ob-rec-image {width:100%;position:absolute;top:0;bottom:0;left:0;right:0;opacity:0;transition:all 750ms;}
+.CR_4.ob-widget .ob-rec-image-container img.ob-show {opacity:1;}
+.CR_4.ob-widget .ob-rec-image-container .ob-rec-label {position:absolute;bottom:0px;left:0px;padding:0px 3px;background-color:#666;color:white;font-size:10px;line-height:15px;}
+.CR_4.ob-one-column-layout .ob-dynamic-rec-container {display:block;position:relative;}
+
+.CR_4.ob-one-column-layout .ob-widget-header {font-weight:bold;}
+.CR_4.ob-one-column-layout .ob-unit {display:block;}
+.CR_4.ob-one-column-layout .ob-unit.ob-rec-text {max-height:53.0px;overflow:hidden;font-weight:bold;}
+.CR_4.ob-one-column-layout .ob-unit.ob-rec-source {}
+.CR_4.ob-one-column-layout .ob-unit.ob-rec-date {font-weight:bold;}
+.CR_4.ob-one-column-layout .ob-unit.ob-rec-source,
+.CR_4.ob-one-column-layout .ob-unit.ob-rec-date {display:inline;}
+.CR_4.ob-one-column-layout .ob-rec-brandName,
+.CR_4.ob-one-column-layout .ob-rec-brandLogo-container,
+.CR_4.ob-one-column-layout .ob-unit.ob-rec-brandLogoAndName,
+.CR_4.ob-one-column-layout .ob-rec-brandLogo {display:inline-block;}
+.CR_4.ob-one-column-layout .ob-rec-brandLogo {width:20px;height:20px;}
+
+
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-image-container {float:left;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-text {margin-left:130px;text-align:left;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-source,
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-date {float:left;margin-left:5px;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-source {margin-left:10px;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-author {float:left;margin-left:5px;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-brandName {padding-left:10px;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-brandLogoAndName {padding-left:10px;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-brandLogo-container {padding-left:10px;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-brandLogo-container + .ob-rec-brandName {padding-left:0px;}
+  .CR_4.ob-one-column-layout .ob-unit.ob-rec-brandName + .ob-rec-brandLogo-container {padding-left:0px;}
+      /* dynamic customized css */
+
+.CR_4.ob-one-column-layout {width:autopx;}
+.CR_4.ob-one-column-layout .ob-widget-header {font-family:inherit;font-size:18px;color:#546e7a;padding-bottom:15px;padding-top:0px;}
+.CR_4.ob-one-column-layout .ob-dynamic-rec-container {min-height:80px;}
+.CR_4.ob-one-column-layout .ob-dynamic-rec-container ~ .ob-dynamic-rec-container {margin-top:10px;}
+.CR_4.ob-one-column-layout .ob-rec-image-container {width:120px;}
+.CR_4.ob-one-column-layout .ob-rec-text {font-family:inherit;color:#424242;padding:0px 0 0px;line-height:1.25;font-size:14px;}
+.CR_4.ob-one-column-layout .ob-rec-text:hover {color:#424242;}
+.CR_4.ob-one-column-layout .ob-rec-source {font-family:inherit;color:#2a9ddb;padding:0px 0 0px;font-size:11px;}
+.CR_4.ob-one-column-layout .ob-rec-date {font-family:inherit;color:black;padding:0px 0 0px;font-size:11px;}
+.CR_4.ob-one-column-layout .ob-rec-author {font-family:inherit;color:black;padding:0px 0 0px;font-size:11px;}
+.CR_4.ob-one-column-layout .ob-rec-description {font-family:inherit;color:black;padding:0px 0 0px;font-size:11px;}
+.CR_4.ob-one-column-layout .ob-rec-brandName {font-family:inherit;padding:0px 0 0px;line-height:1.25;}
+.CR_4.ob-one-column-layout .ob-rec-brandLogo {width:20px;height:20px;}
+    </style>
+    <style type="text/css" class="ob-custom-css">
+      .CR_4.ob-one-column-layout .ob-widget-header {
+    font-size: 1.25rem;
+    font-family: "PublicoBanner", Georgia, "Times New Roman", serif;
+    font-weight: normal;
+    line-height: 2rem;
+}
+.CR_4.ob-one-column-layout .ob-dynamic-rec-container {
+    max-width: 800px !important;
+}
+.CR_4.ob-one-column-layout .ob-rec-text {
+    font-family: "NeueHaasGroteskDisplay", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+}
+.CR_4.ob-widget .ob-rec-text {
+	max-height: 56px;
+}
+.CR_4.ob-one-column-layout .ob-rec-source {
+	font-size: 0.875rem;
+	line-height: .875rem;
+	font-family: "NovecentoNarrow-DemiBold", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+
+    </style>
+        <div class="ob-widget-section ob-first">
+            <div class="ob-widget-header">Potrebbe interessarti</div>
+            <ul class="ob-widget-items-container">
+        <li class="ob-dynamic-rec-container ob-recIdx-0 ob-p" data-pos="0"><a class="ob-dynamic-rec-link " onclick="" href="http://paid.outbrain.com/network/redir?p=l4WSGAy_bYin-DTU7SgbW2vyAjwM2l2NKp1mqcUhvjGS6mf0sspo8-xSUTH4V1QkYc8atdGNsF6UTHF8uFAlFwgrhOJ4X-pMQMKzwPcCmBUrAUbmWUyWqAjXViiW64sNlNQZmBLPAmweQSsiSD0DJBrM4OMo62xiDUJlsvQGlxMQwRal8-Lrf4Zq9_PCGH2uU5y23YO4sOcCyQWtJpO0-LnNCvjQh6Np3EWUUejMrCWtHXf49yaCeprR7qGFxerxiuG__gWzq98eVbwlui3bC_RT0f29sM_fb7bl3xvnsoTdg9lbP4VGuZXPxdFavxQQjDXh8h5MfkLXHSnJMhxkEcjkPTdHknovsSZIv1dCt-cPUp7LjGCTarTTP3l__fXqmD5yg0V8lyWghFzsfx7Ul_jsOcrsVobtucDqv_4bAm8eldA_iQWaBIYHG1MmDNF1nmgUt8Cpft4z4Xu64B6UB7nuJNZVm_PFsvjIt3Qx-pd3CHmHfLCzChEnxLzjGjdxZeoihACOMY-qHvqPKSOGyrGH4cP3alFpFlaUAFgK-OLzJaa9x4w9W5JCxd0RARhFyltqtcj6qew8vKSUayqX8QbNdd5zDmyQQB_MBBy0gGpHxK71-gS2_FUzwcrmgze9cEmgXtzaJhQHQVYA-6UarjOiT3to7fii3AAbrd7NnfRwCaByQQCtkkyeRDLWd_XG1TRrYX0Rl784AJVBUCJMpj5Jz5QfKe1Jc6EmVp-8R184iPYEw8KYU4JvXlDlZRmrN1GoGodXQAL0AzCaMXrBwBLPZw0nSrJa9jqHcxWkbSQ36B4HsqHpZyK0Y4eeJcnOlcdfolR8By9szFrDxim_HkfRb_fkTRrMTuk3d4fOcgBm43NChoStM1s46hGANPo-ZRTpNNscpDJvIZ3sTq4IuAG4nTaEZ8Q7x4wepb6PXYrJeFaLeRoxjOstip5koEsqTOTWGfoKZ_0BViycAU3DC2if9v8B79-uM9aNTHyiiWBxzwMS_VbYMjxAFDBS1gHLgcW5liP3dYEiYtJruhWqcLmSUkKyiZkSKUi7_NHHpZpb205BzXbyaDtIR_Rab9DD5mX-q1nqAsJKawdYN3FvPotHbuWq8-XVxZ63ore0Irzs-dP0IRQPLYs6zf9yFqIGSbwC1DOttvV9iuIOO80T6g&amp;c=2ddc77da&amp;v=3" onmousedown="this.href='http://paid.outbrain.com/network/redir?p=l4WSGAy_bYin-DTU7SgbW2vyAjwM2l2NKp1mqcUhvjGS6mf0sspo8-xSUTH4V1QkYc8atdGNsF6UTHF8uFAlFwgrhOJ4X-pMQMKzwPcCmBUrAUbmWUyWqAjXViiW64sNlNQZmBLPAmweQSsiSD0DJBrM4OMo62xiDUJlsvQGlxMQwRal8-Lrf4Zq9_PCGH2uU5y23YO4sOcCyQWtJpO0-LnNCvjQh6Np3EWUUejMrCWtHXf49yaCeprR7qGFxerxiuG__gWzq98eVbwlui3bC_RT0f29sM_fb7bl3xvnsoTdg9lbP4VGuZXPxdFavxQQjDXh8h5MfkLXHSnJMhxkEcjkPTdHknovsSZIv1dCt-cPUp7LjGCTarTTP3l__fXqmD5yg0V8lyWghFzsfx7Ul_jsOcrsVobtucDqv_4bAm8eldA_iQWaBIYHG1MmDNF1nmgUt8Cpft4z4Xu64B6UB7nuJNZVm_PFsvjIt3Qx-pd3CHmHfLCzChEnxLzjGjdxZeoihACOMY-qHvqPKSOGyrGH4cP3alFpFlaUAFgK-OLzJaa9x4w9W5JCxd0RARhFyltqtcj6qew8vKSUayqX8QbNdd5zDmyQQB_MBBy0gGpHxK71-gS2_FUzwcrmgze9cEmgXtzaJhQHQVYA-6UarjOiT3to7fii3AAbrd7NnfRwCaByQQCtkkyeRDLWd_XG1TRrYX0Rl784AJVBUCJMpj5Jz5QfKe1Jc6EmVp-8R184iPYEw8KYU4JvXlDlZRmrN1GoGodXQAL0AzCaMXrBwBLPZw0nSrJa9jqHcxWkbSQ36B4HsqHpZyK0Y4eeJcnOlcdfolR8By9szFrDxim_HkfRb_fkTRrMTuk3d4fOcgBm43NChoStM1s46hGANPo-ZRTpNNscpDJvIZ3sTq4IuAG4nTaEZ8Q7x4wepb6PXYrJeFaLeRoxjOstip5koEsqTOTWGfoKZ_0BViycAU3DC2if9v8B79-uM9aNTHyiiWBxzwMS_VbYMjxAFDBS1gHLgcW5liP3dYEiYtJruhWqcLmSUkKyiZkSKUi7_NHHpZpb205BzXbyaDtIR_Rab9DD5mX-q1nqAsJKawdYN3FvPotHbuWq8-XVxZ63ore0Irzs-dP0IRQPLYs6zf9yFqIGSbwC1DOttvV9iuIOO80T6g&amp;c=2ddc77da&amp;v=3';" target="_blank" rel="nofollow">
+
+      <span class="ob-unit ob-rec-image-container" data-type="Image">
+  <div class="ob-image-ratio"></div>
+    <img class="ob-rec-image ob-show" aria-hidden="true" src="http://images.outbrainimg.com/transform/v3/eyJpdSI6ImE1Yzk5NmI2MzIwZGEzNTU3YmVjODIyNjVlNzBiN2MyOTFkYzlmY2MzNTlkZDgwMTE2M2ZkMmFjMTAzODIyODYiLCJ3IjoyMzUsImgiOjEzMiwiZCI6MS41LCJjcyI6MCwiZiI6MH0.webp" onload="this.className+=' ob-show'" alt="In MTB sulla passerella più pericolosa al mondo" title="In MTB sulla passerella più pericolosa al mondo" onerror="OBR.extern.imageError(this)">
+          </span>
+
+      <span class="ob-unit ob-rec-author" data-type="Author"></span>      <span class="ob-unit ob-rec-text" data-type="Title" title="In MTB sulla passerella più pericolosa al mondo">In MTB sulla passerella più pericolosa al mondo</span>
+      <span class="ob-unit ob-rec-source" data-type="Source">RedBull</span>
+
+          </a>
+</li><li class="ob-dynamic-rec-container ob-recIdx-1 ob-p" data-pos="1"><a class="ob-dynamic-rec-link " onclick="" href="http://paid.outbrain.com/network/redir?p=s7ctz7TeZgZeF3rOLqy-xSApdIxl7aJ7MsYjnRusfWfbPMeEkkD_EcXAFxp_MBAdLzt7CmpJ0ZAQpZJF6bXjGyDYmW0l1vf_1YZO3cWlBTvoLAGbWkjLl3hZFgBSjlqtFmzQiEk60fdpauZAgOc8bG3x1R06NilkW4qDO7H6Y4U4WDa_svv6EsNGN__SgjxOasD7Std7D-ex9yGE9makl5HfP6Buh74sXtJ-tUp7aRVPSCUSMhevfqmD7gaQDLUVywfQjSirfmZ3FBl8C8RQwwPP9gpyTUn9etDyyCSChFrFx8hmZ7pZY_Y76IxdXPPIqLFpuyfGYUS7tcSbk7i2LeReG5qrmWWxZCf_1VrhuB8EzV3SyJb85CsgllyInt332MZOyabEw7bl7jEVDGXajMDs6dDTkMiwdzASRHoBRve7yBxkcnkMs-9H7ZxgcCYNYwv9VcEe-CAvim_Kb4nyecuBdcZCrpIhuUFmy_22RMljPclj_pxqUO8v7KR3hjjaiq3BMly4I6BOQiwN0M7GqdPQK2ZLVSpIa2haWmiNy8zIRFFwQJtH6cLCNfJxpNOimXg4Xl1Gjzrq1ND0xRXtAXHA62Wohi0P8MtluiuyvUt1nJN-nxy3EsBcC9Oq8iw0PCGOIlh_ioDogCP_u_WAPqPRfB4RmcR3a8OvIo-3OLAJlJcKhra7Qqah546nSGUsy5hBtOL_Zr82iZtjNKdFAhov9ITV5quR05WUbVLNRkQlqH586cIwvDUVKGEJ8QYgrk5zt_bk6YF7p79Y-UnjgF0kFj-rtr6cPTKsXjMfYyfnavAtgwTImxMa7FJFrDJ9DGusdedIPCk_NwAjCdN1ml7H46LGxVATNTTJNqTZjbRgDYw9yvlT4fZa2YZRPVq4iwbsmYl7ZiLzLj_Tqj_ZdcvRxar9TB3jrfFJhdh64-9nasDai4bXq8lXuPebTpS37vGclOs157bOr94DrhuYLXWzEjvvhrtKSdQkes2U9hbenJsORVjF3XvnGatJsOLmXUen8kkUxkJd8YjDmKxrhJPBXSQzrzjJLVbOYtewrUgkJ-eeZh_kdWM36WUZQJc2PYIM59PaJXkDvUWtFnHRVntwFkxwDuQCR8QHeehmXO8NnCfKCHgjrqvCfDy9_wvva5IHGIVj7pBpbCSOvjMjsA&amp;c=e78f3828&amp;v=3" onmousedown="this.href='http://paid.outbrain.com/network/redir?p=s7ctz7TeZgZeF3rOLqy-xSApdIxl7aJ7MsYjnRusfWfbPMeEkkD_EcXAFxp_MBAdLzt7CmpJ0ZAQpZJF6bXjGyDYmW0l1vf_1YZO3cWlBTvoLAGbWkjLl3hZFgBSjlqtFmzQiEk60fdpauZAgOc8bG3x1R06NilkW4qDO7H6Y4U4WDa_svv6EsNGN__SgjxOasD7Std7D-ex9yGE9makl5HfP6Buh74sXtJ-tUp7aRVPSCUSMhevfqmD7gaQDLUVywfQjSirfmZ3FBl8C8RQwwPP9gpyTUn9etDyyCSChFrFx8hmZ7pZY_Y76IxdXPPIqLFpuyfGYUS7tcSbk7i2LeReG5qrmWWxZCf_1VrhuB8EzV3SyJb85CsgllyInt332MZOyabEw7bl7jEVDGXajMDs6dDTkMiwdzASRHoBRve7yBxkcnkMs-9H7ZxgcCYNYwv9VcEe-CAvim_Kb4nyecuBdcZCrpIhuUFmy_22RMljPclj_pxqUO8v7KR3hjjaiq3BMly4I6BOQiwN0M7GqdPQK2ZLVSpIa2haWmiNy8zIRFFwQJtH6cLCNfJxpNOimXg4Xl1Gjzrq1ND0xRXtAXHA62Wohi0P8MtluiuyvUt1nJN-nxy3EsBcC9Oq8iw0PCGOIlh_ioDogCP_u_WAPqPRfB4RmcR3a8OvIo-3OLAJlJcKhra7Qqah546nSGUsy5hBtOL_Zr82iZtjNKdFAhov9ITV5quR05WUbVLNRkQlqH586cIwvDUVKGEJ8QYgrk5zt_bk6YF7p79Y-UnjgF0kFj-rtr6cPTKsXjMfYyfnavAtgwTImxMa7FJFrDJ9DGusdedIPCk_NwAjCdN1ml7H46LGxVATNTTJNqTZjbRgDYw9yvlT4fZa2YZRPVq4iwbsmYl7ZiLzLj_Tqj_ZdcvRxar9TB3jrfFJhdh64-9nasDai4bXq8lXuPebTpS37vGclOs157bOr94DrhuYLXWzEjvvhrtKSdQkes2U9hbenJsORVjF3XvnGatJsOLmXUen8kkUxkJd8YjDmKxrhJPBXSQzrzjJLVbOYtewrUgkJ-eeZh_kdWM36WUZQJc2PYIM59PaJXkDvUWtFnHRVntwFkxwDuQCR8QHeehmXO8NnCfKCHgjrqvCfDy9_wvva5IHGIVj7pBpbCSOvjMjsA&amp;c=e78f3828&amp;v=3';" target="_blank" rel="nofollow">
+
+      <span class="ob-unit ob-rec-image-container" data-type="Image">
+  <div class="ob-image-ratio"></div>
+    <img class="ob-rec-image ob-show" aria-hidden="true" src="http://images.outbrainimg.com/transform/v3/eyJpdSI6IjlhOWUwMDAwYjBmMmFjNGNiOTY2NjI1NTczNDhjYjRiMzA1NTNiYTkyZDY3NjM4MTdiZTc4YzAyZDVkZTc0YjMiLCJ3IjoyMzUsImgiOjEzMiwiZCI6MS41LCJjcyI6MCwiZiI6MH0.webp" onload="this.className+=' ob-show'" alt="Antivirus per Mac (2018) - I primi 10 antivirus più affidabili per utenti Mac" title="Antivirus per Mac (2018) - I primi 10 antivirus più affidabili per utenti Mac" onerror="OBR.extern.imageError(this)">
+          </span>
+
+      <span class="ob-unit ob-rec-author" data-type="Author"></span>      <span class="ob-unit ob-rec-text" data-type="Title" title="Antivirus per Mac (2018) - I primi 10 antivirus più affidabili per utenti Mac">Antivirus per Mac (2018) - I primi 10 antivirus più affidabili per utenti Mac</span>
+      <span class="ob-unit ob-rec-source" data-type="Source">My Antivirus Review</span>
+
+          </a>
+</li><li class="ob-dynamic-rec-container ob-recIdx-2 ob-p" data-pos="2"><a class="ob-dynamic-rec-link " onclick="" href="http://www.oggibenessere.com/piperina?obOrigUrl=true" onmousedown="this.href='http://paid.outbrain.com/network/redir?p=a8lyHSs7m7DIHq2pvkG8eVDet-sSsQz3zfLaVngP5VCsvhzXSJqBdSUfyqyY36UmHnrHtz-1r7n93rcgdRaheLxVuFDpk7rlG19mAy64q2D6shV1n04j7pP7cf-QZPHIw-XNlcRvEuxyPMfo8UhG4ngq0dt4ExDYSRCDuHDECNNMUdE1vDxXm72nvkBAs4GezjwOZZeIU9u-sD4dOA92PCDpmpXhPvErefnZMzaEYimaxLC3Z3VXWumcXPC4HWzePdAFoHRVMdSJZDYxNf0uDt1_5uq3svaS0avl5wVJ1SNDlAtqHeXTt8Wd-FfSTstFdx4RH_pIe3Pq62GqF3nrRvmN9VSVseg8jL8XcmB2v3aptNqwNsdINGkURsQLb0qocK9GGSRIgq6rGa5rhRInQl-3hp9QvG_mzKIC73r5qUcxKbfwVzdrvdm7gzQZ4SJitX3Z9FCayirBvzZ2rRgGm6trY1_Gtw2L6530pJBzleWnv2CWCPx49PdKsig1JSYW6-qC07sM-YfmR0espn0fsZxd8Z43Ut6GJiZuvMhfja-TQHa1sa4-cuybMHsjw2z4fA0glnGrvmbPCdLEJr355y6BPsR0Xk5DjXO8FSa0ENyUtSGvgrVnAcB_CrHxx5kJBifxN8JWu1zrVDfzX-7PrcKOYjDSQKV-zp11ckKmHmgq_G5Mu4jP_5_a3NkxHvndVORbJa1rN4NxuYCg3w_zpcxpW5f2lmOM_JLnbcQVuUFM11DO-j7-CV-fvM2xSL5VUMQH_mTDSfU4r1qZxqk0BOaCEIM339qvE7mhdG0R7KmyUZdz-VJtxaOUgnR8MxVlQ-CHVPn3lOzafyOMtXYXxMunDxwuImCAUMhYyCPJ3B1JeauO3hJvyw9Ob9UJvh8NnVDVMtIiynYLFJv4lhiqz_e3MG5RMk26N14p6riM-I3bg9HQUZGFyBd01EDehnAhhQJwQ0NIYblaM6FXiFlUEARKht-DlVSTlOEPgvhHRPyDQ2NDOB5zs1jA5CZHdAW31tIx_XgMHoxTWCA6ytz06XAiib5jACjjbClMofm8u6e5vNCbN5jk9lNq8ccdyou0rQKWyDS4RKOqCD6f1tbENYerOUYFrtbsUIWDmUP7EFdeqvFNI96f22ZLv5xjjHmSZ9q15USsRfQ7KzCdIeCDTT8OVhVcRUsOPPHyhQUXNRs&amp;c=cd8d2bad&amp;v=3';" target="_blank" rel="nofollow">
+
+      <span class="ob-unit ob-rec-image-container" data-type="Image">
+  <div class="ob-image-ratio"></div>
+    <img class="ob-rec-image ob-show" aria-hidden="true" src="http://images.outbrainimg.com/transform/v3/eyJpdSI6IjY0NTlkMWYwNDIwOTIwMTc1ODdiMTMwZmJjZDU4YzFkNDA4MTAxM2FmNzkxNjhiMTA0OTkwNzg4YTg3MWM0NTUiLCJ3IjoyMzUsImgiOjEzMiwiZCI6MS41LCJjcyI6MCwiZiI6MH0.webp" onload="this.className+=' ob-show'" alt="Sgonfia il corpo e aiuta a sciogliere il grasso in eccesso" title="Sgonfia il corpo e aiuta a sciogliere il grasso in eccesso" onerror="OBR.extern.imageError(this)">
+          </span>
+
+      <span class="ob-unit ob-rec-author" data-type="Author"></span>      <span class="ob-unit ob-rec-text" data-type="Title" title="Sgonfia il corpo e aiuta a sciogliere il grasso in eccesso">Sgonfia il corpo e aiuta a sciogliere il grasso in eccesso</span>
+      <span class="ob-unit ob-rec-source" data-type="Source">oggibenessere.com</span>
+
+          </a>
+</li><li class="ob-dynamic-rec-container ob-recIdx-3 ob-p" data-pos="3"><a class="ob-dynamic-rec-link " onclick="" href="https://tracking.italiamobilesrl.it/aff_c?offer_id=2556&amp;aff_id=1924&amp;url_id=8012&amp;aff_sub=$ob_click_id$&amp;aff_sub2=$publisher_name$&amp;aff_sub3=$section_name$&amp;aff_sub4=Quale+fornitore+Gas+scegliere+nel+2018%3F+Scopri+il+pi%C3%B9+conveniente&amp;aff_sub5=$uuid$&amp;obOrigUrl=true" onmousedown="this.href='http://paid.outbrain.com/network/redir?p=yQZt-oKA4DLNV7QfOL3-WPdMvXlmpCxdwR1xIvMoIfJ0V63pZoTLXO4ozSmA9B4mJUvE3I-duM25VcPB76v3YS_jaKpFtoOEkNVQom8nZQt_549AukgUXhLeWx7tH5ZgJrUF60ljoydQqxKkqWxBc1zbYnD8traHUtGEnngrSX-sFeC5vljDUqQ5yQA-zmkZodI5DDnww9s-qSuKI2FHu6bfpiqosEo2PK-58J_1dOyje8XeoS1mU9nyT-F6pPjU9je5wyw2i2-trli0V8QemebmlQKTE9XuuqxAFnbsMdk5i4j7TAEle7UzODNrW_No1wKZl2JJgjgdPJ3lb47hvPJOflIv5Z4ydn3FE6ZkpV9ff06lQNK5pqgbtyQUmJoN4sCTFKxxD-EDVPa9GcIuHI-F_bL75nWlNpt9Idn1PnIOv9mv__olRYBcE3ZurUMcAke6LSj2yWcRC6-asm-TKCaFrf_PDbrqzCq2VmjmYmQi_jkW9CQtG_0yf4ezaSRTrgZZMh5sI72vGzYRsPsHkHZAdoVMRFhYwGu15-oAI0PFogZrXczkWarbZYjbGsDr8S7Trw6IDFEBr-8Bnz3J2lxwg8-pGewHNBWKCQMyIJDiddQv4tcNEFENbRdeQu1fa4TeFmyB3M4dMVAmho2pvxAElWTyhhXGQ3kRbhejHfY6NX3VUqEznioRJ6qN5o8r8InDX6vEbTNDZoaoaiG_4myWZiUJ2-UFJ7Asmz_im3AvCqduINPs57QprT3qHcrp6FCNFtfBMIX0O89W9UHSdM_hxUV04FxbJi53JzTrD1fpPZczjzpyDquPXBAFUjP2x13G3YPVr6YI4r3DCJgzQEgLqXuuUM4_nnHB5t6QI9KAE5S40nZE1kyTNcpnN7BD3nQ66cEaF-HkSMUApZvOBFrCJJ5JNd9iGf5_Phg2rf0cpFVDSuUz-yvuMLhwPPpRCwxHpT82MBd026QlpRVlMFlu46feLVZX0qQQYUqEK-K_q9WkfDn55jQIZYuuJTpnFqH0rzqnBJDJd4LmQ_67tIBhkMUBV-ry53H8SJqkBfz6_96riwvQwPYq96gJ2KzqzELu3tTUVNAYstOo23crYazKuBxJsKQO16iRSbtqTUaqjHrfSN01d-hy-DqzT7IjDm27cTWvSFTon4Tc4Xqcag&amp;c=72d78802&amp;v=3';" target="_blank" rel="nofollow">
+
+      <span class="ob-unit ob-rec-image-container" data-type="Image">
+  <div class="ob-image-ratio"></div>
+    <img class="ob-rec-image ob-show" aria-hidden="true" src="http://images.outbrainimg.com/transform/v3/eyJpdSI6IjRkMDBmYTYwYmEyMjA0OGZkNDZhNzgwMzYzYTliMTVmN2JhMmE2MTg0NjM5ODIzMTBiZGQ0ODk0MWQ0Yjc5NGEiLCJ3IjoyMzUsImgiOjEzMiwiZCI6MS41LCJjcyI6MCwiZiI6MH0.webp" onload="this.className+=' ob-show'" alt="Quale fornitore Gas scegliere nel 2018? Scopri il più conveniente" title="Quale fornitore Gas scegliere nel 2018? Scopri il più conveniente" onerror="OBR.extern.imageError(this)">
+          </span>
+
+      <span class="ob-unit ob-rec-author" data-type="Author"></span>      <span class="ob-unit ob-rec-text" data-type="Title" title="Quale fornitore Gas scegliere nel 2018? Scopri il più conveniente">Quale fornitore Gas scegliere nel 2018? Scopri il più conveniente</span>
+      <span class="ob-unit ob-rec-source" data-type="Source">comparaerisparmia.com</span>
+
+          </a>
+</li>      </ul>
+    </div>
+                    <div class="ob_what">
+			<a href="http://www.outbrain.com/what-is/default/it" rel="nofollow" onclick="OBR.extern.callWhatIs('http://www.outbrain.com/what-is/default/it','',-1,-1,true ,null);return false">Contenuti sponsorizzati da <span class="ob_logo"></span></a>
+	</div>
+    <div class="ob-pixels">
+            <iframe class="ob-pifr" src="http://widgets.outbrain.com/nanoWidget/externals/obPixelFrame/obPixelFrame.htm#p=https%3A%2F%2Fad.doubleclick.net%2Fddm%2Fad%2FN755990.1599088OUTBRAIN_GM%2FB21092619.220405903%3Bsz%3D1x1%3Bord%3D%255Btimestamp%255D%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3F%26obRequestId%3DTkiTs1h0FIDn2vpfOa44ec4ZEmnFZrviBr51YywANyZAppVJPDjAd3PHHEnGA-28%26obTimestamp%3D1526475137943" style="display:none;width:1px;height:1px;" sandbox="allow-scripts allow-same-origin"></iframe>
+        </div>  </div></div>

@@ -1,0 +1,10 @@
+<form action="/search/model/film" method="post" class="form-inline">
+   <div class="form-search">
+      <input type="search" name="query" placeholder="Cerca...">
+      <button class="input-search-btn" type="submit">
+         <svg class="icon small search-icon">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.romatoday.it/eventi/cinema/#search-icon"></use>
+         </svg>
+      </button>
+   </div>
+</form>

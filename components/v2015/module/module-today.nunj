@@ -1,0 +1,19 @@
+<div class="module module-today">
+	<div class="module-title">
+		<img class="logo" src="http://1.citynews.stgy.ovh/~shared/images/v2015/today-logo.svg" alt="Today.it">
+	</div>
+	<ul class="u-unstyled u-bordered l-list">
+		<li class="l-list-item item-span-1">
+			<article class="story has-border-bottom">
+				<figure class="story-media media-sm">
+				<a href="#">
+					<img src="http://3.citynews-today.stgy.ovh/~media/horizontal-thumb/55762600815601/mutuo-oo-3.jpg">
+				</a>
+				</figure>
+				<h6 class="story-heading heading-sm">
+					<a href="#" class="link">Aereo British Airways prende fuoco al decollo, strage sfiorata in pista</a>
+				</h6>
+			</article>
+		</li>
+	</ul>
+</div>

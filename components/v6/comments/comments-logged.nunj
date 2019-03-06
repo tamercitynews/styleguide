@@ -1,0 +1,81 @@
+<div class="c-widget" data-attr="widget-comments">
+
+  <div class="c-comments c-widget__content is-sliding">
+
+    <div class="u-row u-space-between">
+      <h5 class="o-sans-display o-paragon">Commenti 11</h5>
+
+      <div class="js-widget-close">
+        <svg class="o-icon o-icon--sm o-icon--light">
+          <use xlink:href="#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+        </svg>
+      </div>
+    </div>
+
+    <div class="o-cell-12 u-mb-size2x">
+
+      <div class="u-row u-mb-size1x u-items-center">
+        <div class="o-cell-1 u-mr-size1x">
+          <a id="commentFastAnswerProfile_0" href="/user/profile/francesco/38856336159960/">
+            <img alt="Avatar" class="o-avatar" id="commentFastAnswerAvatar_0" src="http://1.citynews.stgy.ovh/~shared/avatars/38856336159960/avatar_1.img">
+          </a>
+        </div>
+
+        <div class="o-cell-11">
+          <span class="o-pica o-color-secondary">Sei connesso come</span>
+          <span class="o-pica" id="commentFastAnswerUserName_0">francesco</span>
+        </div>
+      </div>
+
+      <form action="" onsubmit="return false;" class="fast_answer inline-form">
+
+        <textarea class="o-field" id="commentFastAnswerContent_0" placeholder="Cosa ne pensi?"></textarea>
+
+        <div id="commentFastAnswerSuccess_0" class="commento_over_success" style="display:none;"></div>
+        <div id="commentFastAnswerError_0" class="commento_over_error" style="display:none;"></div>
+
+        <button type="submit" class="o-button o-button--primary o-cell-12 comment-submit-btn">Invia Commento</button>
+
+      </form>
+
+    </div>
+
+    <ul class="c-comments__list o-list o-list--border">
+
+      {% for i in range(0, 10) -%}
+        <li class="o-list__item u-pb-size2x">
+
+          <article class="c-comment u-row">
+            <div class="o-cell-1 u-mr-size1x">
+              <a href="#">
+                <img class="o-avatar" src="http://3.citynews.stgy.ovh/~shared/avatars/66698989770731/avatar_1.img" alt="Avatar di Nicola">
+              </a>
+            </div>
+            <div class="o-cell-11 c-comment__content">
+              <span class="c-comment__author o-english">Autore</span>
+              <span class="o-english">la verifica critica degli obbiettivi istituzionali e l'individuazione di fini qualificanti	</span>
+              <div class="u-row u-space-between u-mt-size1x">
+                <div class="c-comment__actions o-pica">
+                  <a class="o-link u-mr-size1x" href="#">Rispondi</a>
+                  <a class="o-link u-mr-size1x"href="#">Cita</a>
+                  <a class="o-link u-mr-size1x" href="#">Segnala</a>
+                  <time class="o-pica o-color-secondary">1 h fa</time>
+                </div>
+                <a class="o-link o-pica" href="#">
+                  <svg class="o-icon o-icon--sm o-icon--light">
+                    <use xlink:href="#icon-arrow-down-right" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                  </svg>
+                  1
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </li>
+      {%- endfor %}
+
+    </ul>
+
+  </div>
+
+</div>

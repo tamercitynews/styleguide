@@ -1,0 +1,7 @@
+<nav class="secondary-nav">
+	<ul class="u-unstyled inline-list">
+    {% for item in nav_secondary %}
+      <li class="nav-item"><a href="#" class="link">{{ item.item }}</a></li>
+    {% endfor %}
+	</ul>
+</nav>

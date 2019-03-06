@@ -1,0 +1,56 @@
+<footer class="c-footer t-border cf">
+  <div class="o-line">
+    <div class="o-cell o-cell-6">
+      <ul class="c-colophon o-list u-mb-size2x">
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Presentazione</a>
+        </li>
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Registrati</a>
+        </li>
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Privacy policy</a>
+        </li>
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Mostra consensi</a>
+        </li>
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Aiuto</a>
+        </li>
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Condizioni generali</a>
+        </li>
+      </ul>
+    </div>
+    <div class="o-cell o-cell-6">
+      <ul class="c-colophon o-list o-cell o-cell-6 u-mb-size2x">
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Facebook</a>
+        </li>
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Twitter</a>
+        </li>
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">App Store</a>
+        </li>
+        <li class="u-mb-size1x">
+          <a class="o-pica o-color-inverse" href="#">Play Store</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="o-line">
+    <div class="o-cell o-cell-6">
+      <img class="o-cell-10 u-mb-size1x" src="/assets/images/site/horizontal-white-full@2x.png" alt="Citynews Logo">
+    </div>
+    <div class="o-cell o-cell-6">
+    </div>
+  </div>
+  <div class="o-line">
+    <div class="o-cell">
+      <p class="o-pica o-color-secondary">
+        Copyright 2009-2018 - RomaToday plurisettimanale telematico reg. tribunale di Roma n. 93/2010 P.iva 10786801000 - Testata iscritta all'USPI
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,13 @@
+<div class="line">
+  <div class="group size1of1 flx-container">
+    <div class="block block--promo theme-border">
+    	<a href="{{ url }}" class="link link--heading">
+    		<div class="block__media" style="background-image: url(../assets/images/content/promo-weekend.jpg)"></div>
+    		<header class="block__header" >
+    			<span class="label theme-color">Speciale Weekend</span>
+    			<h3 class="block__heading unspaced">10 eventi da non perdere nel weekend del 30 e 31 Luglio</h2>
+    		</header>
+    	</a>
+    </div>
+  </div>
+</div>

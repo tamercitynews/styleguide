@@ -1,0 +1,26 @@
+<section class="section focus-section">
+	<div class="line">
+		<div class="unit size1of1">
+			<div class="section-title theme-border">
+				<h2 class="section-heading">
+          <a href="<!-- @path category.html -->" class="theme-color">Cronaca</a>
+          <span class="heading-divider">/</span> Le notizie della settimana
+        </h2>
+			</div>
+		</div>
+	</div>
+	<div class="line">
+		<ul class="u-unstyled u-bordered l-row">
+      {% for story in stories %}
+        {% set loopStart = loop.index %}
+        {% set loopSlice = 4 %}
+        {% if loopStart <= loopSlice %}
+          <li class="unit size1of4 l-row-item slice-item item-span-1">
+            {% set story_summary = true %}
+            {% include "partials/v2015/story/story-default.njk" %}
+          </li>
+        {% endif %}
+      {% endfor %}
+		</ul>
+	</div>
+</section>

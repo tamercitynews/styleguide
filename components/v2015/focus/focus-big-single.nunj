@@ -1,0 +1,15 @@
+<article class="story inset-story fullpage-hero has-no-border inverted">
+  <a class="block-link" href="http://www.romatoday.it/utilita/diretta-traffico/">
+    <figure class="story-media media-md">
+      <picture>
+        <source srcset="http://placehold.it/1000x563" media="(min-width: 46.25em)">
+        <img srcset="http://placehold.it/600x338" alt="Alt title">
+      </picture>
+    </figure>
+    <header class="story-header">
+      <span class="highlight-kicker theme-background">Traffico in tempo reale</span>
+      <h2 class="story-heading heading-lg">Gli aggiornamenti su viabilità e trasporti in diretta</h2>
+      <p class="summary story-summary">A cura di Astral InfoMobilità</p>
+    </header>
+  </a>
+</article>

@@ -1,0 +1,75 @@
+<div class="c-network dropup">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+      Edizioni
+
+      <span class="icon caret caret-icon small"></span>
+    </div>
+  </a>
+  
+  <ul aria-labelledby="dropdownMenu" role="menu" class="dropdown-menu c-network__dropdown">
+    <li class="network-item"> <a tabindex="-1" href="http://www.agrigentonotizie.it/" title="cronaca Agrigento"><b>Agrigento</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.anconatoday.it/" title="cronaca ancona"><b>Ancona</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.avellinotoday.it/" title="cronaca Avellino"><b>Avellino</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.baritoday.it/" title="cronaca Bari"><b>Bari</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.bolognatoday.it/" title="cronaca Bologna"><b>Bologna</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.bresciatoday.it/" title="cronaca Brescia"><b>Brescia</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.brindisireport.it/" title="cronaca Brindisi"><b>Brindisi</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.casertanews.it/" title="cronaca Caserta"><b>Caserta</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.cataniatoday.it/" title="cronaca Catania"><b>Catania</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.cesenatoday.it/" title="cronaca Cesena"><b>Cesena</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.chietitoday.it/" title="cronaca Chieti"><b>Chieti</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.quicomo.it/" title="cronaca Como"><b>Como</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.firenzetoday.it/" title="cronaca Firenze"><b>Firenze</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.foggiatoday.it/" title="cronaca Foggia"><b>Foggia</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.forlitoday.it/" title="cronaca Forli"><b>Forlì</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.frosinonetoday.it/" title="cronaca Frosinone"><b>Frosinone</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.genovatoday.it/" title="cronaca Genova"><b>Genova</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.lecceprima.it/" title="cronaca Lecce"><b>Lecce</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.latinatoday.it/" title="cronaca Latina"><b>Latina</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.leccotoday.it/" title="cronaca Lecco"><b>Lecco</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.milanotoday.it/" title="cronaca milano"><b>Milano</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.modenatoday.it/" title="cronaca Modena"><b>Modena</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.monzatoday.it/" title="cronaca Monza"><b>Monza</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.napolitoday.it/" title="cronaca Napoli"><b>Napoli</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.novaratoday.it/" title="cronaca novara"><b>Novara</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.padovaoggi.it/" title="cronaca Padova"><b>Padova</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.palermotoday.it/" title="cronaca Palermo"><b>Palermo</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.parmatoday.it/" title="cronaca Parma"><b>Parma</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.ilpescara.it/" title="cronaca Pescara"><b>Pescara</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.ilpiacenza.it/" title="cronaca Piacenza"><b>Piacenza</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.pisatoday.it/" title="cronaca Pisa"><b>Pisa</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.perugiatoday.it/" title="cronaca Perugia"><b>Perugia</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.ravennatoday.it/" title="cronaca Ravenna"><b>Ravenna</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.riminitoday.it/" title="cronaca Rimini"><b>Rimini</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.romatoday.it/" title="cronaca roma"><b>Roma</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.salernotoday.it/" title="cronaca Salerno"><b>Salerno</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.sondriotoday.it/" title="cronaca Sondrio"><b>Sondrio</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.trevisotoday.it/" title="cronaca Treviso"><b>Treviso</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.trentotoday.it/" title="cronaca Trento"><b>Trento</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.ternitoday.it/" title="cronaca Terni"><b>Terni</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.triesteprima.it/" title="cronaca Trieste"><b>Trieste</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.torinotoday.it/" title="cronaca Torino"><b>Torino</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.udinetoday.it/" title="cronaca Udine"><b>Udine</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.veneziatoday.it/" title="cronaca venezia e mestre"><b>Venezia</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.veronasera.it/" title="cronaca verona"><b>Verona</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.vicenzatoday.it/" title="cronaca Vicenza"><b>Vicenza</b></a></li>
+    <li role="separator" class="divider"></li>
+    <li class="network-item"> <a tabindex="-1" href="http://europa.today.it/" title="news Europa"><b>EuropaToday</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.sportpiacenza.it/" title="sport Piacenza"><b>SportPiacenza</b></a></li>
+    <li class="network-item"> <a tabindex="-1" href="http://www.romagnaoggi.it/" title="cronaca Romagna"><b>RomagnaOggi</b></a></li>
+    <li role="separator" class="divider"></li>
+    <li class="size1of1">
+      <a href="http://www.today.it" tabindex="-1">
+        <img src="http://3.citynews.stgy.ovh/~shared/assets/images/v2015/today-logo.png" alt="Today">
+        <p class="text-sm"><em>Il meglio delle notizie dall'italia e dal mondo</em></p>
+      </a>
+    </li>
+    <li role="separator" class="divider"></li>
+    <li class="size1of1">
+      <a href="http://www.citynews.it" tabindex="-1">
+        <img src="http://3.citynews.stgy.ovh/~shared/assets/images/brand/citynews/cn-horizontal-full.png" style="height: 28px" alt="">
+        <p class="text-sm"><em>Leader nell'informazione di prossimità</em></p>
+      </a>
+    </li>
+  </ul>
+</div>

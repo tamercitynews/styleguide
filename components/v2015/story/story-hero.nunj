@@ -1,0 +1,32 @@
+<article class="story hero-story featured-hero">
+		<figure class="story-media media-full">
+			<a href="<!-- @path article.html -->">
+				<img src="{{ stories[0].thumb.horizontal.hi }}">
+			</a>
+		</figure>
+		<header class="story-header">
+			<h1 class="story-heading heading-lg">
+        <a href="<!-- @path article.html -->" class="link">{{ stories[0].headline }}</a>
+      </h1>
+      {% for subhead in stories[0].subhead %}
+        <span class="story-subheading theme-element-bg">
+          <a href="<!-- @path article.html -->" class="link">{{ subhead.title }}</a>
+        </span>
+      {% endfor %}
+			<p class="summary story-summary">{{ stories[0].summary }}</p>
+		</header>
+		<footer class="story-footer">
+      <div class="sublinks">
+        <ul class="u-unstyled">
+          {% for link in stories[0].sublinks %}
+            <li class="sublink">
+              <a href="#" class="link">
+                <strong class="kicker">{{ link.kicker }} / </strong>
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+		</footer>
+</article>

@@ -1,0 +1,7 @@
+  <nav class="primary-nav">
+    <ul class="u-unstyled inline-list">
+      <li class="nav-item {%if active_page == 'notizie' %} current {% endif %}"><a href="homepage.html" class="link">Notizie</a></li>
+      <li class="nav-item {%if active_page == 'eventi' %} current {% endif %}"><a href="eventi.html" class="link">Cosa fare in città</a></li>
+      <li class="nav-item {%if active_page == 'zone' %} current {% endif %}"><a href="zone.html" class="link">Zone</a></li>
+    </ul>
+  </nav>

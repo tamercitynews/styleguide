@@ -1,0 +1,55 @@
+<section class="section focus-section">
+	<div class="line">
+		<div class="unit size1of1">
+			<div class="section-title theme-border">
+				<h2 class="section-heading">Disagi sulla Roma - Lido</h2>
+			</div>
+		</div>
+	</div>
+	<div class="line">
+		<ul class="u-unstyled u-bordered l-row">
+			<li class="unit size2of3 l-row-item">
+				<article class="story">
+					<header class="story-header">
+						<figure class="story-media media-half">
+							<a href="<!-- @path article.html -->">
+								<picture>
+									<source srcset="{{ stories[4].thumb.horizontal.medium }}" media="(min-width: 46.25em)">
+									<img srcset="<{{ stories[4].thumb.horizontal.low }}" alt="Giubileo Stazione Termini">
+								</picture>
+							</a>
+						</figure>
+						<h3 class="story-heading heading-md">
+              <a href="" class="link">{{ stories[4].headline }}</a>
+            </h3>
+						<p class="summary story-summary">{{ stories[4].summary }}</p>
+					</header>
+				</article>
+			</li>
+			<li class="group size1of2 l-row-item">
+				<ul class="u-unstyled u-bordered l-row">
+					<li class="unit size1of2 l-row-item item-span-1">
+						<article class="story">
+							<header class="story-header">
+								<h4 class="story-heading heading-sm">
+                  <a href="#" class="link">{{ stories[5].headline }}</a>
+                </h4>
+								<p class="summary story-summary hidden-xs hidden-sm">{{ stories[5].summary }}</p>
+							</header>
+						</article>
+					</li>
+					<li class="unit size1of2 l-row-item item-span-1">
+						<article class="story">
+							<header class="story-header">
+								<h4 class="story-heading heading-sm">
+                  <a href="#" class="link">{{ stories[6].headline }}</a>
+                </h4>
+								<p class="summary story-summary hidden-xs hidden-sm">{{ stories[6].summary }}</p>
+							</header>
+						</article>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>

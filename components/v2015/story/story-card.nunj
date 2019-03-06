@@ -1,0 +1,14 @@
+<article class="story card-item-light">
+  <span class="label badge-label">Label</span>
+  <figure class="story-media media-full">
+    <a href="#" class="block-link">
+      <img src="http://placehold.it/300x169" alt="Alt title">
+    </a>
+  </figure>
+  <header class="story-header">
+    <a href="#" class="block-link">
+      <h3 class="story-heading heading-std">Estate, tempo di anguria: ecco come riconoscerne una dolce e succosa</h3>
+    </a>
+    <p class="summary story-summary hidden-xs">Le proprietà benefiche del frutto estivo sono tantissime e per scegliere il migliore e non incorrere in fregature, questi ‘trucchetti’... </p>
+  </header>
+</article>

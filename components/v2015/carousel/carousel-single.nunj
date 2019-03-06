@@ -1,0 +1,47 @@
+<div class="carousel carousel--single"  data-flickity='{ "cellAlign": "center", "contain": true, "pageDots": false, "autoPlay": 5000 }'>
+  <div class="carousel__item carousel-cell">
+    <article class="story hero-story cover-hero full-cover inverted">
+      <header class="story-header">
+        <a href="#" class="block-link">
+          <figure class="story-media">
+            <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+          </figure>
+          <h1 class="story-heading">Morto Lokomwa, vincitore della Placentia Marathon</h1>
+        </a>
+      </header>
+      <footer class="story-footer hidden-xs">
+        <p class="summary story-summary">La vicenda relativa alla sfida con la Vigor Carpaneto si arricchisce di un nuovo capitolo: il Giudice Sportivo ha assegnato ai piacentini il successo a tavolino, ma la Folgore Rubiera vuole continuare a far valere le proprie tesi. Nella...</p>
+      </footer>
+    </article>
+  </div>
+  <div class="carousel__item carousel-cell">
+    <article class="story hero-story cover-hero full-cover inverted">
+      <header class="story-header">
+        <a href="#" class="block-link">
+          <figure class="story-media">
+            <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+          </figure>
+          <h1 class="story-heading">Il Fiorenzuola cerca con l'Adriese il primo acuto</h1>
+        </a>
+      </header>
+      <footer class="story-footer hidden-xs">
+        <p class="summary story-summary">La vicenda relativa alla sfida con la Vigor Carpaneto si arricchisce di un nuovo capitolo: il Giudice Sportivo ha assegnato ai piacentini il successo a tavolino, ma la Folgore Rubiera vuole continuare a far valere le proprie tesi. Nella...</p>
+      </footer>
+    </article>
+  </div>
+  <div class="carousel__item carousel-cell">
+    <article class="story hero-story cover-hero full-cover inverted">
+      <header class="story-header">
+        <a href="#" class="block-link">
+          <figure class="story-media">
+            <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+          </figure>
+          <h1 class="story-heading">Vicenda Carpaneto, la Folgore Rubiera presenta un nuovo ricorso</h1>
+        </a>
+      </header>
+      <footer class="story-footer hidden-xs">
+        <p class="summary story-summary">La vicenda relativa alla sfida con la Vigor Carpaneto si arricchisce di un nuovo capitolo: il Giudice Sportivo ha assegnato ai piacentini il successo a tavolino, ma la Folgore Rubiera vuole continuare a far valere le proprie tesi. Nella...</p>
+      </footer>
+    </article>
+  </div>
+</div>

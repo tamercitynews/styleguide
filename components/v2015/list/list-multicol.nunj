@@ -1,0 +1,111 @@
+<section class="section most-read">
+  <div class="line">
+    <div class="unit size1of1">
+      <div class="section-title theme-color">
+        <h2 class="section-heading">I più letti della settimana</h2>
+      </div>
+    </div>
+  </div>
+  <div class="line">
+    <ul class="u-unstyled u-bordered unit size1of2">
+      <li>
+        <article class="story">
+          <figure class="story-media media-sm">
+            <div class="number">1</div>
+            <a href="#" class="link">
+              <picture>
+                <source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+                <img srcset="http://placehold.it/80x80" alt="Sciopero Roma 6 luglio: bus, metro, tram a rischio stop">
+              </picture>
+            </a>
+          </figure>
+          <h4 class="story-heading heading-xs">
+            <a class="link" href="#">Sciopero Roma 6 luglio: bus, metro, tram a rischio stop</a>
+          </h4>
+        </article>
+      </li>
+      <li>
+        <article class="story">
+          <figure class="story-media media-sm">
+            <div class="number">2</div>
+            <a href="#" class="link">
+              <picture>
+                <source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+                <img srcset="http://placehold.it/80x80" alt="Sciopero Roma 6 luglio: bus, metro, tram a rischio stop">
+              </picture>
+            </a>
+          </figure>
+          <h4 class="story-heading heading-xs">
+            <a class="link" href="#">Sciopero Roma 6 luglio: bus, metro, tram a rischio stop</a>
+          </h4>
+        </article>
+      </li>
+      <li>
+        <article class="story">
+          <figure class="story-media media-sm">
+            <div class="number">3</div>
+            <a href="#" class="link">
+              <picture>
+                <source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+                <img srcset="http://placehold.it/80x80" alt="Sciopero Roma 6 luglio: bus, metro, tram a rischio stop">
+              </picture>
+            </a>
+          </figure>
+          <h4 class="story-heading heading-xs">
+            <a class="link" href="#">Sciopero Roma 6 luglio: bus, metro, tram a rischio stop</a>
+          </h4>
+        </article>
+      </li>
+    </ul>
+    <ul class="u-unstyled u-bordered unit size1of2">
+      <li>
+        <article class="story">
+          <figure class="story-media media-sm">
+            <div class="number">4</div>
+            <a href="#" class="link">
+              <picture>
+                <source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+                <img srcset="http://placehold.it/80x80" alt="Sciopero Roma 6 luglio: bus, metro, tram a rischio stop">
+              </picture>
+            </a>
+          </figure>
+          <h4 class="story-heading heading-xs">
+            <a class="link" href="#">Sciopero Roma 6 luglio: bus, metro, tram a rischio stop</a>
+          </h4>
+        </article>
+      </li>
+      <li>
+        <article class="story">
+          <figure class="story-media media-sm">
+            <div class="number">5</div>
+            <a href="#" class="link">
+              <picture>
+                <source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+                <img srcset="http://placehold.it/80x80" alt="Sciopero Roma 6 luglio: bus, metro, tram a rischio stop">
+              </picture>
+            </a>
+          </figure>
+          <h4 class="story-heading heading-xs">
+            <a class="link" href="#">Sciopero Roma 6 luglio: bus, metro, tram a rischio stop</a>
+          </h4>
+        </article>
+      </li>
+      <li>
+        <article class="story">
+          <figure class="story-media media-sm">
+            <div class="number">6</div>
+            <a href="#" class="link">
+              <picture>
+                <source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+                <img srcset="http://placehold.it/80x80" alt="Sciopero Roma 6 luglio: bus, metro, tram a rischio stop">
+              </picture>
+            </a>
+          </figure>
+          <h4 class="story-heading heading-xs">
+            <a class="link" href="#">Sciopero Roma 6 luglio: bus, metro, tram a rischio stop</a>
+          </h4>
+        </article>
+      </li>
+    </ul>
+  </div>
+</section>

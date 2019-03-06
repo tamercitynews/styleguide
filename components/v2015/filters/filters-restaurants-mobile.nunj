@@ -1,0 +1,78 @@
+<div id="events-dropdown-group" class="dropdown-group dropdown-group--fluid" role="group">
+  <div class="dropdown">
+    <a class="btn dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Cosa fare <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection">Eventi</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li class="dropdown-menu__item--size-lg">
+        <a href="#"><svg class="icon inline-icon medium icon-event"><use xlink:href="#icon-event"></use></svg>Eventi</a>
+      </li>
+      <li>
+        <a href="#"><svg class="icon inline-icon medium icon-cinema"><use xlink:href="#icon-cinema"></use></svg>Cinema</a>
+      </li>
+      <li>
+        <a href="#"><svg class="icon inline-icon medium icon-restaurant"><use xlink:href="#icon-restaurant"></use></svg>Ristoranti</a>
+      </li>
+      <li><a href="#"><svg class="icon inline-icon medium icon-store"><use xlink:href="#icon-store"></use></svg>Shopping</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <a class="btn dropdown-toggle" href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Dove <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection">tutte</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu2">
+      {% for item in zone %}
+        <li data-itemattr-name="{{item.data}}">
+          <a class="link" href="{{item.link}}">{{item.name}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="dropdown dropdown--scrollable">
+    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Tipologia <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection dropdown-toggle__selection--multiple">Tutti</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu--size-lg dropdown-menu-right bordered-dropdown-menu" aria-labelledby="dropdownMenu3">
+      <span class="dropdown-menu__header">Filtra per</span>
+      <div class="dropdown-menu__filters">
+        <span class="dropdown-menu__subheader">Tipologia</span>
+        {% for item in restaurants[0].typology %}
+          <div class="checkbox">
+            <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
+            <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.type}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+          </div>
+        {% endfor %}
+        <hr>
+        <span class="dropdown-menu__subheader">Cibo</span>
+        {% for item in restaurants[0].food %}
+          <div class="checkbox">
+            <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
+            <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.type}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+          </div>
+        {% endfor %}
+        <hr>
+        <span class="dropdown-menu__subheader">Etnia</span>
+        {% for item in restaurants[0].ethnicity %}
+          <div class="checkbox">
+            <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
+            <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.type}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+          </div>
+        {% endfor %}
+        <hr>
+        <span class="dropdown-menu__subheader">Regione</span>
+        {% for item in restaurants[0].region %}
+          <div class="checkbox">
+            <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
+            <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="dropdown-menu__actions">
+        <a href="#" class="btn btn-sm btn-block primary-btn remove-html-locked">Applica filtri</a>
+      </div>
+    </div>
+  </div>
+</div>

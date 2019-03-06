@@ -1,0 +1,16 @@
+<div class="story sponsored-story">
+  <figure class="story-media">
+    <a href="#">
+      <picture>
+        <source srcset="{{item.media_desk}}" media="(min-width: 46.25em)">
+        <img src="{{item.media}}" alt="Alt title">
+      </picture>
+    </a>
+  </figure>
+  <header class="story-header">
+    <h3 class="story-heading story-heading">  
+      <a class="link" href="#">{{item.title}}</a>
+    </h3>
+    <span class="text-sm">sponsorizzato da "{{item.sponsor}}"</span>
+  </header>  
+</div>

@@ -1,0 +1,53 @@
+<section class="section headlines-section">
+	<ul class="u-unstyled l-list">
+		<li class="unit size1of1 l-list-item item-span-1">
+			<article class="story hero-story has-border-bottom">
+				<figure class="story-media media-full">
+					<a href="<!-- @path article.html -->">
+						<picture>
+							<source srcset="http://placehold.it/600x338" media="(min-width: 46.25em)">
+							<img srcset="http://placehold.it/300x169" alt="Incendio Fiumicino" title="">
+						</picture>
+					</a>
+				</figure>
+				<header class="story-header">
+					<h1 class="story-heading heading-lg"><a href="<!-- @path article.html -->" class="link">Incendio all'aeroporto: molti i negozi distrutti. Alle 14 la riapertura</a></h1>
+				</header>
+			</article>
+		</li>
+		<li class="group size1of1 l-list-item item-span-1 unspaced">
+			<ul class="u-unstyled l-row">
+				<li class="unit size1of2 l-row-item item-span-1">
+					<article class="story featured-story featured-mid has-border-bottom">
+						<figure class="story-media media-responsive">
+							<a href="<!-- @path article.html -->">
+								<picture>
+									<source srcset="http://placehold.it/300x169" media="(min-width: 46.25em)">
+									<img srcset="http://placehold.it/80x80" alt="Incidente Moto">
+								</picture>
+							</a>
+						</figure>
+						<header class="story-header">
+							<h2 class="story-heading heading-std"><a href="<!-- @path article.html -->" class="link">Incidente su via Appia: ciclista travolto da un furgone muore in ospedale</a></h2>
+						</header>
+					</article>
+				</li>
+				<li class="unit size1of2 l-row-item item-span-1">
+					<article class="story featured-story featured-mid has-border-bottom">
+						<figure class="story-media media-responsive">
+							<a href="<!-- @path article.html -->">
+								<picture>
+                  <source srcset="http://placehold.it/300x169" media="(min-width: 46.25em)">
+									<img srcset="http://placehold.it/80x80" alt="Stupro Termini">
+								</picture>
+							</a>
+						</figure>
+						<header class="story-header">
+							<h2 class="story-heading heading-std"><a href="<!-- @path article.html -->" class="link">Ragazza violentata a Termini mentre aspetta il treno per l'aeroporto</a></h2>
+						</header>
+					</article>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</section>

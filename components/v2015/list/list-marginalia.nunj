@@ -1,0 +1,63 @@
+{% macro extendClass(className) %}
+
+<div class="related-stories {{ className }}">
+  <h5 class="theme-element-bg">Approfondimenti</h5>
+  <ul class="u-unstyled u-bordered">
+    <li>
+      <article class="story">
+        <figure class="story-media">
+          <a href="<!-- @path article.html -->">
+            <picture>
+              <source srcset="/assets/images/content/related-1-horizontal_low.jpg" media="(min-width: 46.25em)">
+              <img srcset="/assets/images/content/related-1-square_low.jpg" alt="Stazione Termini Look">
+            </picture>
+          </a>
+        </figure>
+        <h4 class="story-heading">
+          <a href="<!-- @path article.html -->" class="link">Incendio all'aeroporto:
+            il Terminal 3 non esiste più. Cronaca di 12 ore di caos
+          </a>
+        </h4>
+        <time class="timestamp">mercoledi, 21 dicembre</time>
+      </article>
+    </li>
+    <li>
+      <article class="story">
+        <figure class="story-media">
+          <a href="<!-- @path article.html -->">
+            <picture>
+              <source srcset="/assets/images/content/related-2-horizontal_low.jpg" media="(min-width: 46.25em)">
+              <img srcset="/assets/images/content/related-2-square_low.jpg" alt="Stazione Termini Look">
+            </picture>
+          </a>
+        </figure>
+        <h4 class="story-heading">
+          <a href="<!-- @path article.html -->" class="link">Incendio: "Attentato?
+             No, un corto circuito nell'area commerciale"
+           </a>
+         </h4>
+         <time class="timestamp">mercoledi, 21 dicembre</time>
+      </article>
+    </li>
+    <li>
+      <article class="story">
+        <figure class="story-media">
+          <a href="<!-- @path article.html -->">
+            <picture>
+              <source srcset="/assets/images/content/related-3-horizontal_low.jpg" media="(min-width: 46.25em)">
+              <img srcset="/assets/images/content/related-3-square_low.jpg" alt="Stazione Termini Look">
+            </picture>
+          </a>
+        </figure>
+        <h4 class="story-heading">
+          <a href="<!-- @path article.html -->" class="link">Incendio Fiumicino,
+            mascherine obbligatorie e turni dimezzati al Terminal 3“
+          </a>
+        </h4>
+        <time class="timestamp">mercoledi, 21 dicembre</time>
+      </article>
+    </li>
+  </ul>
+</div>
+
+{% endmacro %}

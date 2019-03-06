@@ -1,0 +1,14 @@
+<select class="autocomplete-province form-control">
+  <option>
+    Seleziona ...
+  </option>
+  <option>
+    Valore 1
+  </option>
+  <option>
+    Valore 2
+  </option>
+  <option>
+    Valore 3
+  </option>
+</select>

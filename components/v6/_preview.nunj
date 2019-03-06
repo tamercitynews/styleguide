@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ '/css/v6.css' | path }}">
+    <title>versione v6</title>
+</head>
+<body>
+
+<div class="device-mobile t-yellow fp-inverse fp-index-first touchevents" style="position: relative; height: 500px">
+
+{{ yield | safe }}
+
+</div>
+
+
+</body>
+</html>

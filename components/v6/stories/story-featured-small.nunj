@@ -1,0 +1,10 @@
+<article class="c-story">
+  <h1 class="c-story__title o-serif-display o-doublecolumbian">
+    <a class="o-link o-link--dark" href="#">Incendio a Colle del Sole: bruciate due vetture in via Lanfranco Maroi</a>
+  </h1>
+  <div class="u-row u-space-between">
+    <p class="o-summary o-color-secondary o-cell-9">Le fiamme sono divampate la notte di sabato e quella di lunedì. L'allarme di Fratelli d'Italia: "Caso doloso che mette in allarme"</p>
+    <img class="c-story__media o-cell-3 u-ml-size2x" src="http://via.placeholder.com/180x240" alt="">
+  </div>
+  <a class="o-faux-link" href="articolo.html"></a>
+</article>

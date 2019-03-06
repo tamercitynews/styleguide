@@ -1,0 +1,9 @@
+<div class="a-native-m" style="background-image: url('http://via.placeholder.com/432x768')">
+  <div class="a-native-m__container">
+    <h5 class="a-native__label">Sponsor</h5>
+    <h1 class="a-native__title">
+      <a class="a-native__link" href="#">Questa è una notizia sponsorizzata di tipo native-m</a>
+    </h1>
+  </div>
+  <a class="o-faux-link" href="#"></a>
+</div>

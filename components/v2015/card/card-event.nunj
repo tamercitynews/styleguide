@@ -1,0 +1,43 @@
+<article class="block block--card block--card-tile">
+  <div class="block__media">
+    <a href="#">
+      <picture>
+        <source srcset="{{item.image}}" media="(min-width: 46.25em)">
+        <img class="img--fullwidth" srcset="{{item.image}}" alt="">
+      </picture>
+      <span class="label label--inverse label--inverse-cultura">{{item.label}}</span>
+    </a>
+  </div>
+  <h2 class="block__heading">
+    <a href="#" class="link">{{item.title}}</a>
+  </h2>
+  {% render "@rating" %}
+  <ul class="u-unstyled l-row">
+    <li class="l-row-item">
+      {% if item.badge %}
+        <span class="badge">{{item.badge}}</span>
+      {% endif %}
+    </li>
+    <li class="l-row-item">
+      {% if item.badge_highlight %}
+        <span class="badge badge--highlight">{{item.badge_highlight}}</span>
+      {% endif %}
+    </li>
+  </ul>
+  <ul class="u-unstyled block__list">
+    <li>
+      <span class="text-sm">
+        <svg class="icon icon--xs inline-icon icon-calendar-o">
+          <use xlink:href="#icon-calendar-o"></use>
+        </svg>{{item.date}}</span>
+    </li>
+    {% if item.marker %}
+    <li>
+      <span class="text-sm">
+        <svg class="icon icon--xs inline-icon icon-map-marker">
+          <use xlink:href="#icon-map-marker"></use>
+        </svg>{{item.marker}}</span>
+    </li>
+    {% endif %}
+  </ul>
+</article>

@@ -1,0 +1,4 @@
+<div class="btn nav-btn js-sidemenu-toggle has-icon centered" data-name="menu">
+  <svg class="icon menu-icon medium"><use xlink:href="#icon-menu"></use></svg>
+  <span class="btn-label">Sezioni</span>
+</div>

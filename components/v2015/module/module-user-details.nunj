@@ -1,0 +1,22 @@
+<ul class="u-unstyled user-profile-list-details">
+  <li class="user-single-detail">
+    <svg class="icon inline-icon cake-icon small">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cake-icon"></use>
+    </svg>Nato nel 1960
+  </li>
+  <li class="user-single-detail">
+    <svg class="icon inline-icon briefcase-icon small">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#briefcase-icon"></use>
+    </svg>non occupato
+  </li>
+  <li class="user-single-detail">
+    <svg class="icon inline-icon location-pin-icon small">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#location-pin-icon"></use>
+    </svg>Frattamaggiore
+  </li>
+  <li class="user-single-detail">
+    <svg class="icon inline-icon thumbs-down-icon small">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#thumbs-down-icon"></use>
+    </svg>le persone invadenti, presuntuose, moleste e i delinquenti
+  </li>
+</ul>

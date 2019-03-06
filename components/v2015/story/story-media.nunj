@@ -1,0 +1,13 @@
+<article class="story media-story">
+  <figure class="story-media media-full video-media">
+    <a href="#" class="block-link">
+      <span class="play-video-icon"></span>
+      <img src="http://placehold.it/300x169" alt="Alt title">
+    </a>
+  </figure>
+  <header class="story-header">
+    <a href="#" class="block-link">
+      <h3 class="story-heading heading-std">Estate, tempo di anguria: ecco come riconoscerne una dolce e succosa</h3>
+    </a>
+  </header>
+</article>

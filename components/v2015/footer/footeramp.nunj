@@ -1,0 +1,37 @@
+<a class="back-to-top-link" href="#top">
+	Torna su
+	<svg class="o-icon o-icon--sm o-icon--inverse"><use xlink:href="#top-icon"></use></svg>
+</a>
+
+<footer class="site-footer">
+
+  <div class="o-line">
+
+    <div class="o-cell footer-col footer-list-link footer-nav">
+      <h5 class="footer-col-title t-color">Canali</h5>
+      <ul class="u-nobullet list-link">
+          <li><a class="link" href="#">Cronaca</a></li>
+          <li><a class="link" href="#">Sport</a></li>
+          <li><a class="link" href="#">Politica</a></li>
+          <li><a class="link" href="#">Economia e Lavoro</a></li>
+          <li><a class="link" href="#">Smart City</a></li>
+          <li><a class="link" href="#">Cosa fare in città</a></li>
+          <li><a class="link" href="#">Zone</a></li>
+          <li><a class="link" href="#">Segnalazioni</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="o-line">
+    <div class="o-unit size1of1 footer-note">
+      <div class="company-logo">
+        <a href="http://www.citynews.it">
+          <amp-img width=121 height=32 layout="intrinsic" src="/assets/images/site/horizontal-white-full.svg" alt="Citynews"></amp-img>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; Copyright 2009-2015 RomaToday plurisettimanale telematico reg. tribunale di Roma n. 93/2010 P.iva 10786801000</p>
+    </div>
+  </div>
+
+</footer>

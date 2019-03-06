@@ -1,0 +1,14 @@
+<ul class="u-unstyled inline-list user-profile-list-badge">
+  <li class="single-badge">
+    <svg class="icon inline-icon large censure_comment-icon mid">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#censure_comment-icon"></use>
+      <title>Censure commenti: 30 segnalazioni</title>
+    </svg>
+  </li>
+  <li class="single-badge">
+    <svg class="icon inline-icon large generic_comment-icon few">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#generic_comment-icon"></use>
+      <title>Commenti generici: 1000 commenti</title>
+    </svg>
+  </li>
+</ul>

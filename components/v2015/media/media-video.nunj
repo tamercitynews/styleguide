@@ -1,0 +1,12 @@
+<article class="story media-story">
+	<a href="items/item-video.html" class="block-link">
+		<figure class="story-media media-full video-media">
+			<span class="play-video-icon"></span>
+			<img srcset="/assets/images/content/grid-1-horizontal_mid.jpg" alt="Voragine Strada">
+		</figure>
+		<header class="story-header">
+        <h3 class="story-heading heading-std">Titolo video</h3>
+			<p class="byline"><time class="timestamp">un'ora fa</time></p>
+		</header>
+	</a>
+</article>

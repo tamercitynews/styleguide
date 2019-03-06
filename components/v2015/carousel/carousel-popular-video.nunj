@@ -1,0 +1,18 @@
+<div class="carousel carousel--multiple" data-flickity='{"cellAlign": "left", "freeScroll": true, "freeScrollFriction": "0.03", "contain": true, "pageDots": false, "prevNextButtons": true, "autoPlay": false, "wrapAround": true, "imagesLoaded":true,"setGallerySize": true}'>
+  {% for i in range(0, 5) -%}
+    <div class="carousel__item carousel-cell">
+      <article class="story">
+        <a href="#" class="block-link">
+          <figure class="story-media">
+            <img class="img--fluid" src="/assets/images/content/featured-1-horizontal_mid.jpg"  alt="Alt Title">
+          </figure>
+          <header class="story-header">
+            <h3 class="story-heading heading-sm">
+              Titolo del video
+            </h3>
+          </header>
+        </a>
+      </article>
+    </div>
+  {% endfor %}
+</div>

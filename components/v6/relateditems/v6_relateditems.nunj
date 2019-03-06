@@ -1,0 +1,20 @@
+<div class="u-mb-size2x">
+  <h5 class="o-upper o-color-secondary">Approfondimenti</h5>
+  <ul class="o-list">
+
+    {% for item in range(0, 2) -%}
+
+    <li class="o-list__item">
+      <article class="c-story u-row">
+        <img class="c-story__media o-cell-4 u-mr-size1x" src="http://via.placeholder.com/300x169" alt="">
+        <h2 class="c-story__title o-columbian o-serif-display">
+          <a class="o-link o-link--dark" href="#">Incendio a Colle del Sole: bruciate due vetture in via Lanfranco Maro</a>
+        </h2>
+        <a class="o-faux-link" href="pages/articolo.html"></a>
+      </article>
+    </li>
+
+    {%- endfor %}
+
+  </ul>
+</div>

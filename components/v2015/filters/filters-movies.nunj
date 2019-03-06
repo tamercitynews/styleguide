@@ -1,0 +1,65 @@
+    <form>
+        <div class="filter-dropdown">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <div class="dropdown-selection">Seleziona una zona</div>
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu bs_links_filters" aria-labelledby="dropdownMenu3">
+                    <li><a class="link" href="/eventi/cinema/">Tutte</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="filter-block grouped-filters bs_checkbox_filters">
+            <h5>Filtra per</h5>
+            <h6>Uscita:</h6>
+            <div class="checkbox">
+                <input data-filter="al" type="checkbox" name="bs_checkbox_al[]" id="bs_checkbox_oggi" value="2017-07-11">
+                <label class="checkbox-label" for="bs_checkbox_oggi">Film di oggi</label>
+            </div>
+            <div class="checkbox">
+                <input data-filter="al" type="checkbox" name="bs_checkbox_al[]" id="bs_checkbox_oggi" value="2017-07-11">
+                <label class="checkbox-label" for="bs_checkbox_oggi">Nuove uscite</label>
+            </div>
+            <hr>
+            <h6>Genere</h6>
+            {% for item in movies[0].type %}
+            <div class="checkbox">
+                <input data-filter="genere" type="checkbox" name="bs_checkbox_genere[]" id="bs_checkbox_{{itme.data}}" value="{{itme.data}}">
+                <label class="checkbox-label" for="bs_checkbox_{{itme.data}}">
+                    <a onclick="$('#bs_checkbox_{{itme.data}}').trigger('click');return false;" class="link" href="{{item.link}}">{{item.name}} {{item.numbers}}</a>
+                </label>
+            </div>
+            {% endfor %}
+            <hr>
+            <h6>Sale</h6>
+            {% for item in movies[1].cinema %}
+            <div class="checkbox">
+                <input data-filter="sala" type="checkbox" name="bs_checkbox_element[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
+                <label class="checkbox-label" for="bs_checkbox_{{item.data}}" onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;">
+                    <a class="link" href="{{item.link}}">{{item.name}}</a>
+                </label>
+            </div>
+            {% endfor %}
+        </div>
+    </form>
+    <div class="filter-block">
+        <h6>Cinema</h6>
+        <ul class="u-unstyled filters-list">
+            <li><a href="/eventi/cinema/al/2016-07-22" class="link">Film di oggi</a></li>
+            <li><a href="/eventi/cinema/dal/2016-07-23" class="link">Nuove uscite</a></li>
+        </ul>
+    </div>
+    <div class="filter-block">
+        <h6>Ristoranti</h6>
+        <ul class="u-unstyled filters-list">
+          {% for item in restaurants[0].ethnicity %}
+
+              <li data-itemattr-name="{{item.data}}">
+                  <a class="link" href="{{item.link}}">{{item.type}}</a>
+              </li>
+
+          {% endfor %}
+        </ul>
+    </div>
+    <p><em>Vuoi segnalare un evento?</em></p><a href="/form/contacts/eventi/" class="btn default-btn">Invia un Evento</a>

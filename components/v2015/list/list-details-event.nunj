@@ -1,0 +1,42 @@
+<ul class="u-unstyled details-list">
+  <li class="details-list__item">
+    <span class="label">Dove</span>
+    <dl>
+      <dt>
+        <a class="link alt-link" href="/eventi/location/ippodromo-capannelle/">Ippodromo Capannelle</a>
+      </dt>
+      <dd>
+        <a href="http://www.romatoday.it/eventi/gigi-d-agostino-dance-color-festival-23-luglio-2017.html#map" class="link link-with-icon">
+          <svg class="icon inline-icon small icon-directions">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-directions"></use>
+          </svg>
+          Via Appia Nuova, 1255
+        </a>
+      </dd>
+    </dl>
+  </li>
+  <li class="details-list__item">
+    <span class="label">Quando</span>
+    <dl>
+      <dt>
+        Dal 23/07/2017 al 23/07/2017
+      </dt>
+      <dd>
+        <svg class="icon inline-icon small time-icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#time-icon"></use>
+        </svg>
+        apertura cancelli ore 12
+      </dd>
+    </dl>
+  </li>
+  <li class="details-list__item">
+    <span class="label">Prezzo</span>
+    <dl>
+      <dd>15€ + d.p.</dd>
+      <dd></dd>
+    </dl>
+  </li>
+  <li class="details-list__item">
+    <span class="label">Altre Informazioni</span>
+  </li>
+</ul>

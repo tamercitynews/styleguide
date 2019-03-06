@@ -1,0 +1,8 @@
+<a class="c-toggle-menu js-toggle-menu">
+  <svg class="o-icon o-icon--md c-toggle-menu__icon c-toggle-menu__icon--open">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu"></use>
+  </svg>
+  <svg class="o-icon o-icon--md c-toggle-menu__icon c-toggle-menu__icon--close">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cross"></use>
+  </svg>
+</a>

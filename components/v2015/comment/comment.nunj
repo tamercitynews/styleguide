@@ -1,0 +1,27 @@
+<article class="comment">
+  <div class="comment-info-author">
+    <a href="#" title="Profilo di stefano">
+      <figure class="author-photo">
+        <img class="avatar" width="55" height="55" alt="Avatar di stefano" src="http://1.citynews.stgy.ovh/~shared/avatars/30608805992611/avatar_1.img">
+      </figure>
+    </a>
+    <span class="comment-author-name">
+      <a class="author" href="#">stefano</a>
+    </span>
+    <time title="sabato,  8 luglio 2017 - 09:02:42" class="timestamp">
+      <svg class="icon inline-icon timestamp-icon small">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#time-icon"></use>
+      </svg>
+      <span class="comment_date-osrfki">sabato, 8 luglio</span>
+    </time>
+  </div>
+  <p class="comment-content">
+    <b style="display:none;">R: Spider-Man: Homecoming</b>
+    <span>Testo commento dell'utente</span>
+  </p>
+  <div class="comment-actions">
+    <a class="btn link-btn commento_rispondi" href="#">Rispondi</a>
+    <a class="btn link-btn commento_cita" href="#">Cita</a>
+    <a class="btn link-btn commento_segnala" href="#" title="Segnala contenuto offensivo">Segnala</a>
+  </div>
+</article>

@@ -1,0 +1,55 @@
+<article class="user-post-activity">
+  {% if user_activity %}
+    <p class="text-user-profile-comment">"http://ricerca.repubblica.it/repubblica/archivio/repubblica/1985/11/23/pensione-invalidita-ad-un-toss icomane.html"</p>
+    <p class="title-post-commented">in <a class="link link-post-commented" href="http://www.romatoday.it/cronaca/inseguimento-polizia-raccordo-anulare-2-agosto-2017.html">Sul Raccordo Anulare a tutta velocità sperona auto della polizia, era senza patente</a></p>
+  {% endif %}
+  {% if user_reports %}
+    <header>
+        <figure class="user-post-profile-photo"><img class="avatar avatar-lg" src="http://2.citynews.stgy.ovh/~shared/avatars/59283673479981/avatar_1.img" alt="Foto Profilo"></figure>
+        <p class="user-post-profile-details"><a class="link" href="/user/profile/frank-serpico/59283673479981/">Frank Serpico</a> ha pubblicato un <a class="link" href="/social/segnalazioni/perdita-di-acqua-potabile-2925598.html">contenuto</a></p>
+    </header>
+    <figure class="user-post-content-image">
+        <a class="photo" href="/social/segnalazioni/perdita-di-acqua-potabile-2925598.html"><img src="http://2.citynews-romatoday.stgy.ovh/~media/square-mid/49571887445401/perdita-di-acqua-potabile.jpg" alt="" width="120" height="120"></a>
+    </figure>
+    <h3 class="title-user-post-content"><a class="link link-post-commented" href="/social/segnalazioni/perdita-di-acqua-potabile-2925598.html" title="Visualizza pagina">PERDITA di acqua potabile.</a></h3>
+    <p class="text-user-post-content">
+      Roma, quartiere Casalbertone Via Baldassare Orero, la perdita di acqua in questione va avanti da oltre un mese nonostante 
+      i cittadini abbiano segnalato la cosa a più riprese agli organi [...]
+    </p>
+  {% endif %}
+  <footer class="user-post-footer-datails">
+    <time class="timestamp user-post-date">
+      <svg class="icon inline-icon timestamp-icon small">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#time-icon"></use>
+      </svg> 25 minuti fa
+    </time>
+    <p class="user-post-comments">
+      <svg class="icon inline-icon bubble2 small">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bubble2"></use>
+      </svg> 10 commenti
+    </p>
+    <ul class="user-post-social-btn">
+      <li>
+        <a href="http://www.facebook.com/sharer/sharer.php?u=http://www.romatoday.it/cronaca/inseguimento-polizia-raccordo-anulare-2-agosto-2017.html">
+          <svg class="icon inline-icon facebook-icon small">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://www.romatoday.it/cronaca/inseguimento-polizia-raccordo-anulare-2-agosto-2017.html">
+          <svg class="icon inline-icon twitter-icon small">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.romatoday.it/cronaca/inseguimento-polizia-raccordo-anulare-2-agosto-2017.html">
+          <svg class="icon inline-icon link-icon small">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#link-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</article>

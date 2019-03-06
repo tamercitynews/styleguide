@@ -1,0 +1,9 @@
+<figure class="user-profile-img">
+  <img class="avatar" alt="/~shared/avatars/29286308962224/avatar_1.img" src="http://2.citynews.stgy.ovh/~shared/avatars/59283673479981/avatar_1.img">
+  <span class="user-profile-name">Frank Serpico</span>
+  {% if user_rank %}
+  <span class="user-profile-rank">Rank 9.0 punti</span>
+  {% endif %}
+  <span class="user-profile-date-registered">Iscritto martedì, 12 ottobre 2010</span>
+  <span class="user-profile-follow-btn"></span>
+</figure>

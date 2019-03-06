@@ -1,0 +1,42 @@
+<div class="a-native-event">
+   <div class="a-native-event__media">
+      <a href="/eventi/paul-jones-in-concerto-a-roma.html" class="link">
+         <picture>
+            <source srcset="http://2.citynews-romatoday.stgy.ovh/~media/horizontal-mid/57310656578331/sangria-2.jpg" media="(min-width: 46.25em)">
+            <img srcset="http://2.citynews-romatoday.stgy.ovh/~media/horizontal-low/57310656578331/sangria-2.jpg" alt="Paul Jones a Roma ospite della Jona's Blues Band">
+         </picture>
+         <span class="a-native__label a-native__label--event">SPONSOR</span>
+      </a>
+   </div>
+   <h2 class="a-native__title">
+     <a class="a-native__link" href="#">Festa della sangria</a>
+   </h2>
+   <ul class="a-native__rating">
+      <li>
+         <svg class="icon small icon-star icon-star--coloured">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+         </svg>
+      </li>
+      <li>
+         <svg class="icon small icon-star icon-star--coloured">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+         </svg>
+      </li>
+      <li>
+         <svg class="icon small icon-star icon-star--coloured">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+         </svg>
+      </li>
+      <li>
+         <svg class="icon small icon-star icon-star--coloured">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+         </svg>
+      </li>
+      <li>
+         <svg class="icon small icon-star icon-star--coloured">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+         </svg>
+      </li>
+   </ul>
+   <p class="a-native__label">Sponsorizzato da SPONSOR</p>
+</div>

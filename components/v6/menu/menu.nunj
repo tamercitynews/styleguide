@@ -1,0 +1,50 @@
+{% if toggle_menu_fixed %}
+  {% include "partials/v6/toggle/toggle.njk" %}
+{% endif %}
+
+<div class="c-menu js-menu">
+
+  {% if toggle_menu_scroll %}
+    {% include "partials/v6/toggle/toggle.njk" %}
+  {% endif %}
+
+  <div class="c-navbar t-border">
+    <a class="c-navbar__control-left">
+      <svg class="o-icon o-icon--md">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use>
+      </svg>
+    </a>
+    <h3 class="c-navbar__title u-align-center u-reset">Canali</h3>
+  </div>
+  <form class="u-mb-0" action="/search/" method="post">
+    <div class="c-search">
+      <input type="search" autocomplete="off" placeholder="Cerca nel sito..." class="c-search__field" name="query">
+      <button type="submit" class="c-search__button">
+        <svg class="o-icon o-icon--md">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-lens"></use>
+        </svg>
+      </button>
+    </div>
+  </form>
+
+  <ul class="u-nobullet c-menu__list u-mb-0">
+    {% for item in menu %}
+      {% if item.live %}
+        <li class="c-menu__item" style="background-image: url('{{item.image}}')">
+          <span class="c-menu__link">
+            {{ item.name }}
+            <span class="o-icon-live o-icon-live--out t-border">
+              <span class="o-icon-live o-icon-live--in is-blinking t-bg--200"></span>
+            </span>
+          </span>
+          <a class="o-faux-link" href="{{ item.url }}"></a>
+        </li>
+      {% else %}
+      <li class="c-menu__item" style="background-image: url('{{item.image}}')">
+        <span class="c-menu__link">{{ item.name }}</span>
+        <a class="o-faux-link" href="{{ item.url }}"></a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

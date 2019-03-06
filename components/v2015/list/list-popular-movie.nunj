@@ -1,0 +1,10 @@
+<ul class="u-unstyled l-row multirow">
+  {% set maxItems = 4 %}
+  {% for item in movies[0].movie %}
+    {% if loop.index <= maxItems %}
+    <li class="unit size1of4 l-row-item l-row--item-span-1">
+      {% include "partials/v2015/card/card-movie.njk" %}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

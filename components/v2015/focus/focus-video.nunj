@@ -1,0 +1,74 @@
+<section class="section inverted">
+	<div class="line">
+		<div class="unit size1of1">
+			<div class="section-title has-no-border">
+				<a href="#">
+          <img class="brand-tv" src="/assets/images/content/romatoday-tv.png" alt="RomaToday Tv">
+        </a>
+        <a class="section__see-more" href="#">Vedi tutti &raquo;</a>
+			</div>
+		</div>
+	</div>
+	<div class="line">
+		<ul class="u-unstyled l-row">
+			<li class="unit size1of2 l-row-item">
+				<article class="story hero-story cover-hero focus-cover flx-container media-story">
+					<header class="story-header flx-container flx-col">
+						<a href="article.html" class="link">
+							<figure class="story-media media-full video-media">
+								<span class="play-video-icon"></span>
+								<picture>
+									<source srcset="http://placehold.it/600x338" media="(min-width: 46.25em)">
+									<img srcset="http://placehold.it/300x169" alt="Giubileo Stazione Termini">
+								</picture>
+							</figure>
+						</a>
+						<h2 class="story-heading heading-md">
+              <a href="#" class="link">Roma-Lido, altri ritardi e corse soppresse. Esposito: "Due treni rotti"</a>
+            </h2>
+					</header>
+				</article>
+			</li>
+			<li class="group size1of2 l-row-item">
+				<ul class="u-unstyled l-list">
+					<li class="unit l-list-item item-span-1">
+						<article class="story media-story">
+							<figure class="story-media media-half video-media">
+								<a href="<! @path video.html -->" class="block-link">
+									<span class="play-video-icon"></span>
+									<picture>
+										<source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+										<img srcset="http://placehold.it/80x80" alt="Stazione Termini Look">
+									</picture>
+								</a>
+							</figure>
+							<header class="story-header">
+								<h4 class="story-heading heading-sm">
+                  <a href="<!-- @path video.html -->" class="link">Mega parcheggio alla Stazione Termini: sopra i binari più di 1000 posti auto</a>
+                </h4>
+							</header>
+						</article>
+					</li>
+					<li class="unit l-list-item item-span-1">
+						<article class="story media-story">
+							<figure class="story-media media-half video-media">
+								<a href="<! @path video.html -->" class="block-link">
+									<span class="play-video-icon"></span>
+									<picture>
+                    <source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+										<img srcset="http://placehold.it/80x80" alt="Stazione Termini Look">
+									</picture>
+								</a>
+							</figure>
+							<header class="story-header">
+								<h4 class="story-heading heading-sm">
+                  <a href="<!-- @path video.html -->" class="link">Mega parcheggio alla Stazione Termini: sopra i binari più di 1000 posti auto</a>
+                </h4>
+							</header>
+						</article>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>

@@ -1,0 +1,12 @@
+<div class="a-native-s">
+  <div class="a-native-s__media" style="background-image: url('http://2.citynews-romatoday.stgy.ovh/~media/horizontal-low/7307718878687/ambulanza_11_original-2.jpg')"></div>
+  <div class="a-native__text">
+    <h5 class="a-native__label">Sponsor</h5>
+    <h2 class="a-native__title">
+      <a class="a-native__link" href="link1">La mia anima è pervasa da una mirabile serenità, simile a queste belle mattinate</a>
+    </h2>
+  </div>
+  <p class="a-native__abstract">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <a class="o-faux-link" href="articolo.html"></a>
+</div>
+<div id="beacon_5a12d334cd" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"></div>

@@ -1,0 +1,170 @@
+<!-- Channel Nav ------------------------------------------------------------>
+<nav class="channel-nav visible-md visible-lg">
+  <ul class="u-reset">
+    <li class="channel-nav-item current">
+      <a href="<!-- @path category.html -->" class="link">
+        <svg class="icon home-icon inverse-icon"><use xlink:href="#home-icon"></use></svg>
+      </a>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Casa</a>
+      <span class="multi-menu-toggle">
+        <svg class="icon medium inverse-icon icon-chevron-down"><use xlink:href="#icon-chevron-down"></use></svg>
+      </span>
+      <ul class="u-reset nav-item-submenu">
+        <li>
+          <a href="#">Elettrodomestici</a>
+        </li>
+        <li>
+          <a href="#">Giardinaggio</a>
+        </li>
+        <li>
+          <a href="#">Illuminazione</a>
+        </li>
+        <li>
+          <a href="#">Bagno</a>
+        </li>
+        <li>
+          <a href="#">Mobili</a>
+        </li>
+      </ul>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Bambini</a>
+      <span class="multi-menu-toggle">
+        <svg class="icon medium inverse-icon icon-chevron-down"><use xlink:href="#icon-chevron-down"></use></svg>
+      </span>
+      <ul class="u-reset nav-item-submenu">
+        <li>
+          <a href="#">Item one</a>
+        </li>
+        <li>
+          <a href="#">Item one</a>
+        </li>
+        <li>
+          <a href="#">Item one</a>
+        </li>
+        <li>
+          <a href="#">Item one</a>
+        </li>
+      </ul>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Libri</a>
+      <span class="multi-menu-toggle">
+        <svg class="icon medium inverse-icon icon-chevron-down"><use xlink:href="#icon-chevron-down"></use></svg>
+      </span>
+      <ul class="u-reset nav-item-submenu">
+        <li>
+          <a href="#">Item one</a>
+        </li>
+        <li>
+          <a href="#">Item one</a>
+        </li>
+        <li>
+          <a href="#">Item one</a>
+        </li>
+        <li>
+          <a href="#">Item one</a>
+        </li>
+      </ul>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Viaggi</a>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Moda&amp;Bellezza</a>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Cibo&amp;Vino</a>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Tecnologia</a>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Sport</a>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Regali&amp;News</a>
+    </li>
+    <li class="channel-nav-item top-level">
+      <a href="<!-- @path link.html -->" class="link">Offerte</a>
+    </li>
+  </ul>
+</nav>
+<!-- Channel Mobile Nav ------------------------------------------------------->
+<div class="channel-mobile-menu hidden-md hidden-lg">
+  <a href="#" class="channel-nav-trigger"><span class="trigger-label">Menu</span></a>
+  <nav class="channel-mobile-nav">
+    <ul class="u-reset">
+      <li class="channel-nav-item current">
+        <a href="<!-- @path category.html -->" class="link">
+          <svg class="icon home-icon inverse-icon"><use xlink:href="#home-icon"></use></svg>
+        </a>
+      </li>
+      <li class="channel-nav-item top-level">
+        <a href="<!-- @path link.html -->" class="link">Casa e Arredo</a>
+        <span class="multi-menu-toggle">
+          <svg class="icon medium inverse-icon icon-chevron-down"><use xlink:href="#icon-chevron-down"></use></svg>
+        </span>
+        <ul class="u-reset nav-item-submenu">
+          <li>
+            <a href="#">Elettrodomestici</a>
+          </li>
+          <li>
+            <a href="#">Giardinaggio</a>
+          </li>
+          <li>
+            <a href="#">Illuminazione</a>
+          </li>
+          <li>
+            <a href="#">Bagno</a>
+          </li>
+          <li>
+            <a href="#">Mobili</a>
+          </li>
+        </ul>
+      </li>
+      <li class="channel-nav-item top-level">
+        <a href="<!-- @path link.html -->" class="link">Bambini</a>
+        <span class="multi-menu-toggle">
+          <svg class="icon medium inverse-icon icon-chevron-down"><use xlink:href="#icon-chevron-down"></use></svg>
+        </span>
+        <ul class="u-reset nav-item-submenu">
+          <li>
+            <a href="#">Item one</a>
+          </li>
+          <li>
+            <a href="#">Item one</a>
+          </li>
+          <li>
+            <a href="#">Item one</a>
+          </li>
+          <li>
+            <a href="#">Item one</a>
+          </li>
+        </ul>
+      </li>
+      <li class="channel-nav-item top-level">
+        <a href="<!-- @path link.html -->" class="link">Libri</a>
+        <span class="multi-menu-toggle">
+          <svg class="icon medium inverse-icon icon-chevron-down"><use xlink:href="#icon-chevron-down"></use></svg>
+        </span>
+        <ul class="u-reset nav-item-submenu">
+          <li>
+            <a href="#">Item one</a>
+          </li>
+          <li>
+            <a href="#">Item one</a>
+          </li>
+          <li>
+            <a href="#">Item one</a>
+          </li>
+          <li>
+            <a href="#">Item one</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>

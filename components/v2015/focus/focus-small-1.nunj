@@ -1,0 +1,39 @@
+<section class="section focus-section">
+	<div class="line">
+		<div class="unit size1of1">
+			<div class="section-title theme-border">
+				<h2 class="section-heading">Trasporti</h2>
+			</div>
+		</div>
+	</div>
+	<div class="line">
+		<ul class="u-unstyled u-bordered l-row">
+			<li class="unit size2of3 l-row-item">
+				<article class="story">
+					<header class="story-header">
+						<figure class="story-media media-half">
+							<picture>
+								<source srcset="http://placehold.it/300x169" media="(min-width: 46.25em)">
+								<img srcset="http://placehold.it/80x80" alt="Alt title">
+							</picture>
+						</figure>
+						<h3 class="story-heading heading-md">
+              <a href="#" class="link">Roma-Lido, altri ritardi e corse soppresse. Esposito: "Due treni rotti"</a>
+            </h3>
+						<p class="summary story-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor eleifend justo eu tincidunt. Aliquam sed elit fermentum, placerat tellus quis</p>
+					</header>
+				</article>
+			</li>
+			<li class="unit size1of2 l-row-item">
+				<article class="story list-story">
+					<header class="story-header">
+						<h3 class="story-heading heading-md">
+              <a href="#" class="link">Servizio sospeso tra Lido Centro e Cristoforo Colombo causa incendio</a>
+            </h3>
+						<p class="summary story-summary hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor eleifend justo eu tincidunt. Aliquam sed elit fermentum, placerat tellus quis</p>
+					</header>
+				</article>
+			</li>
+		</ul>
+	</div>
+</section>

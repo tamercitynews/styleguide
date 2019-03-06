@@ -1,0 +1,16 @@
+<div class="meta-social">
+  <ul class="u-unstyled inline-list">
+    <li>
+      <a href="#" class="btn share-btn facebook-share-btn"><svg class="icon small facebook-icon"><use xlink:href="#facebook-icon"></use></svg><span class="btn-label">Condividi</span></a>
+    </li>
+    <li>
+      <a href="#" class="btn share-btn twitter-share-btn"><svg class="icon small twitter-icon"><use xlink:href="#twitter-icon"></use></svg><span class="btn-label">Tweet</span></a>
+    </li>
+    <li class="visible-xs-inline-block">
+      <a href="#" class="btn share-btn whatsapp-share-btn"><svg class="icon small whatsapp-icon"><use xlink:href="#whatsapp-icon"></use></svg></a>
+    </li>
+    <li class="hidden-xs hidden-sm">
+      <a href="#" class="btn default-btn share-btn email-share-btn"><svg class="icon small email-icon"><use xlink:href="#email-icon"></use></svg></a>
+    </li>
+  </ul>
+</div>

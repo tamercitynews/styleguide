@@ -1,0 +1,117 @@
+<section class="section">
+  <div class="line">
+    <div class="unit channel-headlines-top">
+      {% set label_badge = true %}
+      {% render "@story-inset" %}
+    </div>
+    <div class="unit channel-aside hidden-xs">
+      <div class="slots clearfix">
+        <div class="slot slot-halfpage" style="text-align:center;">
+          {% render "@slot-medium" %}
+        </div>
+      </div>
+      <div class="module most-read theme-border bottom-margin">
+        <h5 class="module-title">I più letti di oggi</h5>
+        <ul class="u-unstyled u-bordered l-list">
+          <li class="l-list-item item-span-1">
+            <article class="story">
+              <figure class="story-media media-xs">
+                <div class="number">1</div>
+                <a href="/benessere/alimentazione/mangiare-senza-ingrassare-come-fare.html">
+                  <picture>
+                    <source srcset="http://1.citynews-today.stgy.ovh/~media/horizontal-mid/40015922096683/man-6.jpg" media="(min-width: 62.5em)">
+                    <img srcset="http://3.citynews-today.stgy.ovh/~media/horizontal-low/40015922096683/man-6.jpg" alt="&quot;Mangio, ma non ingrasso&quot;: 10 segreti di chi resta magro senza dieta">
+                  </picture>
+                </a>
+              </figure>
+              <h4 class="story-heading heading-xs"><a href="/benessere/alimentazione/mangiare-senza-ingrassare-come-fare.html" class="link">"Mangio, ma non ingrasso": 10 segreti di chi resta magro senza dieta</a></h4></article>
+          </li>
+          <li class="l-list-item item-span-1">
+            <article class="story">
+              <figure class="story-media media-xs">
+                <div class="number">2</div>
+                <a href="/benessere/alimentazione/miele-dieta-dimagrante.html">
+                  <picture>
+                    <source srcset="http://2.citynews-today.stgy.ovh/~media/horizontal-mid/55054542689227/fotolia_vasetto-miele-storto-2.jpg" media="(min-width: 62.5em)">
+                    <img srcset="http://3.citynews-today.stgy.ovh/~media/horizontal-low/55054542689227/fotolia_vasetto-miele-storto-2.jpg" alt="Il miele è un ‘salva linea’: un cucchiaino prima di dormire aiuta a dimagrire">
+                  </picture>
+                </a>
+              </figure>
+              <h4 class="story-heading heading-xs"><a href="/benessere/alimentazione/miele-dieta-dimagrante.html" class="link">Il miele è un ‘salva linea’: un cucchiaino prima di dormire aiuta a dimagrire</a></h4></article>
+          </li>
+          <li class="l-list-item item-span-1">
+            <article class="story">
+              <figure class="story-media media-xs">
+                <div class="number">3</div>
+                <a href="/benessere/alimentazione/caffe-come-viagra-impotenza.html">
+                  <picture>
+                    <source srcset="http://1.citynews-today.stgy.ovh/~media/horizontal-mid/11809270166006/c-28.jpg" media="(min-width: 62.5em)">
+                    <img srcset="http://3.citynews-today.stgy.ovh/~media/horizontal-low/11809270166006/c-28.jpg" alt="Il caffè funziona da viagra: ecco come riduce l'impotenza">
+                  </picture>
+                </a>
+              </figure>
+              <h4 class="story-heading heading-xs"><a href="/benessere/alimentazione/caffe-come-viagra-impotenza.html" class="link">Il caffè funziona da viagra: ecco come riduce l'impotenza</a></h4></article>
+          </li>
+          <li class="l-list-item item-span-1">
+            <article class="story">
+              <figure class="story-media media-xs">
+                <div class="number">4</div>
+                <a href="/benessere/alimentazione/banane-dieta.html">
+                  <picture>
+                    <source srcset="http://1.citynews-today.stgy.ovh/~media/horizontal-mid/16258965212935/4-3-66.jpg" media="(min-width: 62.5em)">
+                    <img srcset="http://1.citynews-today.stgy.ovh/~media/horizontal-low/16258965212935/4-3-66.jpg" alt="Le banane fanno bene alla salute: ecco i 10 vantaggi per l'organismo">
+                  </picture>
+                </a>
+              </figure>
+              <h4 class="story-heading heading-xs"><a href="/benessere/alimentazione/banane-dieta.html" class="link">Le banane fanno bene alla salute: ecco i 10 vantaggi per l'organismo</a></h4></article>
+          </li>
+          <li class="l-list-item item-span-1">
+            <article class="story">
+              <figure class="story-media media-xs">
+                <div class="number">5</div>
+                <a href="/benessere/alimentazione/come-riconoscere-uova-migliori.html">
+                  <picture>
+                    <source srcset="http://3.citynews-today.stgy.ovh/~media/horizontal-mid/41917672103147/12687929_1706074049677536_7619593989032325985_n-2.jpg" media="(min-width: 62.5em)">
+                    <img srcset="http://1.citynews-today.stgy.ovh/~media/horizontal-low/41917672103147/12687929_1706074049677536_7619593989032325985_n-2.jpg" alt="Come riconoscere le uova più sane">
+                  </picture>
+                </a>
+              </figure>
+              <h4 class="story-heading heading-xs"><a href="/benessere/alimentazione/come-riconoscere-uova-migliori.html" class="link">Come riconoscere le uova più sane</a></h4></article>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="unit channel-headlines-bottom">
+      <div class="half-headlines">
+        <article class="story">
+          <span class="label badge-label">Label</span>
+          <figure class="story-media media-full">
+            <a href="#" class="block-link">
+              <img srcset="http://placehold.it/300x169" alt="Alt title">
+            </a>
+          </figure>
+          <header class="story-header">
+            <h2 class="story-heading heading-std">
+              <a href="#" class="link"> Salute, due kiwi al giorno aiutano a prevenire la parodontite </a>
+            </h2>
+          </header>
+        </article>
+      </div>
+      <div class="half-headlines">
+        <article class="story">
+          <span class="label badge-label">Label</span>
+          <figure class="story-media media-full">
+            <a href="#" class="block-link">
+              <img srcset="http://placehold.it/300x169" alt="Alt title">
+            </a>
+          </figure>
+          <header class="story-header">
+            <h2 class="story-heading heading-std">
+              <a href="#" class="link"> Salute, due kiwi al giorno aiutano a prevenire la parodontite </a>
+            </h2>
+          </header>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>

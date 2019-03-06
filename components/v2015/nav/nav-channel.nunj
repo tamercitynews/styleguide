@@ -1,0 +1,35 @@
+<!-- Channel Nav ------------------------------------------------------------>
+<nav class="channel-nav visible-md visible-lg">
+  <ul class="u-unstyled">
+    <li class="channel-nav-item current">
+      <a href="<!-- @path category.html -->" class="link">
+        <svg class="icon home-icon inverse-icon"><use xlink:href="#home-icon"></use></svg>
+      </a>
+    </li>
+    <li class="channel-nav-item">
+      <a href="<!-- @path link.html -->" class="link">Item one</a>
+    </li>
+    <li class="channel-nav-item">
+      <a href="<!-- @path link.html -->" class="link">Item two</a>
+    </li>
+    <li class="channel-nav-item">
+      <a href="<!-- @path link.html -->" class="link">Item three</a>
+    </li>
+  </ul>
+</nav>
+<!-- Channel Mobile Nav ------------------------------------------------------->
+<div class="channel-mobile-menu hidden-md hidden-lg">
+  <a href="#" class="channel-nav-trigger"><span class="trigger-label">Menu</span></a>
+  <nav class="channel-mobile-nav">
+    <ul class="u-unstyled">
+      <li class="channel-nav-item current">
+        <a href="<!-- @path category.html -->" class="link">
+          <svg class="icon home-icon small inverse-icon"><use xlink:href="#home-icon"></use></svg>
+        </a>
+      </li>
+      <li class="channel-nav-item"><a href="<!-- @path category.html -->" class="link">Item one</a></li>
+      <li class="channel-nav-item"><a href="<!-- @path category.html -->" class="link">Item two</a></li>
+      <li class="channel-nav-item"><a href="<!-- @path category.html -->" class="link">Item three</a></li>
+    </ul>
+  </nav>
+</div>

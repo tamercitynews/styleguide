@@ -1,0 +1,7 @@
+<ul class="u-unstyled inline-list card-rating  u-pl--half">
+  <li><svg class="icon small icon-star icon-star--coloured"><use xlink:href="#icon-star"></use></svg></li>
+  <li><svg class="icon small icon-star icon-star--coloured"><use xlink:href="#icon-star"></use></svg></li>
+  <li><svg class="icon small icon-star icon-star--coloured"><use xlink:href="#icon-star"></use></svg></li>
+  <li><svg class="icon small icon-star icon-star--coloured"><use xlink:href="#icon-star"></use></svg></li>
+  <li><svg class="icon small icon-star icon-star--grey"><use xlink:href="#icon-star"></use></svg></li>
+</ul>

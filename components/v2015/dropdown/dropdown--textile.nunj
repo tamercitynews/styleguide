@@ -1,0 +1,38 @@
+<div class="dropdown dropdown--textile">
+  <button class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <span class="dropdown-selection">oggi</span>
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li>
+      <a href="#">Oggi
+        <span class="timestamp dropdown-menu__timestamp">26 luglio</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">Domani
+        <span class="timestamp dropdown-menu__timestamp">27 luglio</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">Questa Settimana
+        <span class="timestamp dropdown-menu__timestamp">23 - 29 luglio</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">Prossimi 7 Giorni
+        <span class="timestamp dropdown-menu__timestamp">27 luglio - 2 agosto</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">Prossimi 15 Giorni
+        <span class="timestamp dropdown-menu__timestamp">27 luglio - 7 agosto</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">Prossimi 30 Giorni
+        <span class="timestamp dropdown-menu__timestamp">27 luglio - 29 agosto</span>
+      </a>
+    </li>
+  </ul>
+</div><!-- end dropdown -->

@@ -1,0 +1,39 @@
+<li class="l-list-item item-span-1 slice-item">
+	<article class="story">
+		<figure class="story-media media-xs media-full video-media">
+			<a href="#">
+				<span class="play-video-icon"></span>
+				<picture>
+					<source srcset="http://placehold.it/300x149" media="(min-width: 46.25em)">
+					<img srcset="http://placehold.it/80x80" alt="Alt title">
+				</picture>
+			</a>
+		</figure>
+		<header class="story-header">
+			<h3 class="story-heading heading-std">
+        <a href="#" class="link">Voragine via Genzano, striscione anti Marino "In due anni tappavi il buco dell'ozono"</a>
+      </h3>
+			<p class="summary story-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor eleifend justo eu tincidunt. Aliquam sed elit fermentum, placerat tellus quis</p>
+		</header>
+	</article>
+</li>
+
+<li class="l-list-item item-span-1">
+	<article class="story">
+		<header class="story-header">
+			<h5 class="story-heading heading-xs">
+        <a href="#" class="link">Metro A: chiusa la stazione San Giovanni per furto di rame</a>
+      </h5>
+		</header>
+	</article>
+</li>
+
+<li class="l-list-item item-span-1">
+	<article class="story">
+		<header class="story-header">
+			<h5 class="story-heading heading-xs">
+        <a href="#" class="link">Via del Mandrione, boa di due metri a bordo strada</a>
+      </h5>
+		</header>
+	</article>
+</li>

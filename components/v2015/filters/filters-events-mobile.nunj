@@ -1,0 +1,71 @@
+<div id="events-dropdown-group" class="dropdown-group dropdown-group--fluid" role="group">
+  <div class="dropdown">
+    <a class="btn dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Cosa fare <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection">Eventi</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li class="dropdown-menu__item--size-lg">
+        <a href="#"><svg class="icon inline-icon medium icon-event"><use xlink:href="#icon-event"></use></svg>Eventi</a>
+      </li>
+      <li>
+        <a href="#"><svg class="icon inline-icon medium icon-cinema"><use xlink:href="#icon-cinema"></use></svg>Cinema</a>
+      </li>
+      <li>
+        <a href="#"><svg class="icon inline-icon medium icon-restaurant"><use xlink:href="#icon-restaurant"></use></svg>Ristoranti</a>
+      </li>
+      <li><a href="#"><svg class="icon inline-icon medium icon-store"><use xlink:href="#icon-store"></use></svg>Shopping</a></li>
+    </ul>
+  </div>
+
+  <div class="dropdown">
+    <a class="btn dropdown-toggle" href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Quando <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection">Oggi</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu2">
+      <li><a href="#">Oggi <span class="timestamp dropdown-menu__timestamp">26 luglio</span></a></li>
+      <li><a href="#">Domani <span class="timestamp dropdown-menu__timestamp">27 luglio</span></a></li>
+      <li><a href="#">Questa Settimana <span class="timestamp dropdown-menu__timestamp">23 - 29 luglio</span></a></li>
+      <li><a href="#">Prossimi 7 Giorni <span class="timestamp dropdown-menu__timestamp">27 luglio - 2 agosto</span></a></li>
+      <li><a href="#">Prossimi 15 Giorni <span class="timestamp dropdown-menu__timestamp">27 luglio - 7 agosto</span></a></li>
+      <li><a href="#">Prossimi 30 Giorni <span class="timestamp dropdown-menu__timestamp">27 luglio - 29 agosto</span></a></li>
+    </ul>
+  </div>
+
+  <div class="dropdown dropdown--scrollable">
+    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <span class="dropdown-toggle__label">Tipologia <span class="caret"></span></span>
+      <span class="dropdown-toggle__selection dropdown-toggle__selection--multiple">Tutti</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu--size-lg dropdown-menu-right bordered-dropdown-menu" aria-labelledby="dropdownMenu3">
+      <span class="dropdown-menu__header">Filtra per</span>
+      <div class="dropdown-menu__filters">
+        <span class="dropdown-menu__subheader">Tipologia</span>
+        {% for item in events[0].typology %}
+        <div class="checkbox">
+          <input type="checkbox" value="" id="mcheckbox{{1}}">
+          <label class="checkbox-label" for="mcheckbox{{1}}">{{item.label}} <span class="text-sm checkbox-counter">{{item.numbers}}</span></label>
+        </div>
+        {% endfor %}
+        <hr>
+        <span class="dropdown-menu__subheader">Età ideale</span>
+        <div class="checkbox">
+            <input data-filter="bambini" type="checkbox" name="bs_checkbox_bambini" id="mcheckbox7" value="">
+            <label class="checkbox-label" for="mcheckbox7">Evento per Bambini</label>
+        </div>
+        <hr>
+        <span class="dropdown-menu__subheader">Tema</span>
+        {% for item in events[1].theme %}
+        <div class="checkbox">
+          <input data-filter="tema" type="checkbox" name="bs_checkbox_tema-dell-evento[]" id="mcheckbox{{loop.index}}" value="">
+          <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}} <span class="text-sm checkbox-counter">{{item.numbers}}</span></label>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="dropdown-menu__actions">
+        <a href="#" class="btn btn-sm btn-block primary-btn remove-html-locked">Applica filtri</a>
+      </div>
+    </div>
+  </div>
+</div>

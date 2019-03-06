@@ -1,0 +1,42 @@
+<div class="meta-social">
+  <ul class="u-unstyled inline-list">
+    <li id="Sharrre_facebook_76cd877f3807d284928978925eca7cff464fbde3" class="sharrre">
+      <a class="btn share-btn facebook-share-btn">
+        <svg class="icon small facebook-icon"><title>530</title><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook-icon"></use></svg>
+        <span class="btn-label">Condividi</span>
+      </a>
+    </li>
+    <li>
+      <a class="btn share-btn twitter-share-btn" target="_blank" rel="nofollow" onclick="window.ga &amp;&amp; ga( 'send', 'event', 'Share', 'Twitter', location.href ); window.ga &amp;&amp; ga( 'send', 'social', 'Twitter', 'share', location.href );" href="https://twitter.com/intent/tweet?text=Gigi+D%27Agostino+al+Dance+Color+Festival&amp;url=http%3A%2F%2Fwww.romatoday.it%2Feventi%2Fgigi-d-agostino-dance-color-festival-23-luglio-2017.html">
+        <svg class="icon small twitter-icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter-icon"></use>
+        </svg>
+        <span class="btn-label">Tweet</span>
+      </a>
+    </li>
+    <li class="visible-xs-inline-block">
+      <a class="btn btn-sm share-btn whatsapp-share-btn" onclick="window.ga &amp;&amp; ga( 'send', 'event', 'Share', 'WhatsApp', location.href ); window.ga &amp;&amp; ga( 'send', 'social', 'WhatsApp', 'share', location.href );" target="_blank" rel="nofollow"
+        href="whatsapp://send?text=Gigi%20D%27Agostino%20al%20Dance%20Color%20Festival%20%40%20http%3A%2F%2Fwww.romatoday.it%2Feventi%2Fgigi-d-agostino-dance-color-festival-23-luglio-2017.html">
+        <svg class="icon medium whatsapp-icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#whatsapp-icon"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a rel="nofollow" target="_blank" class="btn btn-sm share-btn telegram-share-btn" onclick="window.ga &amp;&amp; ga( 'send', 'event', 'Share', 'Telegram', location.href ); window.ga &amp;&amp; ga( 'send', 'social', 'Telegram', 'share', location.href );"
+        href="https://telegram.me/share/url?url=http%3A%2F%2Fwww.romatoday.it%2Feventi%2Fgigi-d-agostino-dance-color-festival-23-luglio-2017.html&amp;text=Gigi+D%27Agostino+al+Dance+Color+Festival">
+        <svg class="icon medium telegram-icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram-icon"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="hidden-xs hidden-sm">
+      <a target="_blank" rel="nofollow" class="btn btn-sm default-btn share-btn email-share-btn" onclick="window.ga &amp;&amp; ga( 'send', 'event', 'Share', 'E-Mail', location.href ); window.ga &amp;&amp; ga( 'send', 'social', 'E-Mail', 'share', location.href );"
+        href="/form/contacts/send-to-friends/link/jG0tGD4jR7Yy63A1K1j2hW7QYuKysqkHAEjEeY7HvRLP2mTb3HvVtrfrCdUQT1xifwsxSHuFiKlHzJ-w7Ndw30LO1qF4gfzj9qKG9GNeOgJWVsgcv7EB0ZnEnAoXlVyGIA1xQzwA44YEQfKg_Wk9OJpMX7lBfM5T6PH7ECXHqOIwfhuZip--FydAaUaTypvF6t4NGg_ihXEKiWQxr37_xEQDgS7UG2IHbcZywPsHF4YfZC6yd-RHYc0CypNN4qD8zYW">
+        <svg class="icon medium email-icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#email-icon"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>

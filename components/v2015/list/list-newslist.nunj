@@ -1,0 +1,71 @@
+<section class="section section-newslist">
+	<div class="line">
+		<div class="unit size1of1">
+			<div class="section-title theme-border"></div>
+		</div>
+	</div>
+	<div class="line">
+
+		<ul class="u-unstyled l-row">
+			<!-- NewsList Main -->
+			<li class="unit size2of3 l-row-item item-span-1 newslist-main">
+				<ul class="u-unstyled u-bordered l-list">
+          {% for story in newslist %}
+            {% set loopStart = loop.index %}
+            {% set loopSlice = 6 %}
+            {% if loopStart <= loopSlice %}
+    		      <li class="l-list-item item-span-1">
+                {% render "@story-list" %}
+              </li>
+            {% endif %}
+          {% endfor %}
+				</ul>
+			</li>
+
+			<!-- NewsList Aside -->
+			<li class="unit size1of3 l-row-item item-span-1 newslist-aside">
+				<ul class="u-unstyled l-list">
+					<li class="l-list-item item-span-1">
+            {% render "@story-inset-sm" %}
+					</li>
+          <li class=" l-list-item item-span-1 centered">
+						<div class="module-no-border a-native-desktop-home">
+              <h5 class="module-title">In Evidenza</h5>
+              <ul id="native-desktop-home" class="u-unstyled u-bordered">
+								<li>
+									<div class="slot slot-native-s1">
+										{% render "@native-s" %}
+									</div>
+								</li>
+								<li>
+									<div class="slot slot-native-s2">
+										{% render "@native-s" %}
+									</div>
+								</li>
+								<li>
+									<div class="slot slot-native-s3">
+										{% render "@native-s" %}
+									</div>
+								</li>
+								<li>
+									<div class="slot slot-native-s4">
+										{% render "@native-s" %}
+									</div>
+								</li>
+              </ul>
+
+						</div>
+					</li>
+					<li class=" l-list-item item-span-1 centered">
+						<div class="slots">
+              {% render "@slot-medium" %}
+						</div>
+					</li>
+					<li class="l-list-item item-span-1">
+            {% render "@native-m" %}
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>

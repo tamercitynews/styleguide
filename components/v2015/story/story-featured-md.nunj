@@ -1,0 +1,17 @@
+<article class="story featured-story featured-md has-border-bottom">
+	<figure class="story-media media-xs media-full">
+		<a href="<!-- @path article.html -->">
+			<picture>
+				<source srcset="{{ stories[5].thumb.horizontal.medium }}" media="(min-width: 46.25em)">
+				<img srcset="{{ stories[5].thumb.horizontal.medium }}" alt="Incidente Moto">
+			</picture>
+		</a>
+	</figure>
+	<header class="story-header">
+		<span class="label theme-color">{{ stories[5].eyebrow }}</span>
+		<h2 class="story-heading heading-md">
+      <a href="<!-- @path article.html -->" class="link">{{ stories[5].headline }}</a>
+    </h2>
+		<p class="summary story-summary hidden-xs">{{ stories[5].summary }}</p>
+	</header>
+</article>

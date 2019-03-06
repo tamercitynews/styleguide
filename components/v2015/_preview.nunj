@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ '/css/v2015.css' | path }}">
+    <title>versione v2015</title>
+</head>
+<body>
+
+<div class="has-flex theme-yellow">
+
+{{ yield | safe }}
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+    <form>
+        <div class="filter-dropdown">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <div class="dropdown-selection">Seleziona una zona</div>
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu bs_links_filters" aria-labelledby="dropdownMenu3">
+                    <li><a class="link" href="/eventi/cinema/">Tutte</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="filter-block grouped-filters bs_checkbox_filters">
+            <h5>Filtra per:</h5>
+            <h6>Tipologia:</h6>
+
+            {% for item in restaurants[0].typology %}
+              <div class="checkbox">
+                <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
+                <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.type}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+              </div>
+            {% endfor %}
+
+
+            <hr>
+            <h6>Cibo:</h6>
+
+            {% for item in restaurants[0].food %}
+              <div class="checkbox">
+                <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
+                <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.type}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+              </div>
+            {% endfor %}
+
+            <hr>
+            <h6>Etnia:</h6>
+
+            {% for item in restaurants[0].ethnicity %}
+              <div class="checkbox">
+                <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
+                <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.type}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+              </div>
+            {% endfor %}
+
+            <hr>
+            <h6>Regione:</h6>
+
+            {% for item in restaurants[0].region %}
+              <div class="checkbox">
+                <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
+                <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+              </div>
+            {% endfor %}
+
+
+        </div>
+    </form>
+    <div class="filter-block">
+        <h6>Eventi</h6>
+        <ul class="u-unstyled filters-list">
+
+            {% for item in events[0].typology %}
+
+            <li data-itemattr-name="{{item.data}}">
+                <a class="link" href="{{item.link}}">{{item.label}}</a>
+            </li>
+
+            {% endfor %}
+
+        </ul>
+    </div>
+    <div class="filter-block">
+        <h6>Cinema</h6>
+        <ul class="u-unstyled filters-list">
+            <li><a href="/eventi/cinema/al/2016-07-22" class="link">Film di oggi</a></li>
+            <li><a href="/eventi/cinema/dal/2016-07-23" class="link">Nuove uscite</a></li>
+        </ul>
+    </div>
+    <p><em>Vuoi segnalare un evento?</em></p><a href="/form/contacts/eventi/" class="btn default-btn">Invia un Evento</a>

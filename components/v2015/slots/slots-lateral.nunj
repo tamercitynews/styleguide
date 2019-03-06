@@ -1,0 +1,10 @@
+<div class="slots">
+  <ul class="u-unstyled">
+    <li class="slot slot-halfpage" style="text-align: center">
+      <img src="/assets/images/adv/half-300x600.jpg">
+    </li>
+    <li class="slot medium-slot slot-300x250_loc2">
+      <img src="/assets/images/adv/medium-300x250.jpg">
+    </li>
+  </ul>
+</div>

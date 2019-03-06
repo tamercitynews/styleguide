@@ -1,0 +1,28 @@
+<section class="unit section section-newslist">
+	<ul class="u-unstyled u-bordered">
+    {% for story in newslist %}
+        <li class="l-list-item item-span-1">
+          <article class="story list-story">
+    				<figure class="story-media media-md">
+    					<a href="<!-- @path article.html -->">
+    						<picture>
+    							<source srcset="http://placehold.it/300x169" media="(min-width: 62.5em)">
+    							<img srcset="http://placehold.it/80x80" alt="Incidente Moto">
+    						</picture>
+    					</a>
+    				</figure>
+    				<div class="story-content-pull">
+    					<header class="story-header">
+    						<h3 class="story-heading heading-md"><a href="" class="link">La lista Marchini e la deriva a destra: "Noi non abbiamo nemici"</a></h3>
+    						<p class="summary story-summary hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor eleifend justo eu tincidunt. Aliquam sed elit fermentum, placerat tellus quis</p>
+    					</header>
+    					<footer class="story-footer">
+                <span class="location-label"><svg class="icon small theme-fill"><use xlink:href="#location-pin-icon"></use></svg><a href="#" class="link">Centro Storico</a></span>
+    						<time class="timestamp">2 ore e mezza fa</time>
+    					</footer>
+    				</div>
+    			</article>
+        </li>
+    {% endfor %}
+	</ul>
+</section>

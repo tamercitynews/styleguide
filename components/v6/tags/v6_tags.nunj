@@ -1,0 +1,11 @@
+<h5 class="o-upper o-color-secondary">Argomenti</h5>
+
+<ul class="u-nobullet u-row u-mb-size2x">
+
+  {% for item in range(0,3) %}
+    <li class="c-entry__tag o-english">
+      <a class="o-link" href="#">Tag name</a>
+    </li>
+  {% endfor %}
+
+</ul>

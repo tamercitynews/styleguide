@@ -1,0 +1,33 @@
+<div class="c-gallery o-bg-inverse u-py-size2x u-expand u-mb-size2x" id="">
+  <div class="u-row u-px-size2x">
+    <svg class="o-icon o-icon--md  o-icon--inverse">
+      <use xlink:href="#icon-camera" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+    </svg>
+    <h4 class="o-greatprimer u-px-size2x">
+      <a href="/foto/zone/tuscolano/villa-fiorelli-lista-giachetti-vitrotti/" class="o-link o-link--inverse">Villa Fiorelli: il comizio di Giachetti</a>
+    </h4>
+  </div>
+
+  <ul class="c-gallery__list o-list ">
+    <li class="c-gallery__item o-list__item">
+      <a href="http://www.catanzarotoday.it/foto/zone/tuscolano/villa-fiorelli-lista-giachetti-vitrotti/#villa-fiorelli-giachetti-vitrotti.html">
+        <img src="http://via.placeholder.com/600x338" alt="Image alt title">
+      </a>
+    </li>
+    <li class="c-gallery__item o-list__item">
+      <a href="http://www.catanzarotoday.it/foto/zone/tuscolano/villa-fiorelli-lista-giachetti-vitrotti/#villa-fiorelli-giachetti.html">
+        <img src="http://via.placeholder.com/600x338" alt="Image alt title">
+      </a>
+    </li>
+    <li class="c-gallery__item o-list__item">
+      <a href="http://www.catanzarotoday.it/foto/zone/tuscolano/villa-fiorelli-lista-giachetti-vitrotti/#stazi-e-cofano.html">
+        <img src="http://via.placeholder.com/600x338" alt="Image alt title">
+      </a>
+    </li>
+    <li class="c-gallery__item o-list__item">
+      <a href="http://www.catanzarotoday.it/foto/zone/tuscolano/villa-fiorelli-lista-giachetti-vitrotti/#giachetti-a-villa-fiorelli.html">
+        <img src="http://via.placeholder.com/600x338" alt="Image alt title">
+      </a>
+    </li>
+  </ul>
+</div>

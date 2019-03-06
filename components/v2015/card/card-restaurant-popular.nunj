@@ -1,0 +1,18 @@
+<article class="story featured-story">
+  <figure class="story-media media-responsive">
+    <a href="{{item.link}}" class="link">
+      <picture>
+        <source srcset="{{item.image}}" media="(min-width: 46.25em)">
+        <img srcset="{{item.image}}" alt="{{item.name}}">
+      </picture>
+    </a>
+  </figure>
+  <header class="story-header">
+    <span class="label theme-color">
+      <a href="{{item.link_category}}" class="link">{{item.category}}</a>
+    </span>
+    <h3 class="story-heading heading-std">
+      <a href="{{item.link}}" class="link">Ristorante {{item.name}}</a>
+    </h3>
+  </header>
+</article>

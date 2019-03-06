@@ -1,0 +1,8 @@
+<!-- Search Box -->
+<div id="star-search" class="start-search">
+	<form>
+		<input type="search" placeholder="Cerca nel sito..." class="start-search-input">
+		<button type="submit" class="btn">Cerca</button>
+		<div class="btn search-btn start-search-trigger visible-sm"><span></span></div>
+	</form>
+</div>

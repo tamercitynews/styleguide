@@ -1,0 +1,59 @@
+<div class="meta-byline">
+  <div class="author">
+    {% if author_photo %}
+      <figure class="author-photo">
+        <a href="#">
+          {% if author_avatar %}
+            <img class="avatar avatar-lg" src="{{entry_meta.photo}}">
+          {% else %}
+            <img class="avatar avatar-lg" src="http://2.citynews.stgy.ovh/~shared/assets/images/v2015/avatars/citynews-romatoday.png">
+          {% endif %}
+        </a>
+      </figure>
+    {% endif %}
+    {% if author_info %}
+      <span class="author-name">
+        {% if author_name %}
+          <a href="#" class="link">{{entry_meta.name}}</a>
+        {% else %}
+          <a href="#" class="link">Redazione</a>
+        {% endif %}
+      </span>
+      {% if author_role %}
+        <em class="author-role hidden-xs">{{entry_meta.role}}</em>
+      {% endif %}
+      <span class="author-twitter">
+        <svg class="icon twitter">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter-icon"></use>
+        </svg>
+      </span>
+    {% endif %}
+  </div>
+  {% if counter_gallery %}
+    <span class="theme-color">{{entry_meta.counter}}</span>
+  {% endif %}
+  {% if entry_meta_datetime  %}
+    <time class="datestamp">{{entry_meta.date}}</time>
+  {% endif %}
+</div>
+<div class="meta-social">
+  {% render "@social-share" %}
+  {% if entry_meta_share %}
+    <div class="social-counter">
+      <span class="number">{{entry_meta.share}}</span>
+      <svg class="icon share">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use>
+      </svg>
+      <span class="counter-label">Condivisioni</span>
+    </div>
+  {% endif %}
+  {% if entry_meta_comments %}
+    <div class="social-counter">
+      <span class="number">{{entry_meta.comments}}</span>
+      <svg class="icon bubble2">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bubble2"></use>
+      </svg>
+      <span class="counter-label">Commenti</span>
+    </div>
+  {% endif %}
+</div>

@@ -1,0 +1,47 @@
+
+  <form>
+      <div class="filter-block grouped-filters bs_checkbox_filters">
+          <h5>Filtra per</h5>
+          <h6>Tipo:</h6>
+          {% for item in events[0].typology %}
+          <div class="checkbox">
+              <input data-filter="tipo" type="checkbox" name="bs_checkbox_tipologia[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
+              <label class="checkbox-label" for="bs_checkbox_{{item.data}}"><a onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;" class="link" href="{{item.link}}">{{item.label}}</a></label>
+          </div>
+          {% endfor %}
+          <hr>
+          <h6>Età ideale:</h6>
+          <div class="checkbox">
+              <input data-filter="bambini" type="checkbox" name="bs_checkbox_bambini" id="bs_checkbox_bambini" value="si">
+              <label class="checkbox-label" for="bs_checkbox_bambini">Evento per Bambini</label>
+          </div>
+          <hr>
+          <h6>Tema:</h6>
+          {% for item in events[1].theme %}
+          <div class="checkbox">
+              <input data-filter="tema" type="checkbox" name="bs_checkbox_tema-dell-evento[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
+              <label class="checkbox-label" for="bs_checkbox_{{item.data}}"><a onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;" class="link" href="{{item.link}}">{{item.name}}</a></label>
+          </div>
+          {% endfor %}
+      </div>
+  </form>
+  <div class="filter-block">
+      <h6>Cinema</h6>
+      <ul class="u-unstyled filters-list">
+          <li><a href="/eventi/cinema/al/2016-07-22" class="link">Film di oggi</a></li>
+          <li><a href="/eventi/cinema/dal/2016-07-23" class="link">Nuove uscite</a></li>
+      </ul>
+  </div>
+  <div class="filter-block">
+      <h6>Ristoranti</h6>
+      <ul class="u-unstyled filters-list">
+        {% for item in restaurants[0].ethnicity %}
+
+           <li data-itemattr-name="{{item.data}}">
+               <a class="link" href="{{item.link}}">{{item.type}}</a>
+           </li>
+
+         {% endfor %}
+      </ul>
+  </div>
+  <p><em>Vuoi segnalare un evento?</em></p><a href="/form/contacts/eventi/" class="btn default-btn">Invia un Evento</a>
