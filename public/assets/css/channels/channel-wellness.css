@@ -1,0 +1,239 @@
+/* ==========================================================================
+  CHANNEL CUSTOM - BENESSERE THEME
+  ========================================================================== */
+/* ==========================================================================
+  Fonts
+  ========================================================================== */
+@font-face {
+  font-family: 'pt_sans_narrowbold';
+  src: url("/files/webfonts/pt_sans-narrow-web-bold-webfont.woff2") format("woff2"), url("/files/webfonts/pt_sans-narrow-web-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("/filed/webfonts/opensans-bold-webfont.woff2") format("woff2"), url("/files/webfonts/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansitalic';
+  src: url("/files/webfonts/opensans-italic-webfont.woff2") format("woff2"), url("/files/webfonts/opensans-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("/files/webfonts/opensans-regular-webfont.woff2") format("woff2"), url("/files/webfonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'hindmedium';
+  src: url("/files/webfonts/hind-medium-webfont.woff2") format("woff2"), url("/files/webfonts/hind-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'hindbold';
+  src: url("/files/webfonts/hind-bold-webfont.woff2") format("woff2"), url("/files/webfonts/hind-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/* ==========================================================================
+  Typography
+  ========================================================================== */
+.channel-benessere .channel-nav-trigger {
+  font-family: 'pt_sans_narrowbold', Arial, sans-serif; }
+
+.channel-benessere .story-heading {
+  font-weight: normal;
+  font-family: 'hindmedium'; }
+
+.channel-benessere .inset-story .story-heading,
+.channel-benessere .entry-title {
+  font-weight: normal;
+  font-family: 'hindbold'; }
+
+.channel-benessere .module-title,
+.channel-benessere .label,
+.channel-benessere .entry-label,
+.channel-benessere .related-stories h5,
+.channel-benessere .inset-story .story-header .highlight-kicker,
+.channel-benessere .section-title-overline .section-heading,
+.channel-benessere .section-title .section-heading,
+.channel-benessere .discussion-section .discussion-head h3,
+.channel-benessere .datestamp,
+.channel-benessere .tag-item strong {
+  font-family: 'pt_sans_narrowbold';
+  font-weight: normal; }
+
+.channel-benessere .story-header .story-summary,
+.channel-benessere .byline,
+.channel-benessere .entry-summary,
+.channel-benessere .entry-content-body p,
+.channel-benessere .most-read .link,
+.channel-benessere .tag-item .btn {
+  font-family: 'open_sansregular'; }
+
+.channel-benessere .author-name {
+  font-family: 'open_sansbold';
+  font-weight: normal; }
+
+.channel-benessere .datestamp {
+  font-size: .875rem; }
+
+.channel-benessere .byline-native .native-label, .channel-benessere .number {
+  font-family: 'open_sansitalic';
+  letter-spacing: -0.5px; }
+
+.channel-benessere .section-title-overline .section-heading {
+  font-size: 1.5rem; }
+
+.channel-benessere .datestamp,
+.channel-benessere .section-title .section-heading,
+.channel-benessere .section-title-overline .section-heading,
+.channel-benessere .tag-item strong {
+  text-transform: uppercase; }
+
+.channel-benessere .entry-summary {
+  font-size: 1.125rem; }
+
+@media screen and (min-width: 740px) {
+  .channel-benessere .entry-summary {
+    font-size: 1.25rem;
+    line-height: 1.75rem; } }
+
+.channel-benessere .half-headlines .story-heading,
+.channel-benessere .card-item-light .story-header .story-heading {
+  font-size: 1.25rem;
+  line-height: 1.5rem; }
+
+.channel-benessere .card-item-light .story-header .story-summary {
+  font-family: 'open_sansregular';
+  font-size: 12px;
+  font-size: .75rem; }
+
+.channel-benessere .tag-item strong {
+  font-size: .875rem; }
+
+.channel-benessere .native-label {
+  font-size: .75rem;
+  font-style: italic;
+  color: #bdbdbd; }
+
+@media screen and (min-width: 740px) {
+  .channel-benessere .section-title-overline .section-heading {
+    font-size: 1.75rem; } }
+
+.channel-benessere .entry-label {
+  font-size: 20px;
+  font-size: 1.25rem; }
+
+.channel-benessere .discussion-section .discussion-head h3 {
+  font-size: 1.75rem;
+  line-height: 1.75rem; }
+
+/* ==========================================================================
+  Theme Colors
+  ========================================================================== */
+.channel-benessere .module-title {
+  background-color: #5ED0B0;
+  color: #ffffff;
+  border-bottom: 0;
+  padding: .25rem .5rem; }
+
+.channel-benessere .channel-mobile-nav,
+.channel-benessere .channel-mobile-menu.is-nav-open .channel-nav-trigger {
+  background-color: #45c5a0; }
+
+.channel-benessere .filled-section {
+  background-color: #E1F5F0; }
+
+.channel-benessere .story-heading {
+  color: #455a64; }
+
+.channel-benessere .story-heading:hover {
+  color: #263238; }
+
+.channel-benessere .fullpage-hero .story-summary {
+  color: #ECEFF1; }
+
+.channel-benessere .theme-color,
+.channel-benessere .theme-color .link,
+.channel-benessere .inverted .story-heading .link:hover,
+.channel-benessere .inverted .block-link:hover,
+.channel-benessere .inverted .block-link:hover .story-heading {
+  color: #5ED0B0; }
+
+.channel-benessere .theme-element-bg:before,
+.channel-benessere .video-media:hover .play-video-icon:before {
+  background-color: #5ED0B0; }
+
+.channel-benessere .theme-border {
+  border-color: #5ED0B0; }
+
+.channel-benessere .play-video-icon:after {
+  border-color: transparent transparent transparent #5ED0B0; }
+
+.channel-benessere .section-title-overline {
+  display: inline-block;
+  position: relative; }
+
+.channel-benessere .section-title-overline .section-heading {
+  background-color: #E1F5F0; }
+
+.channel-benessere .channel-header {
+  background-color: #5ED0B0; }
+
+.channel-benessere .number {
+  color: #5ED0B0; }
+
+.channel-benessere .card-item-light .story-header .story-summary {
+  color: #455a64; }
+
+.channel-benessere .label.badge-label {
+  background-color: #5ED0B0; }
+
+.channel-benessere .slot-large_rectangle_2_desktop {
+  background-color: #E1F5F0; }
+
+/* ==========================================================================
+  Theme Layout
+  ========================================================================== */
+.channel-benessere .full-headlines .story,
+.channel-benessere .half-headlines .story {
+  position: relative; }
+
+.channel-benessere .full-headlines .story-heading,
+.channel-benessere .half-headlines .story-heading {
+  padding: 0 .500rem;
+  clear: left; }
+
+.channel-benessere .half-headlines .story-heading {
+  padding: 0; }
+
+.channel-benessere .fullpage-hero,
+.channel-benessere .fullpage-hero .story-heading {
+  padding: 0; }
+
+.channel-benessere .media-story .story-header {
+  padding: .750rem .500rem; }
+
+.grid-section.inverted {
+  padding: 1.5rem 0; }
+
+/* channel headlines top */
+.entry {
+  margin-top: 1rem; }
+
+.channel-headlines-top {
+  margin-top: 1rem; }
+
+@media screen and (min-width: 740px) {
+  .entry {
+    margin-top: 0; } }
+
+@media screen and (min-width: 1000px) {
+  .channel-headlines-top {
+    margin-top: 0; } }

@@ -1,0 +1,37 @@
+.t-red ::selection {
+  background-color: rgba(242, 70, 61, 0.3); }
+
+.t-red .c-progressivereadingbar__status {
+  background: rgba(242, 70, 61, 0.7); }
+
+.t-red .c-modal,
+.t-red .t-bg,
+.t-red .t-bg-el::before,
+.t-red .c-entry__body > h3 > a::before {
+  background-color: #f2463d; }
+
+.t-red .t-bg--200 {
+  background-color: #f8a19d; }
+
+.t-red .t-border {
+  border-color: #f2463d; }
+
+.t-red .t-color {
+  color: #f2463d; }
+
+.t-red .t-fill {
+  fill: #f2463d; }
+
+.t-red .t-icon-play::after {
+  border-left-color: #f2463d; }
+
+.t-red .c-entry__body p a {
+  color: #151010;
+  border-color: #f2463d;
+  background-color: transparent;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease; }
+  .t-red .c-entry__body p a:hover {
+    text-decoration: none;
+    border-color: rgba(242, 70, 61, 0.3);
+    background-color: rgba(242, 70, 61, 0.3); }

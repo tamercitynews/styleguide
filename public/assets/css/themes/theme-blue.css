@@ -1,0 +1,41 @@
+.t-blue ::selection {
+  background-color: rgba(50, 119, 199, 0.3); }
+
+.t-blue .c-progress__status {
+  background: rgba(50, 119, 199, 0.7); }
+
+.t-blue .c-modal,
+.t-blue .t-bg,
+.t-blue .t-bg-el::before,
+.t-blue .c-entry__body > h3 > a::before {
+  background-color: #3277c7; }
+
+.t-blue .t-bg--200 {
+  background-color: #80acdf; }
+
+.t-blue .t-border {
+  border-color: #3277c7; }
+
+.t-blue .t-color {
+  color: #3277c7; }
+
+.t-blue .c-progress .c-brand__edition {
+  fill: #fff; }
+
+.t-blue .c-brand__edition,
+.t-blue .t-fill {
+  fill: #3277c7; }
+
+.t-blue .t-icon-play::after {
+  border-left-color: #3277c7; }
+
+.t-blue .c-entry__body p a {
+  color: #151010;
+  border-color: #3277c7;
+  background-color: transparent;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease; }
+  .t-blue .c-entry__body p a:hover {
+    text-decoration: none;
+    border-color: rgba(50, 119, 199, 0.3);
+    background-color: rgba(50, 119, 199, 0.3); }

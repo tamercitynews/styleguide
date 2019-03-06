@@ -1,0 +1,122 @@
+.channel-prezzogiusto .datestamp {
+  font-size: 0.875rem; }
+
+.channel-prezzogiusto .section-title-overline .section-heading {
+  font-size: 1.5rem; }
+  @media screen and (min-width: 740px) {
+    .channel-prezzogiusto .section-title-overline .section-heading {
+      font-size: 1.75rem; } }
+
+.channel-prezzogiusto .datestamp,
+.channel-prezzogiusto .section-title .section-heading,
+.channel-prezzogiusto .section-title-overline .section-heading,
+.channel-prezzogiusto .tag-item strong {
+  text-transform: uppercase; }
+
+.channel-prezzogiusto .entry-summary {
+  font-size: 1.125rem; }
+  @media screen and (min-width: 740px) {
+    .channel-prezzogiusto .entry-summary {
+      font-size: 1.25rem;
+      line-height: 1.75rem; } }
+
+.channel-prezzogiusto .card-item-light .story-header .story-heading,
+.channel-prezzogiusto .half-headlines .story-heading {
+  font-size: 1.25rem;
+  line-height: 1.5rem; }
+
+.channel-prezzogiusto .card-item-light .story-header .story-summary {
+  font-size: 0.75rem; }
+
+.channel-prezzogiusto .tag-item strong {
+  font-size: 0.875rem; }
+
+.channel-prezzogiusto .native-label {
+  font-size: 0.75rem;
+  font-style: italic; }
+
+.channel-prezzogiusto .entry-label {
+  font-size: 1.25rem; }
+
+.channel-prezzogiusto .discussion-section .discussion-head h3 {
+  font-size: 1.75rem;
+  line-height: 1.75rem; }
+
+.channel-prezzogiusto .module-title {
+  background-color: #ff6400;
+  color: #fff; }
+
+.channel-prezzogiusto .channel-mobile-menu.is-nav-open .channel-nav-trigger,
+.channel-prezzogiusto .channel-mobile-nav {
+  background-color: #b34600; }
+
+.channel-prezzogiusto .filled-section {
+  background-color: #f5f5f5; }
+
+.channel-prezzogiusto .inverted .block-link:hover,
+.channel-prezzogiusto .inverted .block-link:hover .story-heading,
+.channel-prezzogiusto .inverted .story-heading .link:hover,
+.channel-prezzogiusto .theme-color,
+.channel-prezzogiusto .theme-color .link {
+  color: #ff6400; }
+
+.channel-prezzogiusto .theme-element-bg:before,
+.channel-prezzogiusto .video-media:hover .play-video-icon:before {
+  background-color: #ff6400; }
+
+.channel-prezzogiusto .theme-border {
+  border-color: #ff6400; }
+
+.channel-prezzogiusto .play-video-icon:after {
+  border-color: transparent transparent transparent #ff6400; }
+
+.channel-prezzogiusto .section-title-overline .section-heading {
+  background-color: #f5f5f5; }
+
+.channel-prezzogiusto .channel-header {
+  background-color: #ff6400; }
+
+.channel-prezzogiusto .number {
+  color: #ff6400; }
+
+.channel-prezzogiusto .label.badge-label {
+  background-color: #ff6400; }
+
+.channel-prezzogiusto .slot-large_rectangle_2_desktop {
+  background-color: #ffc199; }
+
+.channel-prezzogiusto .module-title {
+  border-bottom: 0;
+  padding: .25rem .5rem; }
+
+.channel-prezzogiusto .section-title-overline {
+  display: inline-block;
+  position: relative; }
+
+.channel-prezzogiusto .full-headlines .story,
+.channel-prezzogiusto .half-headlines .story {
+  position: relative; }
+
+.channel-prezzogiusto .full-headlines .story-heading,
+.channel-prezzogiusto .half-headlines .story-heading {
+  clear: left;
+  padding: 0 .5rem; }
+
+.channel-prezzogiusto .fullpage-hero,
+.channel-prezzogiusto .fullpage-hero .story-heading,
+.channel-prezzogiusto .half-headlines .story-heading {
+  padding: 0; }
+
+.channel-prezzogiusto .media-story .story-header {
+  padding: .75rem .5rem; }
+
+.channel-prezzogiusto .grid-section.inverted {
+  padding: 1.5rem 0; }
+
+.channel-prezzogiusto .entry,
+.channel-prezzogiusto .channel-headlines-top {
+  margin-top: 1rem; }
+  @media screen and (min-width: 740px) {
+    .channel-prezzogiusto .entry,
+    .channel-prezzogiusto .channel-headlines-top {
+      margin-top: 0; } }

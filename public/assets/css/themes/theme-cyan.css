@@ -1,0 +1,38 @@
+.t-cyan ::selection {
+  background-color: rgba(42, 157, 219, 0.3); }
+
+.t-cyan .c-progressivereadingbar__status {
+  background: rgba(42, 157, 219, 0.7); }
+
+.t-cyan .c-modal,
+.t-cyan .t-bg,
+.t-cyan .t-bg-el::before,
+.t-cyan .c-entry__body > h3 > a::before {
+  background-color: #2a9ddb; }
+
+.t-cyan .t-bg--200 {
+  background-color: #81c5ea; }
+
+.t-cyan .t-border {
+  border-color: #2a9ddb; }
+
+.t-cyan .t-color {
+  color: #2a9ddb; }
+
+.t-cyan .c-brand__edition,
+.t-cyan .t-fill {
+  fill: #2a9ddb; }
+
+.t-cyan .t-icon-play::after {
+  border-left-color: #2a9ddb; }
+
+.t-cyan .c-entry__body p a {
+  color: #151010;
+  border-color: #2a9ddb;
+  background-color: transparent;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease; }
+  .t-cyan .c-entry__body p a:hover {
+    text-decoration: none;
+    border-color: rgba(42, 157, 219, 0.3);
+    background-color: rgba(42, 157, 219, 0.3); }

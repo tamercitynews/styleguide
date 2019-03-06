@@ -1,0 +1,22 @@
+.t-black ::selection {
+  background-color: rgba(50, 38, 38, 0.3); }
+
+.t-black .t-bg,
+.t-black .t-bg-el::before,
+.t-black .c-c-entry__body > h3 > a::before {
+  background-color: #322626; }
+
+.t-black .t-bg--200 {
+  background-color: #6c5252; }
+
+.t-black .t-border {
+  border-color: #322626; }
+
+.t-black .t-color {
+  color: #322626; }
+
+.t-black .t-fill {
+  fill: #322626; }
+
+.t-black .t-icon-play::after {
+  border-left-color: #322626; }

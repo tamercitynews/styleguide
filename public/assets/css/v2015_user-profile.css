@@ -1,0 +1,321 @@
+.user-profile .user-profile-img {
+  width: 100%; }
+  .user-profile .user-profile-img img {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer; }
+  .user-profile .user-profile-img .user-profile-name {
+    font-size: 1.250rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    padding-top: .5rem;
+    margin-bottom: 1rem; }
+    @media screen and (min-width: 740px) {
+      .user-profile .user-profile-img .user-profile-name {
+        font-size: 1.750rem; } }
+  .user-profile .user-profile-img .user-profile-rank {
+    display: none;
+    font-weight: 400;
+    font-size: .750rem;
+    margin-bottom: .250rem; }
+    @media screen and (min-width: 1024px) {
+      .user-profile .user-profile-img .user-profile-rank {
+        display: block;
+        text-align: center; } }
+  .user-profile .user-profile-img .user-profile-date-registered {
+    display: none;
+    font-weight: 400;
+    font-size: .750rem;
+    margin-bottom: .500rem; }
+    @media screen and (min-width: 1024px) {
+      .user-profile .user-profile-img .user-profile-date-registered {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem; } }
+  .user-profile .user-profile-img .user-profile-follow-btn {
+    display: block;
+    text-align: center;
+    margin-bottom: .500rem; }
+
+.user-profile .user-profile-list-details {
+  width: 100%;
+  margin: 0 auto 1rem;
+  padding-bottom: 1rem; }
+  .user-profile .user-profile-list-details .user-single-detail {
+    font-size: .750rem;
+    font-weight: 700;
+    line-height: 1.500rem; }
+    .user-profile .user-profile-list-details .user-single-detail .icon {
+      margin-right: .500rem;
+      margin-bottom: .250rem; }
+
+.user-profile .nav-user-activity {
+  padding-top: .500rem; }
+  @media screen and (min-width: 740px) {
+    .user-profile .nav-user-activity {
+      display: block; } }
+  @media screen and (min-width: 1024px) {
+    .user-profile .nav-user-activity {
+      padding-top: 0;
+      border-top: 0; } }
+  .user-profile .nav-user-activity .navbar-toggle {
+    margin: 0 0 .500rem;
+    padding: .500rem;
+    font-size: .750rem;
+    color: #757575; }
+  .user-profile .nav-user-activity .navbar-collapse {
+    padding: 0; }
+  .user-profile .nav-user-activity .navbar-header {
+    float: none;
+    padding-top: .500rem;
+    border-top: 1px solid #e0e0e0; }
+    @media screen and (min-width: 1024px) {
+      .user-profile .nav-user-activity .navbar-header {
+        border-top: 0; } }
+  .user-profile .nav-user-activity .nav-user-profile-content {
+    padding: 0 0 .500rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0; }
+    @media screen and (min-width: 1024px) {
+      .user-profile .nav-user-activity .nav-user-profile-content {
+        padding: 1rem 0;
+        border-top: 1px solid #e0e0e0; } }
+    .user-profile .nav-user-activity .nav-user-profile-content .nav-item {
+      width: 100%; }
+      @media screen and (min-width: 740px) {
+        .user-profile .nav-user-activity .nav-user-profile-content .nav-item {
+          float: left;
+          width: auto; } }
+      .user-profile .nav-user-activity .nav-user-profile-content .nav-item a {
+        font-size: .875rem;
+        padding: .250rem; }
+        @media screen and (min-width: null) {
+          .user-profile .nav-user-activity .nav-user-profile-content .nav-item a {
+            padding: .500rem; } }
+        .user-profile .nav-user-activity .nav-user-profile-content .nav-item a:focus {
+          text-decoration: none; }
+        .user-profile .nav-user-activity .nav-user-profile-content .nav-item a .count-activity {
+          font-weight: bold; }
+      .user-profile .nav-user-activity .nav-user-profile-content .nav-item.active a {
+        background-color: #78909c;
+        color: #f5f5f5;
+        padding: .250rem; }
+        @media screen and (min-width: null) {
+          .user-profile .nav-user-activity .nav-user-profile-content .nav-item.active a {
+            padding: .500rem; } }
+        .user-profile .nav-user-activity .nav-user-profile-content .nav-item.active a .count-activity {
+          font-weight: bold; }
+
+.user-profile .nav-user-modify-profile {
+  padding-top: .500rem;
+  margin-bottom: 1rem; }
+  @media screen and (min-width: 1024px) {
+    .user-profile .nav-user-modify-profile {
+      border-top: 0; } }
+  .user-profile .nav-user-modify-profile .nav-user-profile {
+    padding: .500rem 0;
+    margin-bottom: 1rem;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0; }
+    @media screen and (min-width: 1024px) {
+      .user-profile .nav-user-modify-profile .nav-user-profile {
+        padding: 1rem 0;
+        border-top: 1px solid #e0e0e0; } }
+    .user-profile .nav-user-modify-profile .nav-user-profile .nav-item a {
+      font-size: .875rem;
+      padding: .250rem; }
+      @media screen and (min-width: null) {
+        .user-profile .nav-user-modify-profile .nav-user-profile .nav-item a {
+          padding: .500rem; } }
+    .user-profile .nav-user-modify-profile .nav-user-profile .nav-item.active a {
+      background-color: #78909c;
+      color: #fafafa;
+      padding: .250rem; }
+      @media screen and (min-width: null) {
+        .user-profile .nav-user-modify-profile .nav-user-profile .nav-item.active a {
+          padding: .500rem; } }
+
+.user-profile .form-modify-profile .form-modify-profile-fieldset {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #e0e0e0; }
+  @media screen and (min-width: 1024px) {
+    .user-profile .form-modify-profile .form-modify-profile-fieldset {
+      margin-bottom: 2rem; } }
+  .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-title-fieldset {
+    padding-bottom: .250rem; }
+    .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-title-fieldset .label {
+      margin-bottom: 0; }
+      @media screen and (min-width: 1024px) {
+        .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-title-fieldset .label {
+          padding-left: 6rem; } }
+  .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset {
+    padding: 1rem 0; }
+    @media screen and (min-width: 1024px) {
+      .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset {
+        padding: 2rem 0;
+        margin-left: 6rem; } }
+    @media screen and (min-width: null) {
+      .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset .group {
+        padding-right: .5rem; } }
+    .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset label {
+      font-size: .750rem; }
+    .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset .checkbox {
+      float: left; }
+      .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset .checkbox input {
+        cursor: pointer; }
+      .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset .checkbox label {
+        margin-left: 1rem;
+        cursor: default; }
+    .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset input {
+      margin-bottom: 1rem; }
+    .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset textarea {
+      margin-bottom: 1rem; }
+    .user-profile .form-modify-profile .form-modify-profile-fieldset .form-profile-content-fieldset select {
+      margin-bottom: 1rem; }
+
+.user-profile .form-modify-profile .default-btn {
+  float: right; }
+
+.user-profile .user-profile-container-activity {
+  width: 100%; }
+  @media screen and (min-width: 1024px) {
+    .user-profile .user-profile-container-activity {
+      width: 66.66%; } }
+  .user-profile .user-profile-container-activity .user-post-activity {
+    width: 100%;
+    float: left;
+    background-color: #f5f5f5;
+    margin-bottom: 1rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem; }
+    .user-profile .user-profile-container-activity .user-post-activity header {
+      width: 100%;
+      padding: .500rem;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 1rem; }
+      .user-profile .user-profile-container-activity .user-post-activity header:after {
+        content: "";
+        display: table;
+        clear: both; }
+      .user-profile .user-profile-container-activity .user-post-activity header .user-post-profile-photo {
+        float: left; }
+      .user-profile .user-profile-container-activity .user-post-activity header .user-post-profile-details {
+        float: left;
+        font-size: .750rem;
+        margin: 0;
+        line-height: 3rem;
+        padding-left: 1rem; }
+    .user-profile .user-profile-container-activity .user-post-activity .user-post-content-image {
+      float: left;
+      padding: 1rem .500rem; }
+    .user-profile .user-profile-container-activity .user-post-activity .title-user-post-content {
+      font-size: 1.250rem;
+      padding-top: .500rem; }
+    .user-profile .user-profile-container-activity .user-post-activity .text-user-post-content {
+      font-size: .875rem; }
+    .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails {
+      float: left;
+      width: 100%;
+      padding: .500rem;
+      border-top: 1px solid #e0e0e0; }
+      .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails:after {
+        content: "";
+        display: table;
+        clear: both; }
+      .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails .user-post-date {
+        font-size: .750rem;
+        float: left; }
+        .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails .user-post-date .icon {
+          margin-right: .500rem; }
+      .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails .user-post-comments {
+        font-size: .750rem;
+        float: left;
+        margin-left: 1rem;
+        line-height: 0; }
+        .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails .user-post-comments .icon {
+          margin-right: .500rem; }
+      .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails .user-post-social-btn {
+        list-style: none;
+        float: right; }
+        .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails .user-post-social-btn li {
+          display: inline; }
+          .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails .user-post-social-btn li a:hover {
+            text-decoration: none; }
+          .user-profile .user-profile-container-activity .user-post-activity .user-post-footer-datails .user-post-social-btn li a:focus {
+            text-decoration: none; }
+    .user-profile .user-profile-container-activity .user-post-activity .text-user-profile-comment {
+      width: 95%;
+      padding: 1rem;
+      margin: 1rem auto 0;
+      font-family: "PublicoText", Georgia, "Times New normal", serif;
+      background-color: #fff;
+      border-bottom: 0.2rem solid #e0e0e0;
+      color: #616161; }
+    .user-profile .user-profile-container-activity .user-post-activity .title-post-commented {
+      padding: .500rem;
+      font-size: .875rem; }
+      @media screen and (min-width: 1024px) {
+        .user-profile .user-profile-container-activity .user-post-activity .title-post-commented {
+          padding: 1rem; } }
+
+.user-profile .user-profile-col-right {
+  width: 33.33%;
+  padding-left: .500rem; }
+  .user-profile .user-profile-col-right .label {
+    padding: 0 0 .500rem;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%; }
+  .user-profile .user-profile-col-right .user-profile-list-badge {
+    margin-bottom: 2rem; }
+  .user-profile .user-profile-col-right .user-profile-list-followers {
+    margin-bottom: 2rem; }
+    .user-profile .user-profile-col-right .user-profile-list-followers .single-follower {
+      float: left;
+      margin: .250rem; }
+      .user-profile .user-profile-col-right .user-profile-list-followers .single-follower .avatar {
+        border: 2px solid #e0e0e0; }
+        .user-profile .user-profile-col-right .user-profile-list-followers .single-follower .avatar img {
+          width: 100%;
+          display: block; }
+  .user-profile .user-profile-col-right .user-profile-list-following {
+    margin-bottom: 2rem; }
+    .user-profile .user-profile-col-right .user-profile-list-following .single-follower {
+      float: left;
+      margin: .250rem; }
+      .user-profile .user-profile-col-right .user-profile-list-following .single-follower .avatar {
+        border: 2px solid #757575; }
+        .user-profile .user-profile-col-right .user-profile-list-following .single-follower .avatar img {
+          width: 100%;
+          display: block; }
+  .user-profile .user-profile-col-right .user-most-active .single-user-most-active {
+    width: 100%;
+    float: left;
+    padding: .750rem .500rem;
+    border-bottom: 1px dotted #757575; }
+    .user-profile .user-profile-col-right .user-most-active .single-user-most-active .position {
+      float: left;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: .750rem .500rem; }
+    .user-profile .user-profile-col-right .user-most-active .single-user-most-active .avatar {
+      float: left;
+      border: 2px solid #757575; }
+      .user-profile .user-profile-col-right .user-most-active .single-user-most-active .avatar img {
+        width: 100%;
+        display: block; }
+    .user-profile .user-profile-col-right .user-most-active .single-user-most-active .username {
+      float: left;
+      padding: .750rem .500rem; }
+    .user-profile .user-profile-col-right .user-most-active .single-user-most-active .sum {
+      float: right;
+      text-align: right; }
+      .user-profile .user-profile-col-right .user-most-active .single-user-most-active .sum .counter {
+        font-size: .875rem;
+        font-weight: bold; }
+      .user-profile .user-profile-col-right .user-most-active .single-user-most-active .sum .counter-label {
+        font-size: .875rem; }

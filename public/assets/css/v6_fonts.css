@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/NHaasGroteskDSPro-95Blk.woff2") format("woff2"), url("/assets/webfonts/NHaasGroteskDSPro-95Blk.woff") format("woff");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/NHaasGroteskDSPro-75Bd.woff2") format("woff2"), url("/assets/webfonts/NHaasGroteskDSPro-75Bd.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NeueHaasGroteskDisp Pro';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/NHaasGroteskDSPro-65Md.woff2") format("woff2"), url("/assets/webfonts/NHaasGroteskDSPro-65Md.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NeueHaasGroteskText Pro';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/NHaasGroteskTXPro-75Bd.woff2") format("woff2"), url("/assets/webfonts/NHaasGroteskTXPro-75Bd.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NeueHaasGroteskText Pro';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/NHaasGroteskTXPro-56It.woff2") format("woff2"), url("/assets/webfonts/NHaasGroteskTXPro-56It.woff") format("woff");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'NeueHaasGroteskText Pro';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/NHaasGroteskTXPro-55Rg.woff2") format("woff2"), url("/assets/webfonts/NHaasGroteskTXPro-55Rg.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Publico';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/Publico-Bold.woff2") format("woff2"), url("/assets/webfonts/Publico-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Publico';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/Publico-Medium.woff2") format("woff2"), url("/assets/webfonts/Publico-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PublicoText';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PublicoText-Italic.woff2") format("woff2"), url("/assets/webfonts/PublicoText-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'PublicoText';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PublicoText-BoldItalic.woff2") format("woff2"), url("/assets/webfonts/PublicoText-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'PublicoText';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PublicoText-Bold.woff2") format("woff2"), url("/assets/webfonts/PublicoText-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PublicoText';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PublicoText-Roman.woff2") format("woff2"), url("/assets/webfonts/PublicoText-Roman.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NovecentoNarrow';
+  src: url("/~204/dummy.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/NovecentoSansNarrow.woff2") format("woff2"), url("/assets/webfonts/NovecentoSansNarrow.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }

@@ -1,0 +1,41 @@
+.t-yellow ::selection {
+  background-color: rgba(255, 190, 38, 0.3); }
+
+.t-yellow .c-toolbar__status {
+  background: rgba(255, 190, 38, 0.7); }
+
+.t-yellow .c-modal,
+.t-yellow .t-bg,
+.t-yellow .t-bg-el::before,
+.t-yellow .c-entry__body > h3 > a::before {
+  background-color: #ffbe26; }
+
+.t-yellow .t-bg--200 {
+  background-color: #ffdd8c; }
+
+.t-yellow .t-border {
+  border-color: #ffbe26; }
+
+.t-yellow .t-color {
+  color: #ffbe26; }
+
+.t-yellow .c-brand__edition,
+.t-yellow .t-fill {
+  fill: #ffbe26; }
+
+.t-yellow .t-bg .c-brand__edition {
+  fill: #fff; }
+
+.t-yellow .t-icon-play::after {
+  border-left-color: #ffbe26; }
+
+.t-yellow .c-entry__body p a {
+  color: #151010;
+  border-color: #ffbe26;
+  background-color: transparent;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease; }
+  .t-yellow .c-entry__body p a:hover {
+    text-decoration: none;
+    border-color: rgba(255, 190, 38, 0.3);
+    background-color: rgba(255, 190, 38, 0.3); }

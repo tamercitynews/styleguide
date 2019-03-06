@@ -1,0 +1,122 @@
+.channel-name .datestamp {
+  font-size: 0.875rem; }
+
+.channel-name .section-title-overline .section-heading {
+  font-size: 1.5rem; }
+  @media screen and (min-width: 740px) {
+    .channel-name .section-title-overline .section-heading {
+      font-size: 1.75rem; } }
+
+.channel-name .datestamp,
+.channel-name .section-title .section-heading,
+.channel-name .section-title-overline .section-heading,
+.channel-name .tag-item strong {
+  text-transform: uppercase; }
+
+.channel-name .entry-summary {
+  font-size: 1.125rem; }
+  @media screen and (min-width: 740px) {
+    .channel-name .entry-summary {
+      font-size: 1.25rem;
+      line-height: 1.75rem; } }
+
+.channel-name .card-item-light .story-header .story-heading,
+.channel-name .half-headlines .story-heading {
+  font-size: 1.25rem;
+  line-height: 1.5rem; }
+
+.channel-name .card-item-light .story-header .story-summary {
+  font-size: 0.75rem; }
+
+.channel-name .tag-item strong {
+  font-size: 0.875rem; }
+
+.channel-name .native-label {
+  font-size: 0.75rem;
+  font-style: italic; }
+
+.channel-name .entry-label {
+  font-size: 1.25rem; }
+
+.channel-name .discussion-section .discussion-head h3 {
+  font-size: 1.75rem;
+  line-height: 1.75rem; }
+
+.channel-name .module-title {
+  background-color: #333;
+  color: #fff; }
+
+.channel-name .channel-mobile-menu.is-nav-open .channel-nav-trigger,
+.channel-name .channel-mobile-nav {
+  background-color: #0d0d0d; }
+
+.channel-name .filled-section {
+  background-color: gray; }
+
+.channel-name .inverted .block-link:hover,
+.channel-name .inverted .block-link:hover .story-heading,
+.channel-name .inverted .story-heading .link:hover,
+.channel-name .theme-color,
+.channel-name .theme-color .link {
+  color: #333; }
+
+.channel-name .theme-element-bg:before,
+.channel-name .video-media:hover .play-video-icon:before {
+  background-color: #333; }
+
+.channel-name .theme-border {
+  border-color: #333; }
+
+.channel-name .play-video-icon:after {
+  border-color: transparent transparent transparent #333; }
+
+.channel-name .section-title-overline .section-heading {
+  background-color: gray; }
+
+.channel-name .channel-header {
+  background-color: #333; }
+
+.channel-name .number {
+  color: #333; }
+
+.channel-name .label.badge-label {
+  background-color: #333; }
+
+.channel-name .slot-large_rectangle_2_desktop {
+  background-color: gray; }
+
+.channel-name .module-title {
+  border-bottom: 0;
+  padding: .25rem .5rem; }
+
+.channel-name .section-title-overline {
+  display: inline-block;
+  position: relative; }
+
+.channel-name .full-headlines .story,
+.channel-name .half-headlines .story {
+  position: relative; }
+
+.channel-name .full-headlines .story-heading,
+.channel-name .half-headlines .story-heading {
+  clear: left;
+  padding: 0 .5rem; }
+
+.channel-name .fullpage-hero,
+.channel-name .fullpage-hero .story-heading,
+.channel-name .half-headlines .story-heading {
+  padding: 0; }
+
+.channel-name .media-story .story-header {
+  padding: .75rem .5rem; }
+
+.channel-name .grid-section.inverted {
+  padding: 1.5rem 0; }
+
+.channel-name .entry,
+.channel-name .channel-headlines-top {
+  margin-top: 1rem; }
+  @media screen and (min-width: 740px) {
+    .channel-name .entry,
+    .channel-name .channel-headlines-top {
+      margin-top: 0; } }

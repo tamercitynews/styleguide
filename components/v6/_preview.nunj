@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{{ '/css/v6.css' | path }}">
-    <link rel="stylesheet" href="{{ '/css/v6.css' | path }}">
+    <link rel="stylesheet" href="{{ '/assets/css/v6_fullpage.css' | path }}">
+    <link rel="stylesheet" href="{{ '/assets/css/v6_fonts.css' | path }}">
+    <link rel="stylesheet" href="{{ '/assets/css/v6_all.css' | path }}">
 
     <title>versione v6</title>
 </head>

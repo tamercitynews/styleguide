@@ -1,0 +1,400 @@
+#live {
+  background-color: #eceff1;
+  margin: -16px 0 0;
+  padding-bottom: 8px;
+  overflow: hidden; }
+  #live .grid_8 {
+    width: 100%;
+    background-image: url("../../images/content/live-header.jpg");
+    background-repeat: no-repeat; }
+    @media screen and (min-width: 600px) {
+      #live .grid_8 {
+        background-size: 100%; } }
+    @media screen and (min-width: 1024px) {
+      #live .grid_8 {
+        width: calc((100% / 12) * 8); } }
+  @media screen and (min-width: 1024px) {
+    #live .grid_2 {
+      padding: 8px;
+      width: calc((100% / 12) * 2); } }
+
+.scudetto_atalanta {
+  background-image: url("../../images/content/atalanta-calcio.png"); }
+
+.scudetto_benevento {
+  background-image: url("../../images/content/benevento-calcio.png"); }
+
+.scudetto_bologna {
+  background-image: url("../../images/content/bologna-calcio.png"); }
+
+.scudetto_cagliari {
+  background-image: url("../../images/content/cagliari-calcio.png"); }
+
+.scudetto_chievo {
+  background-image: url("../../images/content/chievo-calcio.png"); }
+
+.scudetto_crotone {
+  background-image: url("../../images/content/crotone-calcio.png"); }
+
+.scudetto_fiorentina {
+  background-image: url("../../images/content/fiorentina-calcio.png"); }
+
+.scudetto_genoa {
+  background-image: url("../../images/content/genoa-calcio.png"); }
+
+.scudetto_inter {
+  background-image: url("../../images/content/inter-calcio.png"); }
+
+.scudetto_juventus {
+  background-image: url("../../images/content/juventus-calcio.png"); }
+
+.scudetto_lazio {
+  background-image: url("../../images/content/lazio-calcio.png"); }
+
+.scudetto_milan {
+  background-image: url("../../images/content/milan-calcio.png"); }
+
+.scudetto_napoli {
+  background-image: url("../../images/content/napoli-calcio.png"); }
+
+.scudetto_roma {
+  background-image: url("../../images/content/roma-calcio.png"); }
+
+.scudetto_sampdoria {
+  background-image: url("../../images/content/sampdoria-calcio.png"); }
+
+.scudetto_sassuolo {
+  background-image: url("../../images/content/sassuolo-calcio.png"); }
+
+.scudetto_spal {
+  background-image: url("../../images/content/spal-calcio.png"); }
+
+.scudetto_torino {
+  background-image: url("../../images/content/torino-calcio.png"); }
+
+.scudetto_udinese {
+  background-image: url("../../images/content/udinese-calcio.png"); }
+
+.scudetto_verona {
+  background-image: url("../../images/content/verona-calcio.png"); }
+
+.live__banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  background-image: url("../../images/content/live-header.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.live__competition-logo {
+  max-width: 70px; }
+
+.live__competition-name {
+  align-self: flex-end;
+  display: block;
+  width: 100%;
+  color: #eee;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.live__streaming {
+  border-top: 1px solid #757575; }
+
+.live__date {
+  display: block;
+  margin-bottom: 4px;
+  color: #757575;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px; }
+
+.live__match-details {
+  display: block;
+  color: #757575;
+  font-family: "NeueHaasGroteskText Pro", Helvetica, Arial, sans-serif;
+  font-size: 12px; }
+  .live__match-details:hover {
+    text-decoration: none; }
+
+.live__match {
+  width: 100%;
+  padding: 8px 0 16px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  transition: all .3s; }
+  .live__match:hover {
+    background-color: #eceff1; }
+  .live__match .link:hover {
+    text-decoration: none; }
+
+.live__home-team, .live__away-team {
+  display: inline-block;
+  padding: 0 32px;
+  color: #757575;
+  font-family: "NeueHaasGroteskText Pro", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  text-align: left;
+  text-transform: uppercase;
+  background-position: left;
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 740px) {
+    .live__home-team, .live__away-team {
+      font-size: 1.25rem; } }
+  @media screen and (min-width: 1024px) {
+    .live__home-team, .live__away-team {
+      width: 20%; } }
+
+.live__away-team {
+  background-position: right;
+  text-align: right; }
+
+#box-squadra {
+  float: left; }
+  @media screen and (max-width: 1024px) {
+    #box-squadra {
+      display: none; } }
+
+.squadra {
+  margin: 0;
+  padding: 0 8px;
+  list-style: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px; }
+
+#box-commenti {
+  display: flex;
+  flex-wrap: wrap;
+  float: left; }
+
+.informazioni {
+  margin: 16px auto;
+  color: #e0e0e0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  text-align: center; }
+
+#box-intestazione {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  width: 100%;
+  color: #e0e0e0; }
+
+.logo-casa {
+  align-self: center;
+  order: 1; }
+
+.casa {
+  align-self: center;
+  display: none;
+  margin: 0;
+  order: 2; }
+  @media screen and (min-width: 1024px) {
+    .casa {
+      display: block; } }
+
+#punteggio {
+  align-self: center;
+  display: flex;
+  order: 3;
+  color: transparent; }
+
+.trasferta {
+  align-self: center;
+  display: none;
+  order: 4;
+  margin: 0; }
+  @media screen and (min-width: 1024px) {
+    .trasferta {
+      display: block; } }
+
+.logo-trasferta {
+  order: 5;
+  align-self: center; }
+
+.gol_casa,
+.gol_trasferta {
+  margin: 0 2px;
+  padding: 1rem;
+  font-size: 32px;
+  line-height: 1rem;
+  font-weight: bold;
+  color: black;
+  background: #f9ff00; }
+
+#squadra-casa .colore,
+#squadra-trasferta .colore {
+  margin-bottom: 4px;
+  padding: 0 8px;
+  color: #616161;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: transparent !important; }
+
+#squadra-trasferta .colore,
+#squadra-trasferta + .squadra,
+#squadra-trasferta ~ .panchina,
+.elenco-gol-trasferta {
+  text-align: right; }
+
+.inCampo,
+.inPanca {
+  line-height: 22px !important; }
+
+.arbitro,
+.int {
+  width: 100%; }
+
+.elenco-gol-casa,
+.elenco-gol-trasferta {
+  flex: 1 1 50%;
+  margin: 0;
+  padding: 0 30px;
+  color: #e0e0e0;
+  font-size: 16px;
+  line-height: 18px; }
+
+.int {
+  margin: 0;
+  order: 2;
+  padding: 8px 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-bottom: 1px solid #616161; }
+  @media screen and (min-width: 1024px) {
+    .int {
+      padding: 0 16px 8px; } }
+
+.minuto,
+.gol {
+  display: inline-block;
+  font-weight: bold;
+  padding: 4px 0;
+  font-size: 12px; }
+
+.arbitro {
+  margin: 0;
+  color: #e0e0e0;
+  font-size: 12px;
+  text-align: center; }
+  .arbitro::before {
+    content: 'Arbitro:';
+    margin-right: 4px; }
+  .arbitro img {
+    display: none; }
+
+.clear {
+  clear: both; }
+
+#commenti {
+  background-color: #ffffff;
+  order: 2;
+  margin: 0;
+  padding: 0 16px;
+  width: 100%; }
+  #commenti p {
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px; }
+  @media screen and (min-width: 1024px) {
+    #commenti {
+      max-height: 300px;
+      overflow-y: scroll; } }
+
+.panchina {
+  margin-top: 16px; }
+
+.inCampo,
+.inPanca {
+  line-height: 22px !important; }
+
+.colore {
+  background-color: transparent !important; }
+
+.panchina .colore {
+  margin-bottom: 4px;
+  padding: 0 8px;
+  color: #616161;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.numero {
+  color: #424242;
+  font-weight: bold; }
+
+.elenco-gol-casa .numero,
+.elenco-gol-trasferta .numero {
+  color: #e0e0e0;
+  font-size: 12px;
+  font-weight: normal; }
+
+#formazioni {
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 8px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #ffffff;
+  background-image: url("../../images/content/campo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border: 16px solid #ffffff; }
+  #formazioni .num1,
+  #formazioni .num2,
+  #formazioni .num3,
+  #formazioni .num4,
+  #formazioni .num5,
+  #formazioni .num6 {
+    margin: 0;
+    list-style: none; }
+  #formazioni .c1,
+  #formazioni .c2,
+  #formazioni .c3,
+  #formazioni .c4,
+  #formazioni .c5,
+  #formazioni .c6 {
+    margin: 64px 0;
+    padding: 4px 0 0;
+    width: 36px;
+    height: 36px;
+    color: #eeeeee;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #eeeeee;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4); }
+  #formazioni .c_portiere,
+  #formazioni .t_portiere {
+    margin: 64px 0;
+    padding: 4px 0 0;
+    width: 36px;
+    height: 36px;
+    color: #eeeeee;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #eeeeee;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4); }
+  #formazioni .t_portiere {
+    order: 4; }
+  #formazioni #t_difensori {
+    order: 3; }
+  #formazioni #t_centrocampisti {
+    order: 2; }
+  @media screen and (min-width: 1024px) {
+    #formazioni {
+      display: flex; } }

@@ -1,0 +1,37 @@
+.t-ruby ::selection {
+  background-color: rgba(217, 33, 33, 0.3); }
+
+.t-ruby .c-progressivereadingbar__status {
+  background: rgba(217, 33, 33, 0.7); }
+
+.t-ruby .c-modal,
+.t-ruby .t-bg,
+.t-ruby .t-bg-el::before,
+.t-ruby .c-entry__body > h3 > a::before {
+  background-color: #d92121; }
+
+.t-ruby .t-bg--200 {
+  background-color: #ea7676; }
+
+.t-ruby .t-border {
+  border-color: #d92121; }
+
+.t-ruby .t-color {
+  color: #d92121; }
+
+.t-ruby .t-fill {
+  fill: #d92121; }
+
+.t-ruby .t-icon-play::after {
+  border-left-color: #d92121; }
+
+.t-ruby .c-entry__body p a {
+  color: #151010;
+  border-color: #d92121;
+  background-color: transparent;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease; }
+  .t-ruby .c-entry__body p a:hover {
+    text-decoration: none;
+    border-color: rgba(217, 33, 33, 0.3);
+    background-color: rgba(217, 33, 33, 0.3); }

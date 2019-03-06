@@ -1,0 +1,46 @@
+.t-sportpiacenza ::selection {
+  background-color: rgba(50, 38, 38, 0.3); }
+
+.t-sportpiacenza .c-progressivereadingbar__status {
+  background: rgba(242, 70, 61, 0.7); }
+
+.t-sportpiacenza .c-modal,
+.t-sportpiacenza .t-bg,
+.t-sportpiacenza .t-bg-el::before,
+.t-sportpiacenza .c-entry__body > h3 > a::before {
+  background-color: #f2463d; }
+
+.t-sportpiacenza .t-border {
+  border-color: #f2463d; }
+
+.t-sportpiacenza .t-color {
+  color: #f2463d; }
+
+.t-sportpiacenza .t-fill {
+  fill: #f2463d; }
+
+.t-sportpiacenza .t-icon-play::after {
+  border-left-color: #f2463d; }
+
+.t-sportpiacenza .c-brand__icon {
+  fill: #f2463d; }
+
+.t-sportpiacenza .c-brand__network {
+  fill: white; }
+
+.t-sportpiacenza .c-brand__edition {
+  fill: #f2463d; }
+
+.t-sportpiacenza .c-header.t-bg {
+  background-color: #322626; }
+
+.t-sportpiacenza .c-entry__body p a {
+  color: #151010;
+  border-color: #f2463d;
+  background-color: transparent;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease; }
+  .t-sportpiacenza .c-entry__body p a:hover {
+    text-decoration: none;
+    border-color: rgba(242, 70, 61, 0.3);
+    background-color: rgba(242, 70, 61, 0.3); }

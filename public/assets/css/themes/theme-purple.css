@@ -1,0 +1,37 @@
+.t-purple ::selection {
+  background-color: rgba(183, 93, 199, 0.3); }
+
+.t-purple .c-progressivereadingbar__status {
+  background: rgba(183, 93, 199, 0.7); }
+
+.t-purple .c-modal,
+.t-purple .t-bg,
+.t-purple .t-bg-el::before,
+.t-purple .c-entry__body > h3 > a::before {
+  background-color: #b75dc7; }
+
+.t-purple .t-bg--200 {
+  background-color: #d9a9e1; }
+
+.t-purple .t-border {
+  border-color: #b75dc7; }
+
+.t-purple .t-color {
+  color: #b75dc7; }
+
+.t-purple .t-fill {
+  fill: #b75dc7; }
+
+.t-purple .t-icon-play::after {
+  border-left-color: #b75dc7; }
+
+.t-purple .c-entry__body p a {
+  color: #151010;
+  border-color: #b75dc7;
+  background-color: transparent;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease; }
+  .t-purple .c-entry__body p a:hover {
+    text-decoration: none;
+    border-color: rgba(183, 93, 199, 0.3);
+    background-color: rgba(183, 93, 199, 0.3); }

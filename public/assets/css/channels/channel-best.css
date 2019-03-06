@@ -1,0 +1,69 @@
+/* ==========================================================================
+  CHANNEL CUSTOM - BEST THEME
+  ========================================================================== */
+/* ==========================================================================
+  Typography
+  ========================================================================== */
+.channel-nav-item {
+  font-size: .875rem;
+  margin: 0 .25rem; }
+
+/* ==========================================================================
+  Theme Colors
+  ========================================================================== */
+.channel-best .module-title {
+  background-color: #E02927;
+  color: #ffffff;
+  border-bottom: 0;
+  padding: .25rem .5rem; }
+
+.channel-best .channel-mobile-nav,
+.channel-best .channel-mobile-menu.is-nav-open .channel-nav-trigger {
+  background-color: #E02927; }
+
+.channel-best .story-heading {
+  color: #455a64; }
+
+.channel-best .story-heading:hover {
+  color: #263238; }
+
+.channel-best .fullpage-hero .story-summary {
+  color: #ECEFF1; }
+
+.channel-best .theme-color,
+.channel-best .theme-color .link,
+.channel-best .inverted .story-heading .link:hover,
+.channel-best .inverted .block-link:hover,
+.channel-best .inverted .block-link:hover .story-heading {
+  color: #E02927; }
+
+.channel-best .theme-element-bg:before,
+.channel-best .video-media:hover .play-video-icon:before {
+  background-color: #E02927; }
+
+.channel-best .theme-border {
+  border-color: #E02927; }
+
+.channel-best .play-video-icon:after {
+  border-color: transparent transparent transparent #E02927; }
+
+.channel-best .section-title-overline {
+  display: inline-block;
+  position: relative; }
+
+/*.channel-best .section-title-overline .section-heading {
+  background-color: #E1F5F0; }*/
+.channel-best .channel-header {
+  background-color: #E02927; }
+
+.channel-best .number {
+  color: #E02927; }
+
+.channel-best .card-item-light .story-header .story-summary {
+  color: #455a64; }
+
+.channel-best .label.badge-label {
+  background-color: #E02927; }
+
+/*.channel-best .slot-large_rectangle_2_desktop {
+  background-color: #E1F5F0; }*/
