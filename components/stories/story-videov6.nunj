@@ -1,0 +1,12 @@
+<article class="c-story c-story--cover">
+  <span class="o-icon-play t-icon-play"></span>
+  <video class="c-story__video js-video" webkit-playsinline="webkit-playsinline" autoplay="" playsinline="playsinline" muted="muted" loop="loop" preload="auto" poster="/~media/vertical-hi/47170217312180/fake-cops-completo-1-2.jpg">
+    <source src="http://3.citynews-romatoday.stgy.ovh/~media/mp4-sd/47170217312180/fake-cops-completo-1-2.jpg" type="video/mp4">
+  </video>
+  <div class="c-story__container">
+    <h1 class="c-story__title o-doublecolumbian">
+      <a class="o-link o-link--inverse" href="articolo.html">VIDEO | Finti poliziotti rapinavano turisti, 13 arresti</a>
+    </h1>
+  </div>
+  <a class="o-faux-link" href="/"></a>
+</article>

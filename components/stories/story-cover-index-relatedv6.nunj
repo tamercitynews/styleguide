@@ -1,0 +1,25 @@
+<article class="c-story c-story--cover" style="background-image: url('http://via.placeholder.com/432x768')">
+  <div class="c-story__container">
+    <header>
+      <h5 class="c-story__kicker t-bg">In copertina</h5>
+      <h1 class="c-story__title o-serif-display o-canon">
+        <a class="o-link o-link--inverse" href="#">Incendio a Colle del Sole: bruciate due vetture in via Lanfranco Maroi</a>
+      </h1>
+    </header>
+    <footer>
+      <ul class="o-list o-list--bullet">
+        <li class="c-story__sublink o-list__item t-bg-el">
+          <a class="o-link o-english" href="/politica/sciopero-2-maggio-linee-periferia.html">
+            <em class="c-story__sublink-kicker t-color">Roma Tpl /</em>Solidali e informati: Un'intera classe si fa vaccinare: ecco perché
+          </a>
+        </li>
+        <li class="c-story__sublink o-list__item t-bg-el">
+          <a class="o-link o-english" href="/eventi/serata-paella-allucanpaella-ristorante-el-patio-3-maggio-2016.html">
+            Matteo Salvini: È contrario alla legge sui vaccini obbligatori a scuola
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <a class="o-faux-link" href="articolo.html"></a>
+</article>

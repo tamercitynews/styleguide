@@ -1,0 +1,15 @@
+<article class="c-story">
+  <img class="c-story__media" src="http://placehold.jp/600x338.png" alt="…">
+  <header class="u-px-size2x">
+    <h5 class="c-story__kicker o-paragon t-color">Cronaca</h5>
+    <h1 class="c-story__title o-serif-display o-canon">
+      <a class="o-link o-link--dark" href="#">Incendio a Colle del Sole: bruciate due vetture in via Lanfranco Maroi</a>
+    </h1>
+  </header>
+  <p class="o-summary o-color-secondary u-px-size2x">Le fiamme sono divampate la notte di sabato e quella di lunedì. L'allarme di Fratelli d'Italia: "Caso doloso che mette in emergenza ed allarme tutto il territorio"</p>
+  <footer class="u-px-size2x">
+    <time class="o-pica ">il 2 maggio del 2016</time>
+    <span class="o-dot o-pica o-link--dark">9 commenti</span>
+  </footer>
+  <a class="o-faux-link" href="articolo.html"></a>
+</article>

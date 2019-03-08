@@ -1,0 +1,15 @@
+<article class="c-story u-row-reverse u-space-between">
+  <img class="c-story__media c-story__media--fp o-cell-4 u-ml-size2x" src="http://via.placeholder.com/300x169" alt="">
+  <header class="o-cell-8 u-pb-size2x">
+    <h2 class="c-story__title o-serif-display o-doublepica u-mb-0">
+      <a class="o-link o-link--dark" href="#">Incendio a Colle del Sole: bruciate due vetture in via Lanfranco Maro, nessun ferito</a>
+    </h2>
+    {% if category %}
+      <span class="o-pica o-upper o-sans-narrow t-color">Cronaca</span>
+    {% endif %}
+    {% if time %}
+      <span class="o-dot o-pica o-color-secondary">1 h e 1 quarto fa</span>
+    {% endif %}
+  </header>
+  <a class="o-faux-link" href="articolo.html"></a>
+</article>

@@ -1,0 +1,51 @@
+<article class="story hero-story cover-hero full-cover inverted">
+	<header class="story-header">
+		<a href="#" class="link">
+			<figure class="story-media media-full">
+				<picture>
+					<source srcset="http://2.citynews-today.stgy.ovh/~media/horizontal-hi/42519106998768/ragazzi-scuola-ansa-2.jpg" media="(min-width: 62.5em)">
+					<source srcset="http://3.citynews-today.stgy.ovh/~media/horizontal-mid/42519106998768/ragazzi-scuola-ansa-2.jpg" media="(min-width: 46.25em)">
+						<img srcset="http://1.citynews-today.stgy.ovh/~media/horizontal-low/42519106998768/ragazzi-scuola-ansa-2.jpg" alt="Educazione civica obbligatoria a scuola per legge: ma serve davvero?">
+					</picture>
+			</figure>
+		</a>
+		<h1 class="story-heading heading-xl">
+			<a href="#" class="link">Educazione civica obbligatoria a scuola per legge: ma serve davvero?</a>
+		</h1>
+	</header>
+	<footer class="story-footer">
+		<p class="summary story-summary">La Lega ha presentato un progetto di legge per renderla obbligatoria dalla materna fino alla Maturità e l'Anci ha depositato 75mila firme per una proposta di legge simile, ma nella scuola c'è chi è contrario a quella che sembra una riforma condivisa</p>
+		<div class="photo-gallery-preview">
+			<h4 class="preview-gallery-heading">
+				<svg class="icon inline-icon small camera-icon theme-fill"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#camera-icon"></use></svg>
+				<a href="/foto/cronaca/studenti-contro-l-alternanza-scuola-lavoro-i-volti/" class="link">Studenti contro l'alternanza scuola lavoro: i volti</a>
+			</h4>
+			<ul class="u-unstyled preview-gallery-list">
+				{% for item in range(0,5) %}
+				<li class="preview-gallery-item">
+					<figure>
+						<a href="#">
+							<img src="http://3.citynews-today.stgy.ovh/~media/square-low/30862945961297/studenti-contro-l-alternanza-scuola-lavoro-i-volti-1.jpg" title="Studenti contro l'alternanza scuola lavoro: i volti">
+						</a>
+					</figure>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="sublinks">
+			<ul class="u-unstyled">
+				{% for item in range(0,3) %}
+				<li class="sublink">
+					<a class="link" href="#">
+						<figure class="sublink-media">
+							<img src="http://2.citynews-today.stgy.ovh/~media/square-low/19043392779301/bussetti-salvini-2.jpg">
+						</figure>
+						<strong class="kicker theme-color">La proposta di legge </strong>
+						<span class="heading-xs sublink-heading">"Sarà anche agli esami"</span>
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</footer>
+</article>

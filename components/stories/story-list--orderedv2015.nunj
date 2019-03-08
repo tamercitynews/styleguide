@@ -1,0 +1,12 @@
+<article class="story">
+  <figure class="story-media media-xs">
+    <a href="#">
+      <div class="number">{{loop.index}}.</div>
+        <picture>
+          <source srcset="http://2.citynews-romatoday.stgy.ovh/~media/horizontal-mid/18103834277230/incendio-pietralata-2.jpg" media="(min-width: 62.5em)">
+          <img srcset="http://1.citynews-romatoday.stgy.ovh/~media/square-low/18103834277230/incendio-pietralata-2.jpg" alt="Incendio a Pietralata: fiamme in un autodemolitore. Due ustionati, uno è grave">
+        </picture>
+    </a>
+  </figure>
+  <h4 class="story-heading heading-xs"><a href="<!-- @path article.html" class="link">Ancora smog: domani stop ai veicoli inquinanti, poi targhe alterne</a></h4>
+</article>
