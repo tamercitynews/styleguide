@@ -1,9 +1,0 @@
-<article class="story featured-story featured-sm">
-	<header class="story-header">
-		<span class="label theme-color">{{ stories[6].eyebrow }}</span>
-		<h3 class="story-heading heading-sm">
-      <a href="<!-- @path article.html -->" class="link">{{ stories[6].headline }}</a>
-    </h3>
-		<p class="summary story-summary hidden-xs">{{ stories[6].summary }}</p>
-	</header>
-</article>
