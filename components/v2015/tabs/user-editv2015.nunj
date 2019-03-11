@@ -1,6 +1,6 @@
 <div class="tabs">
   <ul class="tabs__list" role="tablist" style="overflow-x:hidden">
-    {% if tabs_active %}
+    {# {% if tabs_active %} #}
     <li class="tabs__item active">
       <a href="#user-profile-general-info" class="link tabs__item__link" aria-controls="user-profile-general-info" role="tab" data-toggle="tab" aria-expanded="true">Info generiche</a>
     </li>
@@ -10,7 +10,7 @@
     <li class="tabs__item">
       <a href="user-privacy.html" class="link tabs__item__link">Privacy</a>
     </li>
-    {% else %}
+    {# {% else %} #}
     <li class="tabs__item">
       <a href="user-edit.html" class="link tabs__item__link">Info generiche</a>
     </li>
@@ -20,6 +20,6 @@
     <li class="tabs__item active">
       <a href="user-privacy.html" class="link tabs__item__link">Privacy</a>
     </li>
-    {% endif %}
+    {# {% endif %} #}
   </ul>
 </div>

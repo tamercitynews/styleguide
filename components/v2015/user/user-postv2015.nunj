@@ -1,9 +1,9 @@
 <article class="user-post-activity">
-  {% if user_activity %}
+  {# {% if user_activity %} #}
     <p class="text-user-profile-comment">"http://ricerca.repubblica.it/repubblica/archivio/repubblica/1985/11/23/pensione-invalidita-ad-un-toss icomane.html"</p>
     <p class="title-post-commented">in <a class="link link-post-commented" href="http://www.romatoday.it/cronaca/inseguimento-polizia-raccordo-anulare-2-agosto-2017.html">Sul Raccordo Anulare a tutta velocità sperona auto della polizia, era senza patente</a></p>
-  {% endif %}
-  {% if user_reports %}
+  {# {% endif %} #}
+  {# {% if user_reports %} #}
     <header>
         <figure class="user-post-profile-photo"><img class="avatar avatar-lg" src="http://2.citynews.stgy.ovh/~shared/avatars/59283673479981/avatar_1.img" alt="Foto Profilo"></figure>
         <p class="user-post-profile-details"><a class="link" href="/user/profile/frank-serpico/59283673479981/">Frank Serpico</a> ha pubblicato un <a class="link" href="/social/segnalazioni/perdita-di-acqua-potabile-2925598.html">contenuto</a></p>
@@ -16,7 +16,7 @@
       Roma, quartiere Casalbertone Via Baldassare Orero, la perdita di acqua in questione va avanti da oltre un mese nonostante 
       i cittadini abbiano segnalato la cosa a più riprese agli organi [...]
     </p>
-  {% endif %}
+  {# {% endif %} #}
   <footer class="user-post-footer-datails">
     <time class="timestamp user-post-date">
       <svg class="icon inline-icon timestamp-icon small">

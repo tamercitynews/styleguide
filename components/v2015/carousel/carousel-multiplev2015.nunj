@@ -2,7 +2,7 @@
   <div class="carousel__item carousel-cell">
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
-        <img class="img--fluid" src="http://www.previewtoday.it/~media/horizontal-hi/57464137751816/basket-promozione-corte-sempre-primo-bene-il-piacenza-1.jpg" alt=""/>
+        <img class="img--fluid" src="{{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">Piacenza - Franzini: "Ho avuto delle risposte".</h3>
@@ -12,7 +12,7 @@
   <div class="carousel__item carousel-cell">
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
-        <img class="img--fluid" src="http://www.previewtoday.it/~media/horizontal-hi/26531564621605/la-leonardi-impegnata-sulla-sabbia-foto-altarimini.jpg" alt=""/>
+        <img class="img--fluid" src="{{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">Bel Piacenza, Olbia battuto 2-1 con Matteassi e Razzitti</h3>
@@ -23,7 +23,7 @@
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
         <span class="play-video-icon"></span>
-        <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+        <img class="img--fluid" src="{{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">Volley - Lpr, niente da fare contro Perugia.</h3>
@@ -33,7 +33,7 @@
   <div class="carousel__item carousel-cell">
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
-        <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+        <img class="img--fluid" src="{{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">Ciclismo - Tortellotti secondo a Garbagna Novarese.</h3>
@@ -43,7 +43,7 @@
   <div class="carousel__item carousel-cell">
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
-        <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+        <img class="img--fluid" src="{{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">Matteo Samoggia contro la difesa di Orzinuovi</h3>
@@ -54,7 +54,7 @@
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
         <span class="play-video-icon"></span>
-        <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+        <img class="img--fluid" src="{{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">Marzeglia quando indossava la maglia del Seregno.</h3>
@@ -64,7 +64,7 @@
   <div class="carousel__item carousel-cell">
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
-        <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+        <img class="img--fluid" src="{{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">Eccellenza - Il Carpaneto vuole chiudere in bellezza.</h3>
@@ -74,7 +74,7 @@
   <div class="carousel__item carousel-cell">
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
-        <img class="img--fluid" src="hhttp://placehold.it/600x338" alt=""/>
+        <img class="img--fluid" src="{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">San Rocco: tre anni di collaborazione con l'Academy Torino</h3>
@@ -85,7 +85,7 @@
     <article class="story">
       <a href="#" class="block-link"><figure class="story-media">
         <span class="play-video-icon"></span>
-        <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+        <img class="img--fluid" src="{{imgsrc}}" alt=""/>
       </figure>
       <header class="story-header">
         <h3 class="story-heading heading-sm">Volley - Lpr, niente da fare contro Perugia.</h3>

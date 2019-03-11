@@ -15,13 +15,13 @@
                 </button>
                 <ul class="dropdown-menu bs_links_filters" aria-labelledby="dropdownMenu3">
 
-                    {% for item in zone %}
+                    {% for item in range(0,5) %}
 
-                    <li data-itemattr-name="{{item.data}}">
+                        <li data-itemattr-name="data">
 
-                        <a class="link" href="{{item.link}}">{{item.name}}</a>
+                            <a class="link" href="#">name</a>
 
-                    </li>
+                        </li>
 
                     {% endfor %}
 
@@ -35,13 +35,14 @@
 
             <h6>Area:</h6>
 
-            {% for item in companies[0].area %}
+            {% for item in range(0,5) %}
 
                 <div class="checkbox">
-                    <input data-filter="categoria" type="checkbox" name="bs_checkbox_categoria-padre[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
-                    <label class="checkbox-label" for="bs_checkbox_{{item.data}}">
-                        <a onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;" class="link" href="{{item.data}}">
-                  {{item.label}}        </a>
+                    <input data-filter="categoria" type="checkbox" name="bs_checkbox_categoria-padre[]" id="bs_checkbox_{{data}}" value="{{data}}">
+                    <label class="checkbox-label" for="bs_checkbox_{{data}}">
+                        <a onclick="$('#bs_checkbox_{{data}}').trigger('click');return false;" class="link" href="{{data}}">
+                            label
+                        </a>
                     </label>
 
                 </div>
@@ -51,13 +52,13 @@
             <hr>
             <h6>Categoria:</h6>
 
-            {% for item in companies[1].category %}
+            {% for item in range(0,5) %}
 
                 <div class="checkbox">
-                    <input data-filter="sottocategoria" type="checkbox" name="bs_checkbox_categoria[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
-                    <label class="checkbox-label" for="bs_checkbox_{{item.data}}">
-                        <a onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;" class="link" href="{{item.link}}">
-                  {{item.label}}        </a>
+                    <input data-filter="sottocategoria" type="checkbox" name="bs_checkbox_categoria[]" id="bs_checkbox_{{data}}" value="{{data}}">
+                    <label class="checkbox-label" for="bs_checkbox_{{data}}">
+                        <a onclick="$('#bs_checkbox_{{data}}').trigger('click');return false;" class="link" href="{{item.link}}">
+                  label        </a>
                     </label>
 
                 </div>
@@ -67,13 +68,12 @@
             <hr>
             <h6>Tipologia:</h6>
 
-            {% for item in companies[2].typology %}
-
+            {% for item in range(0,5) %}
                 <div class="checkbox">
-                    <input data-filter="tipo" type="checkbox" name="bs_checkbox_tipologia[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
-                    <label class="checkbox-label" for="bs_checkbox_{{item.data}}">
-                        <a onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;" class="link" href="{{item.link}}">
-                  {{item.label}}({{item.numbers}})        </a>
+                    <input data-filter="tipo" type="checkbox" name="bs_checkbox_tipologia[]" id="bs_checkbox_{{data}}" value="{{data}}">
+                    <label class="checkbox-label" for="bs_checkbox_{{data}}">
+                        <a onclick="$('#bs_checkbox_{{data}}').trigger('click');return false;" class="link" href="{{item.link}}">
+                  label(2)        </a>
                     </label>
 
                 </div>
@@ -88,10 +88,10 @@
         <h6>Eventi</h6>
         <ul class="u-unstyled filters-list">
 
-            {% for item in events[0].typology %}
+            {% for item in range(0,5) %}
 
-                <li data-itemattr-name="{{item.data}}">
-                    <a class="link" href="{{item.link}}">{{item.label}}</a>
+                <li data-itemattr-name="{{data}}">
+                    <a class="link" href="{{item.link}}">label</a>
                 </li>
 
             {% endfor %}

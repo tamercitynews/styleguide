@@ -1,9 +1,9 @@
 <div class="nav-toolbar">
 
-  {% if logged %}
+  {# {% if logged %} #}
   <div class="dropdown account-dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-      <img class="avatar avatar-md" src="assets/assets/images/user-avatar.png" alt="Foto Profilo Utente" Title="Marco Rossi">
+      <img class="avatar avatar-md" src="{{imgsrc2}}" alt="Foto Profilo Utente" Title="Marco Rossi">
       <span class="caret caret-icon"></span>
     </a>
     <ul class="dropdown-menu bordered-dropdown-menu pull-right theme-border" role="menu" aria-labelledby="dropdownMenu">
@@ -35,11 +35,11 @@
       </li>
     </ul>
   </div>
-  {% else %}
+  {# {% else %} #}
   <a href="#" class="btn login-btn has-icon centered" data-toggle="modal" data-target="#loginModal">
     <svg class="icon medium user-icon"><use xlink:href="#icon-user"></use></svg>
     {# <span class="btn-label">Accedi</span> #}
   </a>
-  {% endif %}
+  {# {% endif %} #}
   <a href="#start-search" class="btn search-btn start-search-trigger"><span></span></a>
 </div>

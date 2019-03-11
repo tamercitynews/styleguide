@@ -1,7 +1,7 @@
 <section class="section">
   <div class="line">
     <div class="unit channel-headlines-top">
-      {% set label_badge = true %}
+      {# {% set label_badge = true %} #}
       {% render "@story-insetv2015" %}
     </div>
     <div class="unit channel-aside hidden-xs">

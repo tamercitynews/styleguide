@@ -10,11 +10,11 @@
   		{% render "@button-navv2015" %}
     </div>
 
-    {% if page_title %}
+    {# {% if page_title %} #}
       <h1 class="page-title hidden-xs">
-        <a href="#" class="link">{{ page_title }}</a>
+        <a href="#" class="link">{{ title }}</a>
       </h1>
-    {% endif %}
+    {# {% endif %} #}
 
     <!-- Nav Toolbar -->
     {% render "@header-toolbarv2015" %}
@@ -26,13 +26,13 @@
   <!-- Site Search -->
   {% render "@site-searchv2015" %}
 
-  {% if subnav %}
+  {# {% if subnav %} #}
     <div class="header-bottom">
-      {% if subnav_borough %}
+      {# {% if subnav_borough %} #}
         {% render "@nav-secondary-boroughv2015" %}
-      {% else %}
+      {# {% else %} #}
         {% render "@nav-secondaryv2015" %}
-      {% endif %}
+      {# {% endif %} #}
     </div>
-  {% endif %}
+  {# {% endif %} #}
 </header>

@@ -1,12 +1,12 @@
-{% if toggle_menu_fixed %}
-  {% include "partials/v6/toggle/toggle.njk" %}
-{% endif %}
+{# {% if toggle_menu_fixed %} #}
+  {% render "@togglev6" %}
+{# {% endif %} #}
 
 <div class="c-menu js-menu">
 
-  {% if toggle_menu_scroll %}
-    {% include "partials/v6/toggle/toggle.njk" %}
-  {% endif %}
+  {# {% if toggle_menu_scroll %} #}
+    {% render "@togglev6" %}
+  {# {% endif %} #}
 
   <div class="c-navbar t-border">
     <a class="c-navbar__control-left">
@@ -28,23 +28,23 @@
   </form>
 
   <ul class="u-nobullet c-menu__list u-mb-0">
-    {% for item in menu %}
-      {% if item.live %}
-        <li class="c-menu__item" style="background-image: url('{{item.image}}')">
+    {% for item in range(0,5) %}
+      {# {% if item.live %} #}
+        <li class="c-menu__item" style="background-image: url('{{imgsrc}}')">
           <span class="c-menu__link">
-            {{ item.name }}
+            name
             <span class="o-icon-live o-icon-live--out t-border">
               <span class="o-icon-live o-icon-live--in is-blinking t-bg--200"></span>
             </span>
           </span>
           <a class="o-faux-link" href="{{ item.url }}"></a>
         </li>
-      {% else %}
-      <li class="c-menu__item" style="background-image: url('{{item.image}}')">
-        <span class="c-menu__link">{{ item.name }}</span>
+      {# {% else %} #}
+      <li class="c-menu__item" style="background-image: url('{{imgsrc}}')">
+        <span class="c-menu__link">name</span>
         <a class="o-faux-link" href="{{ item.url }}"></a>
       </li>
-      {% endif %}
+      {# {% endif %} #}
     {% endfor %}
   </ul>
 </div>

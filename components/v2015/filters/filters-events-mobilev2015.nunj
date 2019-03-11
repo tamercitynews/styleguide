@@ -42,10 +42,10 @@
       <span class="dropdown-menu__header">Filtra per</span>
       <div class="dropdown-menu__filters">
         <span class="dropdown-menu__subheader">Tipologia</span>
-        {% for item in events[0].typology %}
+        {% for item in range(0,5) %}
         <div class="checkbox">
           <input type="checkbox" value="" id="mcheckbox{{1}}">
-          <label class="checkbox-label" for="mcheckbox{{1}}">{{item.label}} <span class="text-sm checkbox-counter">{{item.numbers}}</span></label>
+          <label class="checkbox-label" for="mcheckbox{{1}}">label <span class="text-sm checkbox-counter">22</span></label>
         </div>
         {% endfor %}
         <hr>
@@ -56,10 +56,10 @@
         </div>
         <hr>
         <span class="dropdown-menu__subheader">Tema</span>
-        {% for item in events[1].theme %}
+        {% for item in range(0,5) %}
         <div class="checkbox">
           <input data-filter="tema" type="checkbox" name="bs_checkbox_tema-dell-evento[]" id="mcheckbox{{loop.index}}" value="">
-          <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}} <span class="text-sm checkbox-counter">{{item.numbers}}</span></label>
+          <label class="checkbox-label" for="mcheckbox{{loop.index}}">name <span class="text-sm checkbox-counter">22</span></label>
         </div>
         {% endfor %}
       </div>

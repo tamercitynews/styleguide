@@ -1,10 +1,10 @@
-<!-- Channel Promo Brand ---------------------------------------------------->
+<!-- Channel Promo Brand -------------------------------------------------- -->
 <div class="channel-promo hidden-xs hidden-sm">
   <span class="channel-promo-byline">Sponsor</span>
-  <img class="channel-promo-brand" src="http://2.citynews-today.stgy.ovh/assets/images/v2015/custom-channel/wellness.png" alt="Brand promo title" title="Brand promo title">
+  <img class="channel-promo-brand" src="{{imgsrc}}" alt="Brand promo title" title="Brand promo title">
 </div>
-<!-- Channel Promo Bar -------------------------------------------------------->
+<!-- Channel Promo Bar ------------------------------------------------------ -->
 <div class="channel-promo-bar hidden-md hidden-lg">
   <span class="channel-promo-byline">Sponsor</span>
-  <img class="channel-promo-brand" src="http://2.citynews-today.stgy.ovh/assets/images/v2015/custom-channel/wellness.png" alt="Brand promo title" title="Brand promo title">
+  <img class="channel-promo-brand" src="{{imgsrc}}" alt="Brand promo title" title="Brand promo title">
 </div>

@@ -4,7 +4,7 @@
       <header class="story-header">
         <a href="#" class="block-link">
           <figure class="story-media">
-            <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+            <img class="img--fluid" src="{{imgsrc}}" alt=""/>
           </figure>
           <h1 class="story-heading">Morto Lokomwa, vincitore della Placentia Marathon</h1>
         </a>
@@ -19,7 +19,7 @@
       <header class="story-header">
         <a href="#" class="block-link">
           <figure class="story-media">
-            <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+            <img class="img--fluid" src="{{imgsrc}}" alt=""/>
           </figure>
           <h1 class="story-heading">Il Fiorenzuola cerca con l'Adriese il primo acuto</h1>
         </a>
@@ -34,7 +34,7 @@
       <header class="story-header">
         <a href="#" class="block-link">
           <figure class="story-media">
-            <img class="img--fluid" src="http://placehold.it/600x338" alt=""/>
+            <img class="img--fluid" src="{{imgsrc}}" alt=""/>
           </figure>
           <h1 class="story-heading">Vicenda Carpaneto, la Folgore Rubiera presenta un nuovo ricorso</h1>
         </a>

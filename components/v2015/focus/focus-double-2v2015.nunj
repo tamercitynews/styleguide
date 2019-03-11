@@ -11,15 +11,15 @@
 	</div>
 	<div class="line">
 		<ul class="u-unstyled u-bordered l-row">
-      {% for story in stories %}
-        {% set loopStart = loop.index %}
+      {% for story in range(0,5) %}
+        {# {% set loopStart = loop.index %}
         {% set loopSlice = 4 %}
-        {% if loopStart <= loopSlice %}
+        {% if loopStart <= loopSlice %} #}
           <li class="unit size1of4 l-row-item slice-item item-span-1">
-            {% set story_summary = true %}
-            {% include "partials/v2015/story/story-default.njk" %}
+            {# {% set story_summary = true %} #}
+            {% render "@story-defaultv2015" %}
           </li>
-        {% endif %}
+        {# {% endif %} #}
       {% endfor %}
 		</ul>
 	</div>

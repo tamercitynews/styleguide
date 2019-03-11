@@ -4,18 +4,18 @@
 	</li>
 	<li class="l-list-item item-span-3 unspaced">
 		<div class="slots slots-headlines">
-      {% if slot_half %}
+      {# {% if slot_half %} #}
   			<div class="slot medium-slot">
-          <img src="{{ slots.half_rect }}">
+          <img src="{{ imgsrc }}">
         </div>
-      {% else %}
+      {# {% else %} #}
         <div class="slot slot-300x250_naz">
-          <img src="{{ slots.med_rect_1 }}">
+          <img src="{{ imgsrc }}">
         </div>
         <div class="slot slot-300x250_loc">
-          <img src="{{ slots.med_rect_2 }}">
+          <img src="{{ imgsrc }}">
         </div>
-      {% endif %}
+      {# {% endif %} #}
 		</div>
 	</li>
 </ul>

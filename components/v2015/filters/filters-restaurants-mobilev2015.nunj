@@ -24,8 +24,8 @@
     </a>
     <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu2">
       {% for item in zone %}
-        <li data-itemattr-name="{{item.data}}">
-          <a class="link" href="{{item.link}}">{{item.name}}</a>
+        <li data-itemattr-name="data">
+          <a class="link" href="{{item.link}}">name</a>
         </li>
       {% endfor %}
     </ul>
@@ -66,7 +66,7 @@
         {% for item in restaurants[0].region %}
           <div class="checkbox">
             <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
-            <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+            <label class="checkbox-label" for="mcheckbox{{loop.index}}">name <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
           </div>
         {% endfor %}
       </div>

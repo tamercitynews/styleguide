@@ -49,7 +49,7 @@
             {% for item in restaurants[0].region %}
               <div class="checkbox">
                 <input type="checkbox" value="" id="mcheckbox{{loop.index}}">
-                <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}} <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
+                <label class="checkbox-label" for="mcheckbox{{loop.index}}">name <span class="text-sm checkbox-counter">({{item.numbers}})</span></label>
               </div>
             {% endfor %}
 
@@ -62,7 +62,7 @@
 
             {% for item in events[0].typology %}
 
-            <li data-itemattr-name="{{item.data}}">
+            <li data-itemattr-name="data">
                 <a class="link" href="{{item.link}}">{{item.label}}</a>
             </li>
 

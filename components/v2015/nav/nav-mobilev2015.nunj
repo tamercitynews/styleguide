@@ -2,15 +2,15 @@
 
 	<div class="mobile-nav-header">
 		<div class="header-toolbar">
-      {% if logged %}
+      {# {% if logged %} #}
         <a href="<!-- @path user-public-profile.html -->" class="btn account-btn">
   				<img class="avatar avatar-md" src="<!-- @path user-avatar.png -->" alt="Foto Profilo Utente" Title="Marco Rossi">
   			</a>
-      {% else %}
+      {# {% else %} #}
         <a href="<!-- @path user-signin.html -->" class="btn login-btn has-icon centered">
           <svg class="icon inverse-icon user-icon medium"><use xlink:href="#icon-user"></use></svg>
         </a>
-      {% endif %}
+      {# {% endif %} #}
 
 			<a href="#start-search" class="btn search-btn start-search-trigger mobile-search-trigger">
         <span></span>

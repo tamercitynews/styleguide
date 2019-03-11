@@ -3,13 +3,13 @@
     <svg class="icon inline-icon small camera-icon theme-fill">
       <use xlink:href="#camera-icon"></use>
     </svg>
-    <a href="<!-- @path gallery.html -->" class="link">{{ story.gallery.title }}</a>
+    <a href="#" class="link">{{ title }}</a>
   </h4>
   <ul class="u-unstyled preview-gallery-list multi-row-gallery">
-    {% for thumb in story.gallery.thumbs %}
+    {% for thumb in range(0,27) %}
     <li class="preview-gallery-item">
       <figure>
-        <a href="#"><img src="{{ thumb.src }}"></a>
+        <a href="#"><img src="{{ imgsrc }}"></a>
       </figure>
     </li>
     {% endfor %}

@@ -18,7 +18,7 @@
 <div class="group user-profile-container-activity tab-content">
   <div role="tabpanel" id="attivita-recenti" class="tab-pane fade active in">
     <div class="group size1of1">
-      {% set user_activity = true %}
+      {# {% set user_activity = true %} #}
       {% render "@user-postv2015" %}
     </div>
   </div>
@@ -51,8 +51,8 @@
   </div>
   <div role="tabpanel" id="contenuti-segnalazioni" class="tab-pane fade">
     <div class="group size1of1">
-      {% set user_activity = false %}
-      {% set user_reports = true %}
+      {# {% set user_activity = false %}
+      {% set user_reports = true %} #}
       {% render "@user-postv2015" %}
     </div>
   </div>

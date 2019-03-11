@@ -14,15 +14,15 @@
 						<figure class="story-media media-half">
 							<a href="<!-- @path article.html -->">
 								<picture>
-									<source srcset="{{ stories[4].thumb.horizontal.medium }}" media="(min-width: 46.25em)">
-									<img srcset="<{{ stories[4].thumb.horizontal.low }}" alt="Giubileo Stazione Termini">
+									<source srcset="{{ imgsrc }}" media="(min-width: 46.25em)">
+									<img srcset="<{{ imgsrc2 }}" alt="Giubileo Stazione Termini">
 								</picture>
 							</a>
 						</figure>
 						<h3 class="story-heading heading-md">
-              <a href="" class="link">{{ stories[4].headline }}</a>
+              <a href="" class="link">{{ title }}</a>
             </h3>
-						<p class="summary story-summary">{{ stories[4].summary }}</p>
+						<p class="summary story-summary">{{ summary }}</p>
 					</header>
 				</article>
 			</li>
@@ -32,9 +32,9 @@
 						<article class="story">
 							<header class="story-header">
 								<h4 class="story-heading heading-sm">
-                  <a href="#" class="link">{{ stories[5].headline }}</a>
+                  <a href="#" class="link">{{ title }}</a>
                 </h4>
-								<p class="summary story-summary hidden-xs hidden-sm">{{ stories[5].summary }}</p>
+								<p class="summary story-summary hidden-xs hidden-sm">{{ summary }}</p>
 							</header>
 						</article>
 					</li>
@@ -42,9 +42,9 @@
 						<article class="story">
 							<header class="story-header">
 								<h4 class="story-heading heading-sm">
-                  <a href="#" class="link">{{ stories[6].headline }}</a>
+                  <a href="#" class="link">{{ title }}</a>
                 </h4>
-								<p class="summary story-summary hidden-xs hidden-sm">{{ stories[6].summary }}</p>
+								<p class="summary story-summary hidden-xs hidden-sm">{{ summary }}</p>
 							</header>
 						</article>
 					</li>

@@ -16,14 +16,14 @@
   <footer class="story-footer hidden-xs">
     <div class="sublinks">
       <ul class="u-unstyled">
-        {# {% for link in stories[7].sublinks %} #}
+        {% for item in range(0,5) %}
           <li class="sublink">
             <a href="#" class="link">
               <strong class="kicker theme-color">label / </strong>
               {{ title }}
             </a>
           </li>
-        {# {% endfor %} #}
+        {% endfor %}
       </ul>
     </div>
   </footer>

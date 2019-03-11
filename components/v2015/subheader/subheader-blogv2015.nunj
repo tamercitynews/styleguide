@@ -3,7 +3,7 @@
 		<div class="unit size1of1">
 			<div class="blog-subheader">
 				<figure class="blog-author-photo">
-					<img src="{{ base_path }}images/content/blog-avatar.png" title="Autore" alt="Autore">
+					<img src="{{ imgsrc2 }}" title="Autore" alt="Autore">
 				</figure>
 				<h1 class="page-title"><a href="#" class="link">Titolo del blog</a></h1>
 				<p class="byline">A cura di Corradino Mineo</p>

@@ -27,7 +27,7 @@
             <div class="checkbox">
                 <input data-filter="genere" type="checkbox" name="bs_checkbox_genere[]" id="bs_checkbox_{{itme.data}}" value="{{itme.data}}">
                 <label class="checkbox-label" for="bs_checkbox_{{itme.data}}">
-                    <a onclick="$('#bs_checkbox_{{itme.data}}').trigger('click');return false;" class="link" href="{{item.link}}">{{item.name}} {{item.numbers}}</a>
+                    <a onclick="$('#bs_checkbox_{{itme.data}}').trigger('click');return false;" class="link" href="{{item.link}}">name {{item.numbers}}</a>
                 </label>
             </div>
             {% endfor %}
@@ -35,9 +35,9 @@
             <h6>Sale</h6>
             {% for item in movies[1].cinema %}
             <div class="checkbox">
-                <input data-filter="sala" type="checkbox" name="bs_checkbox_element[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
-                <label class="checkbox-label" for="bs_checkbox_{{item.data}}" onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;">
-                    <a class="link" href="{{item.link}}">{{item.name}}</a>
+                <input data-filter="sala" type="checkbox" name="bs_checkbox_element[]" id="bs_checkbox_data" value="data">
+                <label class="checkbox-label" for="bs_checkbox_data" onclick="$('#bs_checkbox_data').trigger('click');return false;">
+                    <a class="link" href="{{item.link}}">name</a>
                 </label>
             </div>
             {% endfor %}
@@ -55,7 +55,7 @@
         <ul class="u-unstyled filters-list">
           {% for item in restaurants[0].ethnicity %}
 
-              <li data-itemattr-name="{{item.data}}">
+              <li data-itemattr-name="data">
                   <a class="link" href="{{item.link}}">{{item.type}}</a>
               </li>
 

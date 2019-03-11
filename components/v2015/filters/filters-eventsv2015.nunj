@@ -3,10 +3,10 @@
       <div class="filter-block grouped-filters bs_checkbox_filters">
           <h5>Filtra per</h5>
           <h6>Tipo:</h6>
-          {% for item in events[0].typology %}
+          {% for item in range(0,5) %}
           <div class="checkbox">
-              <input data-filter="tipo" type="checkbox" name="bs_checkbox_tipologia[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
-              <label class="checkbox-label" for="bs_checkbox_{{item.data}}"><a onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;" class="link" href="{{item.link}}">{{item.label}}</a></label>
+              <input data-filter="tipo" type="checkbox" name="bs_checkbox_tipologia[]" id="bs_checkbox_data" value="data">
+              <label class="checkbox-label" for="bs_checkbox_data"><a onclick="$('#bs_checkbox_data').trigger('click');return false;" class="link" href="{{item.link}}">label</a></label>
           </div>
           {% endfor %}
           <hr>
@@ -17,10 +17,10 @@
           </div>
           <hr>
           <h6>Tema:</h6>
-          {% for item in events[1].theme %}
+          {% for item in range(0,5) %}
           <div class="checkbox">
-              <input data-filter="tema" type="checkbox" name="bs_checkbox_tema-dell-evento[]" id="bs_checkbox_{{item.data}}" value="{{item.data}}">
-              <label class="checkbox-label" for="bs_checkbox_{{item.data}}"><a onclick="$('#bs_checkbox_{{item.data}}').trigger('click');return false;" class="link" href="{{item.link}}">{{item.name}}</a></label>
+              <input data-filter="tema" type="checkbox" name="bs_checkbox_tema-dell-evento[]" id="bs_checkbox_data" value="data">
+              <label class="checkbox-label" for="bs_checkbox_data"><a onclick="$('#bs_checkbox_data').trigger('click');return false;" class="link" href="{{item.link}}">name</a></label>
           </div>
           {% endfor %}
       </div>
@@ -35,9 +35,9 @@
   <div class="filter-block">
       <h6>Ristoranti</h6>
       <ul class="u-unstyled filters-list">
-        {% for item in restaurants[0].ethnicity %}
+        {% for item in range(0,5) %}
 
-           <li data-itemattr-name="{{item.data}}">
+           <li data-itemattr-name="data">
                <a class="link" href="{{item.link}}">{{item.type}}</a>
            </li>
 

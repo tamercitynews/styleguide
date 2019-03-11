@@ -17,7 +17,7 @@
     </li>
   </ul>
 </nav>
-<!-- Channel Mobile Nav ------------------------------------------------------->
+<!-- Channel Mobile Nav ----------------------------------------------------- -->
 <div class="channel-mobile-menu hidden-md hidden-lg">
   <a href="#" class="channel-nav-trigger"><span class="trigger-label">Menu</span></a>
   <nav class="channel-mobile-nav">

@@ -21,5 +21,5 @@
 </section>
 
 <div class="slots is-mobile">
-	<div class="slot medium-slot"><img src="<!-- @path medium-rectangle-1 -->"></div>
+	<div class="slot medium-slot"><img src="{{imgsrc}}"></div>
 </div>

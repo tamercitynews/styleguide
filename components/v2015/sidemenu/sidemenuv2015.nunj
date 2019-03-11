@@ -1,6 +1,6 @@
-{% macro sidemenu(type,content) %}
+{# {% macro sidemenu(type,content) %} #}
 
-  {% macro places(place) %}
+  {# {% macro places(place) %} #}
     <ul class="u-unstyled alph-group">
       <li id="alph-group-{{place}}"><h5 class="index-alphabetic-list">{{place}}</h5></li>
       <li><h5>ZONA</h5></li>
@@ -17,7 +17,7 @@
         </li>
       {% endfor %}
     </ul>
-  {% endmacro %}
+  {# {% endmacro %} #}
 
   <!-- Menu's sidemenu -->
   <nav class="c-sidemenu {% if type == 'menu' %}c-sidemenu--right{% endif %} theme-border u-shadow" {% if type == 'menu' %} data-name="menu" {% else %} data-name="network" {% endif %} >
@@ -25,7 +25,7 @@
     <div class="c-sidemenu__header">
       <div class="c-sidemenu__brand">
 
-        {% if type=='menu' %}
+        {# {% if type=='menu' %} #}
 
             <svg class=".c-sidemenu__logo logo hidden-xs hidden-sm" width="340px" height="50px" viewBox="0 0 340 50" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <title>romatoday-web</title>
@@ -41,9 +41,9 @@
               <svg class="icon inverse-icon user-icon medium"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-lens"></use></svg>
             </a>
 
-        {% elseif type=='network'%}
+        {# {% elseif type=='network'%} #}
           <img src="/assets/images/site/horizontal-white-full.svg" alt="" class="c-sidemenu__logo">
-        {% endif %}
+        {# {% endif %} #}
 
         <div class="c-sidemenu__close centered u-shadow js-sidemenu-toggle" {% if type == 'menu' %} data-name="menu" {% else %} data-name="network" {% endif %} >
           <svg class="icon inverse-icon medium u-pointer">
@@ -55,9 +55,9 @@
     </div>
 
     <ul class="c-sidemenu__list u-unstyled">
-      {% if type=='menu' %}
+      {# {% if type=='menu' %} #}
 
-        {% for nav in content %}
+        {% for nav in range(0,5) %}
           <li class="c-sidemenu__item"><a href="{{nav.url}}" class="c-sidemenu__link">{{nav.name}}</a></li>
         {% endfor %}
           <li class="c-sidemenu__item has-children">
@@ -74,19 +74,19 @@
 
           <div class="alph-groups-container">
 
-            {{ places('a') }}
+            {# {{ places('a') }}
             {{ places('b') }}
-            {{ places('c') }}
+            {{ places('c') }} #}
 
           </div>
         </div>
       </li>
 
-      {% elseif type=='network' %}
+      {# {% elseif type=='network' %} #}
           <li class="align-center">
             <h5 class="label label--inverse u-mb--quarter ">edizioni locali</h5>
           </li>
-        {% for brand in content %}
+        {% for brand in range(0,5) %}
           <li class="c-sidemenu__item">
             <a href="#" class="c-sidemenu__link">
               <img src="{{brand.url}}" alt="" class="c-sidemenu__image centered">
@@ -96,7 +96,7 @@
           <li class="align-center">
             <h5 class="label label--inverse u-mb--quarter">edizioni tematiche</h5>
           </li>
-        {% for brand in content %}
+        {% for brand in range(0,5) %}
           <li class="c-sidemenu__item">
             <a href="#" class="c-sidemenu__link">
               <img src="{{brand.url}}" alt="" class="c-sidemenu__image centered">
@@ -104,7 +104,7 @@
           </li>
         {% endfor %}
 
-      {% endif %}
+      {# {% endif %} #}
     </ul>
   </nav>
-{% endmacro %}
+{# {% endmacro %} #}

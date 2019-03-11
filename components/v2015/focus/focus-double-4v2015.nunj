@@ -14,26 +14,26 @@
 		<ul class="u-unstyled l-row">
 			<li class="group size1of2 l-row-item">
 				<ul class="u-unstyled u-bordered l-row">
-          {% for story in stories %}
-            {% if loop.index < 3 %}
+          {% for story in range(0,4) %}
+            {# {% if loop.index < 3 %} #}
   					<li class="unit size1of2 l-row-item item-span-1">
               {% set story_summary = true %}
-              {% include "partials/v2015/story/story-default.njk" %}
+              {% render "@story-defaultv2015" %}
   					</li>
-            {% endif %}
+            {# {% endif %} #}
           {% endfor %}
 				</ul>
 			</li>
 			<li class="unit size1of2 l-row-item">
         <ul class="u-unstyled u-bordered l-list">
-          {% for story in stories %}
-            {% set loopStart = loop.index %}
+          {% for story in range(0,4) %}
+            {# {% set loopStart = loop.index %}
             {% set loopSlice = 4 %}
-            {% if loopStart <= loopSlice %}
+            {% if loopStart <= loopSlice %} #}
   					<li class="l-list-item item-span-1">
-              {% include "partials/v2015/story/story-list--sm.njk" %}
+              {% render "@story-list-smv2015" %}
   					</li>
-            {% endif %}
+            {# {% endif %} #}
           {% endfor %}
 				</ul>
 			</li>

@@ -1,9 +1,9 @@
 <article class="story inset-story fullpage-hero has-no-border inverted">
-  <a class="block-link" href="http://www.romatoday.it/utilita/diretta-traffico/">
+  <a class="block-link" href="#">
     <figure class="story-media media-md">
       <picture>
-        <source srcset="http://placehold.it/1000x563" media="(min-width: 46.25em)">
-        <img srcset="http://placehold.it/600x338" alt="Alt title">
+        <source srcset="{{imgsrc}}" media="(min-width: 46.25em)">
+        <img srcset="{{imgsrc2}}" alt="Alt title">
       </picture>
     </figure>
     <header class="story-header">

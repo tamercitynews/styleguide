@@ -13,8 +13,8 @@
 					<header class="story-header">
 						<figure class="story-media media-half">
 							<picture>
-								<source srcset="http://placehold.it/300x169" media="(min-width: 46.25em)">
-								<img srcset="http://placehold.it/80x80" alt="Alt title">
+								<source srcset="{{imgsrc}}9" media="(min-width: 46.25em)">
+								<img srcset="{{imgsrc2}}" alt="Alt title">
 							</picture>
 						</figure>
 						<h3 class="story-heading heading-md">

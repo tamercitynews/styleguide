@@ -2,14 +2,14 @@
   <figure class="story-media">
     <a href="#">
       <picture>
-        <source srcset="{{item.media_desk}}" media="(min-width: 46.25em)">
-        <img src="{{item.media}}" alt="Alt title">
+        <source srcset="{{imgsrc}}" media="(min-width: 46.25em)">
+        <img src="{{imgsrc}}" alt="Alt title">
       </picture>
     </a>
   </figure>
   <header class="story-header">
     <h3 class="story-heading story-heading">  
-      <a class="link" href="#">{{item.title}}</a>
+      <a class="link" href="#">{{title}}</a>
     </h3>
     <span class="text-sm">sponsorizzato da "{{item.sponsor}}"</span>
   </header>  

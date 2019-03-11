@@ -23,9 +23,9 @@
       <span class="dropdown-toggle__selection">tutte</span>
     </a>
     <ul class="dropdown-menu dropdown-menu--size-lg bordered-dropdown-menu" aria-labelledby="dropdownMenu2">
-      {% for item in zone %}
-        <li data-itemattr-name="{{item.data}}">
-          <a class="link" href="{{item.link}}">{{item.name}}</a>
+      {% for item in range(0,5) %}
+        <li data-itemattr-name="data">
+          <a class="link" href="{{item.link}}">name</a>
         </li>
       {% endfor %}
     </ul>
@@ -49,18 +49,18 @@
         </div>
         <hr>
         <span class="dropdown-menu__subheader">Generi</span>
-        {% for item in movies[0].type %}
+        {% for item in range(0,5) %}
           <div class="checkbox">
               <input data-filter="bambini" type="checkbox" name="bs_checkbox_bambini" id="mcheckbox{{loop.index}}" value="">
-              <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}}</label>
+              <label class="checkbox-label" for="mcheckbox{{loop.index}}">name</label>
           </div>
         {% endfor %}
         <hr>
         <span class="dropdown-menu__subheader">Sala</span>
-        {% for item in movies[1].cinema %}
+        {% for item in range(0,5) %}
           <div class="checkbox">
               <input data-filter="bambini" type="checkbox" name="bs_checkbox_bambini" id="mcheckbox{{loop.index}}" value="">
-              <label class="checkbox-label" for="mcheckbox{{loop.index}}">{{item.name}}</label>
+              <label class="checkbox-label" for="mcheckbox{{loop.index}}">name</label>
           </div>
         {% endfor %}
       </div>
