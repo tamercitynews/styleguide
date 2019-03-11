@@ -2,13 +2,13 @@
   <header class="card-header">
     <span class="card-label label">studio</span>
     <h2 class="card-heading">
-      <a href="/aziende/angela-dassisti-via-lucio-lombardo-radice-42-141619.html" class="link">Angela Dassisti</a>
+      <a href="#" class="link">Angela Dassisti</a>
     </h2>
     <p class="summary">Valutazione e terapia neuropsicologica sui disturbi dell'attenzione, iperattività, dislessia...</p>
   </header>
   <figure class="card-media">
-    <a href="/aziende/angela-dassisti-via-lucio-lombardo-radice-42-141619.html" class="link">
-      <img alt="Angela Dassisti" title="Angela Dassisti" src="http://2.citynews.stgy.ovh/~shared/uploads/imprese/70148591958542/61215567428349/logo.pic">
+    <a href="#" class="link">
+      <img alt="Angela Dassisti" title="Angela Dassisti" src="{{imgsrc2}}">
     </a>
   </figure>
   <div class="card-meta">

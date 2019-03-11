@@ -1,10 +1,10 @@
 <div class="blog-card">
   <a href="{{item.url}}">
-    <figure class="blog-author-photo"><img alt="{{item.name}}" src="{{item.image}}"></figure>
+    <figure class="blog-author-photo"><img alt="{{title}}" src="{{imgsrc}}"></figure>
   </a>
   <div class="blog-details theme-border">
-    <h5 class="blog-name"><a class="link" href="{{item.url}}">{{item.name}}</a></h5>
-    <p class="byline text-sm">{{item.byline}}<a href="mailto:simona.ventullo@personaliter.it" rel="tooltip" data-placement="right" title="Scrivi un'e-mail a A cura della Redazione di NegOziando"><i class="icon icon-small icon-email"></i></a></p>
-    <p class="blog-description">{{item.description}}</p>
+    <h5 class="blog-name"><a class="link" href="#">{{title}}</a></h5>
+    <p class="byline text-sm">{{item.byline}}<a href="#" rel="tooltip" data-placement="right" title="Scrivi un'e-mail a A cura della Redazione di NegOziando"><i class="icon icon-small icon-email"></i></a></p>
+    <p class="blog-description">{{summary}}</p>
   </div>
 </div>

@@ -21,7 +21,7 @@
 				<a href="/foto/cronaca/studenti-contro-l-alternanza-scuola-lavoro-i-volti/" class="link">{{related}}</a>
 			</h4>
 			<ul class="u-unstyled preview-gallery-list">
-				{# {% for item in range(0,5) %} #}
+				{% for item in range(0,5) %}
 				<li class="preview-gallery-item">
 					<figure>
 						<a href="#">
@@ -29,12 +29,12 @@
 						</a>
 					</figure>
 				</li>
-				{# {% endfor %} #}
+				{% endfor %}
 			</ul>
 		</div>
 		<div class="sublinks">
 			<ul class="u-unstyled">
-				{# {% for item in range(0,3) %} #}
+				{% for item in range(0,3) %}
 				<li class="sublink">
 					<a class="link" href="#">
 						<figure class="sublink-media">
@@ -44,7 +44,7 @@
 						<span class="heading-xs sublink-heading">{{related2}}</span>
 					</a>
 				</li>
-				{# {% endfor %} #}
+				{% endfor %}
 			</ul>
 		</div>
 	</footer>
