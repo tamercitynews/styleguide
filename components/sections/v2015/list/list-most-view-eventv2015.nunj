@@ -1,7 +1,7 @@
 <ul class="u-unstyled l-row">
-  {% for item in events[0].event %}
+  {% for item in range(0,5) %}
   <li class="unit l-row-item item-span-1 card-item card-item-md">
-    {% include "partials/v2015/card/card-event.njkv2015" %}
+    {% render "@card-eventv2015" %}
   </li>
   {% endfor %}
 </ul>

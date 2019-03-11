@@ -10,14 +10,14 @@
 			<!-- NewsList Main -->
 			<li class="unit size2of3 l-row-item item-span-1 newslist-main">
 				<ul class="u-unstyled u-bordered l-list">
-          {% for story in newslist %}
-            {% set loopStart = loop.index %}
+          {% for story in range(0,5) %}
+            {# {% set loopStart = loop.index %}
             {% set loopSlice = 6 %}
-            {% if loopStart <= loopSlice %}
+            {% if loopStart <= loopSlice %} #}
     		      <li class="l-list-item item-span-1">
                 {% render "@story-listv2015" %}
               </li>
-            {% endif %}
+            {# {% endif %} #}
           {% endfor %}
 				</ul>
 			</li>

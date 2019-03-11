@@ -1,6 +1,6 @@
 <section class="unit section section-newslist">
 	<ul class="u-unstyled u-bordered">
-    {% for story in newslist %}
+    {% for story in range(0,5) %}
         <li class="l-list-item item-span-1">
           <article class="story list-story">
     				<figure class="story-media media-md">

@@ -1,13 +1,13 @@
 <ul class="u-unstyled u-bordered">
-  {% for item in movies[1].cinema %}
+  {% for item in range(0,5) %}
   <li>
     <h4 class="unspaced">
-      <a href="{{item.link}}">{{item.name}}</a>
+      <a href="{{item.link}}">{{title}}</a>
     </h4>
     <ul class="u-unstyled inline-list">
-      {% for time in item.times %}
+      {% for time in range(0,5) %}
       <li class="inline-list-item">
-        <small class="small-text">{{time}}</small>
+        <small class="small-text">time</small>
       </li>
       {% endfor %}
     </ul>

@@ -1,0 +1,10 @@
+<ul class="u-unstyled l-row">
+  {# {% set maxItems = 3 %} #}
+  {% for item in range(0,5) %}
+    {# {% if loop.index <= maxItems %} #}
+      <li class="unit l-row-item item-span-1 card-item card-item-md">
+        {% render "@card-eventv2015" %}
+      </li>
+    {# {% endif %} #}
+  {% endfor %}
+</ul>

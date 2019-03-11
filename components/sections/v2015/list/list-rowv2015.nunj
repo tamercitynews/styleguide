@@ -11,15 +11,15 @@
       <li class="unit size1of4 l-row-item item-span-1">
         {% render "@native-sv6" %}
       </li>
-      {% for story in newslist %}
-        {% set loopStart = loop.index %}
+      {% for story in range(0,5) %}
+        {# {% set loopStart = loop.index %}
         {% set loopSlice = 3 %}
-        {% if loopStart <= loopSlice %}
+        {% if loopStart <= loopSlice %} #}
           <li class="unit size1of4 l-row-item item-span-1">
             {% set story_label = true %}
             {% render "@story-defaultv2015" %}
           </li>
-        {% endif %}
+        {# {% endif %} #}
       {% endfor %}
     </ul>
   </div>
