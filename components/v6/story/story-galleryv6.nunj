@@ -1,0 +1,4 @@
+<article class="c-story c-story--gallery o-cell-6">
+  <img src="{{imgsrc}}" alt="">
+  <a class="o-faux-link" href="#"></a>
+</article>

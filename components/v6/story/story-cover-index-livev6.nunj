@@ -1,0 +1,26 @@
+<article class="c-story c-story--cover" style="background-image: url('{{imgsrc}}')">
+  <div class="c-story__container">
+    <header>
+      <h5 class="c-story__kicker t-bg">In copertina</h5>
+      <h1 class="c-story__title o-serif-display o-canon">
+        <a class="o-link o-link--inverse" href="#">Incendio a Colle del Sole: bruciate due vetture in via Lanfranco Maroi</a>
+      </h1>
+    </header>
+    <footer>
+      <div class="c-story__live">
+        <a class="o-link o-link--inverse u-flex u-space-between u-items-center" href="/pages/notizie.html">
+          <h2 class="o-serif-narrow o-english o-upper u-mb-0">
+            <span class="o-icon-live o-icon-live--out t-border">
+              <span class="o-icon-live o-icon-live--in is-blinking t-bg--200"></span>
+            </span>
+            Ultim'ora
+          </h2>
+          <svg class="o-icon o-icon--inverse o-icon--md">
+            <use xlink:href="#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <a class="o-faux-link" href="#"></a>
+</article>

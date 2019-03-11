@@ -4,16 +4,16 @@
 			<a href="#">
 				<span class="play-video-icon"></span>
 				<picture>
-					<source srcset="http://placehold.it/300x149" media="(min-width: 46.25em)">
-					<img srcset="http://placehold.it/80x80" alt="Alt title">
+					<source srcset="{{imgsrc}}" media="(min-width: 46.25em)">
+					<img srcset="{{imgsrc}}" alt="Alt title">
 				</picture>
 			</a>
 		</figure>
 		<header class="story-header">
 			<h3 class="story-heading heading-std">
-        <a href="#" class="link">Voragine via Genzano, striscione anti Marino "In due anni tappavi il buco dell'ozono"</a>
+        <a href="#" class="link">{{title}}</a>
       </h3>
-			<p class="summary story-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor eleifend justo eu tincidunt. Aliquam sed elit fermentum, placerat tellus quis</p>
+			<p class="summary story-summary">{{summary}}</p>
 		</header>
 	</article>
 </li>
@@ -22,7 +22,7 @@
 	<article class="story">
 		<header class="story-header">
 			<h5 class="story-heading heading-xs">
-        <a href="#" class="link">Metro A: chiusa la stazione San Giovanni per furto di rame</a>
+        <a href="#" class="link">{{related}}</a>
       </h5>
 		</header>
 	</article>
@@ -32,7 +32,7 @@
 	<article class="story">
 		<header class="story-header">
 			<h5 class="story-heading heading-xs">
-        <a href="#" class="link">Via del Mandrione, boa di due metri a bordo strada</a>
+        <a href="#" class="link">{{related2}}</a>
       </h5>
 		</header>
 	</article>

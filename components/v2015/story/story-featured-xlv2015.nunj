@@ -3,27 +3,27 @@
     <a href="#">
       <span class="play-video-icon"></span>
       <picture>
-        <source srcset="{{ stories[7].thumb.horizontal.medium }}" media="(min-width: 46.25em)">
-        <img srcset="{{ stories[7].thumb.square.low }}" alt="Incidente Moto">
+        <source srcset="{{ imgsrc }}" media="(min-width: 46.25em)">
+        <img srcset="{{ imgsrc }}" alt="{{title}}">
       </picture>
     </a>
   </figure>
   <header class="story-header">
-    <span class="label theme-color">{{ stories[7].eyebrow }}</span>
-    <h2 class="story-heading heading-md"><a href="#" class="link">{{ stories[7].headline }}</a></h2>
-    <p class="summary story-summary">{{ stories[7].summary }}</p>
+    <span class="label theme-color">label</span>
+    <h2 class="story-heading heading-md"><a href="#" class="link">{{ title }}</a></h2>
+    <p class="summary story-summary">{{ summary }}</p>
   </header>
   <footer class="story-footer hidden-xs">
     <div class="sublinks">
       <ul class="u-unstyled">
-        {% for link in stories[7].sublinks %}
+        {# {% for link in stories[7].sublinks %} #}
           <li class="sublink">
             <a href="#" class="link">
-              <strong class="kicker theme-color">{{ link.kicker }} / </strong>
-              {{ link.title }}
+              <strong class="kicker theme-color">label / </strong>
+              {{ title }}
             </a>
           </li>
-        {% endfor %}
+        {# {% endfor %} #}
       </ul>
     </div>
   </footer>

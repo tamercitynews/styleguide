@@ -2,22 +2,22 @@
   <figure class="story-media media-xs media-full">
     <a href="#">
       <picture>
-        <source srcset="{{ story.thumb.horizontal.medium }}" media="(min-width: 46.25em)">
-        <img srcset="{{ story.thumb.square.low }}" alt="Stazione Termini Look">
+        <source srcset="{{ imgsrc }}" media="(min-width: 46.25em)">
+        <img srcset="{{ imgsrc }}" alt="{{title}}">
       </picture>
     </a>
   </figure>
   <header class="story-header">
-    {% if story_label %}
+    {# {% if story_label %} #}
       <span class="label theme-color">
-        <a href="http://www.romatoday.it/zone/centro/esquilino/" class="link">Label</a>
+        <a href="#" class="link">Label</a>
       </span>
-    {% endif %}
+    {# {% endif %} #}
     <h4 class="story-heading heading-std">
-      <a href="#" class="link">{{ story.headline }}</a>
+      <a href="#" class="link">{{ title }}</a>
     </h4>
-    {% if story_summary %}
-      <p class="summary story-summary hidden-xs">{{ story.summary }}</p>
-    {% endif %}
+    {# {% if story_summary %} #}
+      <p class="summary story-summary hidden-xs">{{ summary }}</p>
+    {# {% endif %} #}
   </header>
 </article>

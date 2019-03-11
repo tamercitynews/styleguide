@@ -1,16 +1,16 @@
 <article class="story inset-story fullpage-hero has-no-border inverted">
-  <a class="block-link" href="{{ story.url }}">
-    {% if label_badge %}
+  <a class="block-link" href="#">
+    {# {% if label_badge %} #}
       <span class="label badge-label">Label</span>
-    {% endif %}
+    {# {% endif %} #}
     <figure class="story-media media-md">
-      <img srcset="http://placehold.it/600x338" alt="Alt title">
+      <img srcset="{{imgsrc}}" alt="{{title}}">
     </figure>
     <header class="story-header">
-      {% if inset_kicker %}
+      {# {% if inset_kicker %} #}
         <span class="highlight-kicker theme-background">Label</span>
-      {% endif %}
-      <h2 class="story-heading heading-lg">Cellulite, un nuovo modo per combatterla</h2>
+      {# {% endif %} #}
+      <h2 class="story-heading heading-lg">{{title}}</h2>
     </header>
   </a>
 </article>

@@ -1,0 +1,9 @@
+<article class="c-story">
+  <img class="c-story__media" src="{{imgsrc}}" alt="…">
+  <h1 class="c-story__title o-serif-display o-doublecolumbian">
+    <a class="o-link o-link--dark" href="#">
+      Incendio a Colle del Sole: bruciate due vetture sulla strada via Lanfranco Maroi
+    </a>
+  </h1>
+  <a class="o-faux-link" href="#"></a>
+</article>

@@ -1,27 +1,27 @@
 <article class="story hero-story has-border-bottom">
 	<header class="story-header">
 		<h1 class="story-heading heading-lg">
-      <a href="<!-- @path article.html -->" class="link">{{ stories[8].headline }}</a>
+      <a href="#" class="link">{{ title }}</a>
     </h1>
-    {% for subhead in stories[8].subhead %}
-      <span class="story-subheading theme-element-bg"><a href="<!-- @path article.html -->" class="link">{{ subhead.title }}</a></span>
-    {% endfor %}
+    {# {% for subhead in stories[8].subhead %} #}
+      <span class="story-subheading theme-element-bg"><a href="#" class="link">{{ subtitle }}</a></span>
+    {# {% endfor %} #}
 		<figure class="story-media media-half">
-      <a href="<!-- @path article.html -->"><img src="{{ story.hero.thumb.horizontal }}"></a>
+      <a href="#"><img src="{{imgsrc}}"></a>
     </figure>
-		<p class="summary story-summary">{{ stories[8].summary }}</p>
+		<p class="summary story-summary">{{ summary }}</p>
 	</header>
 	<footer class="story-footer">
     <div class="sublinks">
       <ul class="u-unstyled">
-        {% for link in stories[8].sublinks %}
+        {# {% for link in stories[8].sublinks %} #}
           <li class="sublink">
             <a href="#" class="link">
-              <strong class="kicker">{{ link.kicker }} / </strong>
-              {{ link.title }}
+              <strong class="kicker">label / </strong>
+              {{ title }}
             </a>
           </li>
-        {% endfor %}
+        {# {% endfor %} #}
       </ul>
     </div>
 	</footer>

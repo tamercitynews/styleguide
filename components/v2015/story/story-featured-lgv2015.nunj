@@ -1,28 +1,28 @@
 <article class="story featured-story featured-lg">
 	<figure class="story-media media-half">
-		<a href="<!-- @path article.html -->">
+		<a href="#">
 			<picture>
-				<source srcset="{{ stories[4].thumb.horizontal.medium }}" media="(min-width: 46.25em)">
-				<img srcset="{{ stories[4].thumb.horizontal.medium }}" alt="Incidente Moto">
+				<source srcset="{{ imgsrc }}" media="(min-width: 46.25em)">
+				<img srcset="{{ imgsrc }}" alt="Incidente Moto">
 			</picture>
 		</a>
 	</figure>
 	<header class="story-header">
-		<span class="label theme-color">{{ stories[4].kicker }}</span>
+		<span class="label theme-color">label</span>
 		<h2 class="story-heading heading-md">
-      <a href="<!-- @path article.html -->" class="link">{{ stories[4].headline }}</a>
+      <a href="#" class="link">{{ title }}</a>
     </h2>
 	</header>
 	<footer class="story-footer hidden-xs">
 		<ul class="u-unstyled list sublinks">
-      {% for link in stories[4].sublinks %}
+      {# {% for link in stories[4].sublinks %} #}
         <li class="sublink">
           <a href="#" class="link">
-            <strong class="kicker">{{ link.kicker }} / </strong>
-            {{ link.title }}
+            <strong class="kicker">label / </strong>
+            {{ title }}
           </a>
         </li>
-      {% endfor %}
+      {# {% endfor %} #}
 		</ul>
 	</footer>
 </article>

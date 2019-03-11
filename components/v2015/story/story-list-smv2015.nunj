@@ -1,0 +1,15 @@
+<article class="story">
+  <figure class="story-media media-sm">
+    <a href="#">
+      <picture>
+        <source srcset="{{ imgsrc}}" media="(min-width: 62.5em)">
+        <img srcset="{{ imgsrc }}" alt="{{title}}">
+      </picture>
+    </a>
+  </figure>
+  <header class="story-header">
+    <h4 class="story-heading heading-sm">
+      <a href="#" class="link">{{ title }}</a>
+    </h4>
+  </header>
+</article>

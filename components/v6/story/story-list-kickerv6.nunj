@@ -1,0 +1,10 @@
+<article class="c-story c-story--sponsor u-row">
+  <img class="c-story__media c-story__media--fp o-cell-5 u-mr-size1x" src="{{imgsrc}}" alt="">
+  <header class="">
+    <h5 class="o-sans-narrow o-upper o-pica t-color u-mb-0">Cronaca</h5>
+    <h2 class="c-story__title o-serif-display o-columbian">
+      <a class="o-link o-link--dark" href="#">Mille euro a settimana di interessi: imprenditori e commercianti 'strozzati'</a>
+    </h2>
+  </header>
+  <a class="o-faux-link" href="#"></a>
+</article>

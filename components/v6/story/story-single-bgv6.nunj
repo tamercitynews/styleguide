@@ -1,0 +1,29 @@
+<article class="c-story c-story--bg-fixed">
+  <div class="c-story__media" style="background-image: url('{{imgsrc}}')">
+    <h5 class="c-story__kicker c-story__kicker--overlay t-bg">Politica</h5>
+  </div>
+  <div class="c-story__container o-bg-base">
+    <h1 class="c-story__title o-serif-display o-canon">
+      <a class="o-link o-link--dark" href="#">Vaccini, l'autocertificazione bocciata dai medici: "La legge funziona"</a>
+    </h1>
+    {# {% if sublinks %} #}
+      <ul class="o-list o-list--bullet">
+        <li class="c-story__sublink o-list__item t-bg-el">
+          <a class="o-link o-english" href="/politica/sciopero-2-maggio-linee-periferia.html">
+            <em class="c-story__sublink-kicker t-color">Roma Tpl /</em>Solidali e informati: Un'intera classe si fa vaccinare: ecco perché
+          </a>
+        </li>
+        <li class="c-story__sublink o-list__item t-bg-el">
+          <a class="o-link o-english" href="/eventi/serata-paella-allucanpaella-ristorante-el-patio-3-maggio-2016.html">
+            Matteo Salvini: È contrario alla legge sui vaccini obbligatori a scuola
+          </a>
+        </li>
+      </ul>
+    {# {% else %} #}
+      <p class="o-summary o-color-secondary">Primo colpo alla legge sull'obbligo di vaccinazioni per l'accesso a scuola: basterà un'autocertificazione. Grillo: "Rendere serena l'applicazione della normativa". I medici: "Passo indietro". Intanto i No vax vomitano insulti agghiaccianti contro il campione Zaytsev</p>
+      <time class="o-pica ">il 2 maggio del 2016</time>
+      <span class="o-dot o-pica o-link--dark">9 commenti</span>
+    {# {% endif %} #}
+  </div>
+  <a class="o-faux-link" href="#"></a>
+</article>

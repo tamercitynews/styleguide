@@ -1,0 +1,11 @@
+<article class="story">
+  <figure class="story-media media-xs">
+    <a href="#">
+      <picture>
+        <source srcset="{{imgsrc}}" media="(min-width: 62.5em)">
+        <img srcset="{{imgsrc2}}" alt="{{title}}">
+      </picture>
+    </a>
+  </figure>
+  <h4 class="story-heading heading-xs"><a href="#" class="link">{{title}}</a></h4>
+</article>

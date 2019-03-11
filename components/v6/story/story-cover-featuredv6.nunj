@@ -1,0 +1,15 @@
+<article class="c-story c-story--cover" style="background-image: url('{{imgsrc}}')">
+  <div class="c-story__container">
+    <header>
+      <h5 class="c-story__kicker t-bg">label</h5>
+      <h1 class="c-story__title o-serif-display o-canon">
+        <a class="o-link o-link--inverse" href="#">{{title}}</a>
+      </h1>
+    </header>
+    <footer>
+      <time class="o-pica ">il 2 maggio del 2016</time>
+      <span class="o-dot o-pica o-link--inverse">9 commenti</span>
+    </footer>
+  </div>
+  <a class="o-faux-link" href="#"></a>
+</article>

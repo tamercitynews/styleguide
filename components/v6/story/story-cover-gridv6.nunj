@@ -1,0 +1,9 @@
+<article class="c-story c-story--grid c-story--cover o-cell-6" style="background-image: url('{{imgsrc}}')">
+  <h5 class="c-story__badge c-story__badge--top c-story__badge--magenta o-primer">Mostre</h5>
+  <div class="c-story__container">
+    <h2 class="c-story__title o-english u-mb-0">
+      <a class="o-link o-link--inverse" href="#">{{title}}</a>
+    </h2>
+  </div>
+  <a class="o-faux-link" href="#"></a>
+</article>

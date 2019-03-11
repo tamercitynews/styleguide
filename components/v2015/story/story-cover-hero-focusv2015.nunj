@@ -3,12 +3,12 @@
 			<a href="<!-- @path article.html -->" class="link">
 				<figure class="story-media media-full video-media">
 					<span class="play-video-icon"></span>
-					<img src="{{ stories[0].thumb.horizontal.hi }}">
+					<img src="{{ imgsrc }}">
 				</figure>
 			</a>
 			<h2 class="story-heading heading-md">
-        <a href="<!-- @path article.html -->" class="link">{{ stories[0].headline }}</a>
+        <a href="<!-- @path article.html -->" class="link">{{ title }}</a>
       </h2>
-      <p class="summary story-summary hidden-md hidden-lg">{{ stories[0].summary }}</p>
+      <p class="summary story-summary hidden-md hidden-lg">{{ summary }}</p>
 		</header>
 </article>

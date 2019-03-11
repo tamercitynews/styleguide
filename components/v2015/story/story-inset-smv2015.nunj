@@ -1,15 +1,15 @@
 <article class="story inset-story inverted">
-  <a href="<!-- @path article.html -->" class="block-link">
+  <a href="#" class="block-link">
     <figure class="story-media media-md">
       <picture>
-        <source srcset="{{ stories[9].thumb.vertical.medium }}" media="(min-width: 46.25em)">
-        <img srcset="{{ stories[9].thumb.horizontal.medium }}" alt="Varchi Ostia">
+        <source srcset="{{ imgsrc}}" media="(min-width: 46.25em)">
+        <img srcset="{{ imgsrc }}" alt="{{title}}">
       </picture>
     </figure>
     <header class="story-header">
-      <span class="highlight-kicker theme-background">{{ stories[9].eyebrow }}</span>
-      <h3 class="story-heading heading-md reportage-heading">{{ stories[9].headline}}</h3>
-      <p class="summary story-summary">{{ stories[9].summary}}</p>
+      <span class="highlight-kicker theme-background">label</span>
+      <h3 class="story-heading heading-md reportage-heading">{{title}}</h3>
+      <p class="summary story-summary">{{summary}}</p>
     </header>
   </a>
 </article>
