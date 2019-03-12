@@ -1,0 +1,6 @@
+<div data-full-screen-page class="fp-block" data-full-screen-page-callback="$('body').removeClass('fp-default fp-index-first').addClass('fp-inverse');">
+  <div class="fp-block__cell">
+    {# {% set sublinks = true %} #}
+    {% render "@v6-story-single-bg" %}
+  </div>
+</div>

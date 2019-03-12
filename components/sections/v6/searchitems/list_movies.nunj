@@ -1,0 +1,11 @@
+<div data-full-screen-page class="fp-block fp-block--single" data-full-screen-page-callback="$('body').removeClass('fp-inverse fp-index-first').addClass('fp-default');">
+  <div class="fp-block__title t-border">
+    <h3 class="o-title"><a class="o-link o-link--dark" href="#">Oggi al cinema</a></h3>
+  </div>
+  <div class="fp-block__cell fp-block__cell--list u-row u-row-wrap u-grid-start">
+    {% render "@v6-story-cover-movie" %}
+    {% render "@v6-story-cover-movie" %}
+    {% render "@v6-story-cover-movie" %}
+    {% render "@v6-story-cover-movie" %}
+  </div>
+</div>

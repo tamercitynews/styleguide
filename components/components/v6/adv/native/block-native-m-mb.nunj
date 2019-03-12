@@ -1,0 +1,5 @@
+<div data-full-screen-page class="fp-block" data-full-screen-page-callback="$('body').removeClass('fp-default fp-index-first').addClass('fp-inverse');">
+  <div class="fp-block__cell">
+    {% render "@v6-native-m" %}
+  </div>
+</div>

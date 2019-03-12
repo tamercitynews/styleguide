@@ -1,9 +1,0 @@
-<ul class="group size1of1 u-unstyled l-row multirow cards-list events-cards-list">
-  {% for i in range(0, 4) %}
-    {% for item in range(0, 4) %}
-      <li class="unit l-row-item item-span-1 card-item card-item-sm">
-        {% render "@card-moviev2015" %}
-      </li>
-    {% endfor %}
-  {% endfor %}
-</ul>

@@ -1,0 +1,9 @@
+<ul class="o-list o-list--border">
+  {% for i in range(0, 12) %}
+    <li class="o-list__item">
+
+      {% render "@v6-story-list-reverse" %}
+
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,38 @@
+<div class="search-overlay"></div>
+
+<header class="header slim-header {%if inverted %} theme-inverted {% endif %}">
+	<div class="header-top theme-header">
+		<div class="header-brand">
+			{% render "@v2015-brand-one" %}
+		</div>
+
+    <div class="slim-header-nav">
+  		{% render "@v2015-button-nav" %}
+    </div>
+
+    {# {% if page_title %} #}
+      <h1 class="page-title hidden-xs">
+        <a href="#" class="link">{{ title }}</a>
+      </h1>
+    {# {% endif %} #}
+
+    <!-- Nav Toolbar -->
+    {% render "@v2015-header-toolbar" %}
+
+    <!-- Nav Button -->
+    {% render "@v2015-button-nav" %}
+
+	</div>
+  <!-- Site Search -->
+  {% render "@v2015-site-search" %}
+
+  {# {% if subnav %} #}
+    <div class="header-bottom">
+      {# {% if subnav_borough %} #}
+        {% render "@v2015-nav-secondary-borough" %}
+      {# {% else %} #}
+        {% render "@v2015-nav-secondary" %}
+      {# {% endif %} #}
+    </div>
+  {# {% endif %} #}
+</header>

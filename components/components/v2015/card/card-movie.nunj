@@ -1,0 +1,12 @@
+<article class="block block--card block--card-tile">
+  <div class="block__media">
+    <a href="#" class="block-link">
+      <figure class="card-media">
+        <img src="{{imgsrc}}" alt="{{title}}" title="{{title}}">
+      </figure>
+    <span class="label label--inverse label--inverse-cultura">drammatico</span>
+    </a>
+  </div>
+  <h2 class="block__heading"><a href="#" class="link">{{title}}</a></h2>
+  {% render "@v2015-rating-large" %}
+</article>

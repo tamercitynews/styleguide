@@ -1,0 +1,58 @@
+<div class="search-overlay"></div>
+
+<header class="header">
+	<div class="header-top theme-header">
+
+    <!-- Brand -->
+		<div class="header-brand">
+			<div class="network">
+				<img class="logo" src="https://citynews.stgy.ovh/~shared/images/brand/citynews/cn-horizontal-grey-simple.png" />
+				<svg class="icon light-icon small u-pointer js-sidemenu-toggle" data-name="network"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu"></use></svg>
+			</div>
+
+      {# {% if logo_txt %} #}
+			  {% render "@v2015-brand-text" %}
+      {# {% else %} #}
+        {% render "@v2015-brand-one" %}
+      {# {% endif %} #}
+		</div>
+
+    <!-- Nav Primary -->
+    {% render "@v2015-nav-primary" %}
+
+    <!-- Nav Toolbar -->
+    {% render "@v2015-header-toolbar" %}
+
+    <!-- Nav Button -->
+    {% render "@buttons" %}
+	</div>
+	<div class="header-bottom">
+
+    <!-- Meteo -->
+		<div class="header-meta">
+			<a href="#" class="site-meteo">
+        <svg class="icon sun-icon small"><use xlink:href="#sunny-icon"></use></svg>
+        <span>31 <svg class="icon small"><use xlink:href="#celsius-icon"></use></svg></span>
+      </a>
+			<span class="site-date">giovedì, 23 Luglio 2015</span>
+		</div>
+
+    <!-- Nav Seconday -->
+    <nav class="secondary-nav absolute-position">
+    	<ul class="u-unstyled inline-list">
+        {# {% if nav_events %} #}
+          {% for item in range(0,5) %}
+            <li class="nav-item"><a href="{{ item.src }}" class="link">{{ name }}</a></li>
+          {% endfor %}
+        {# {% else %} #}
+          {% for item in range(0,5) %}
+            <li class="nav-item"><a href="#" class="link">{{ name }}</a></li>
+          {% endfor %}
+        {# {% endif %} #}
+    	</ul>
+    </nav>
+	</div>
+
+	<!-- Site Search -->
+	{% render "@v2015-site-search" %}
+</header>

@@ -1,0 +1,8 @@
+<div class="module-no-border">
+  <h5 class="module-title">In Evidenza</h5>
+  <div class="slots--flex">
+    {% for item in range(0,4) %}
+      {% render "@v2015-native-card" %}
+    {% endfor %}
+  </div>
+</div>

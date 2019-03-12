@@ -1,0 +1,25 @@
+<section class="section headlines-section cover-headlines">
+	<div class="line">
+		<ul class="u-unstyled headlines-list">
+			<!-- Headlines Main -->
+			<li class="group size2of3 headlines-main">
+				<ul class="u-unstyled l-list headlines-main-list">
+					<li class="unit size1of1 l-list-item item-span-1">
+						{% render "@v2015-carousel-single" %}
+					</li>
+					<li class="unit size1of1 l-list-item item-span-1">
+						{% render "@v2015-story-featured-xl" %}
+					</li>
+				</ul>
+			</li>
+			<!-- Headlines Aside -->
+			<li class="unit size1of3 headlines-aside">
+        {% render "@v2015-headlines-aside" %}
+			</li>
+		</ul>
+	</div>
+</section>
+
+<div class="slots is-mobile">
+	<div class="slot medium-slot"><img src="{{imgsrc}}"></div>
+</div>

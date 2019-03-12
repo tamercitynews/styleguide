@@ -1,0 +1,14 @@
+<div data-full-screen-page class="fp-block fp-block--three" data-full-screen-page-callback="$('body').removeClass('fp-inverse fp-index-first').addClass('fp-default');">
+  <div class="fp-block__title t-border">
+    <h3 class="o-title"><a class="o-link o-link--dark" href="#">Titolo blocco</a></h3>
+  </div>
+  <div class="fp-block__cell fp-block__cell--list u-flex-start">
+    {% render "@v6-story-featured" %}
+  </div>
+  <div class="fp-block__cell fp-block__cell--list">
+    {% render "@v6-story-list" %}
+  </div>
+  <div class="fp-block__cell fp-block__cell--list u-border-none">
+    {% render "@v6-story-list" %}
+  </div>
+</div>

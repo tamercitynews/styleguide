@@ -1,8 +1,0 @@
-<header class="c-header t-bg">
-    <!-- Brand -->
-		<div class="c-brand">
-      {% render "@brandv6" %}
-		</div>
-		<!-- Toggle -->
-		{% render "@togglev6" %}
-</header>

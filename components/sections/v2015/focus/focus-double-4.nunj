@@ -1,0 +1,42 @@
+<section class="section focus-section">
+	<div class="line">
+		<div class="unit size1of1">
+			<div class="section-title theme-border">
+				<h2 class="section-heading">Disagi sulla Roma Lido</h2>
+				<a class="a-sponsor-desktop">
+		      <span class="a-sponsor-desktop__label">Sponsor</span>
+		      <img class="a-sponsor-desktop__brand" src="/assets/images/adv/brand-coop.png">
+		    </a>
+			</div>
+		</div>
+	</div>
+	<div class="line">
+		<ul class="u-unstyled l-row">
+			<li class="group size1of2 l-row-item">
+				<ul class="u-unstyled u-bordered l-row">
+          {% for story in range(0,4) %}
+            {# {% if loop.index < 3 %} #}
+  					<li class="unit size1of2 l-row-item item-span-1">
+              {% set story_summary = true %}
+              {% render "@v2015-story-default" %}
+  					</li>
+            {# {% endif %} #}
+          {% endfor %}
+				</ul>
+			</li>
+			<li class="unit size1of2 l-row-item">
+        <ul class="u-unstyled u-bordered l-list">
+          {% for story in range(0,4) %}
+            {# {% set loopStart = loop.index %}
+            {% set loopSlice = 4 %}
+            {% if loopStart <= loopSlice %} #}
+  					<li class="l-list-item item-span-1">
+              {% render "@v2015-story-list-sm" %}
+  					</li>
+            {# {% endif %} #}
+          {% endfor %}
+				</ul>
+			</li>
+		</ul>
+	</div>
+</section>

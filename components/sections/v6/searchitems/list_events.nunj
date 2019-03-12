@@ -1,0 +1,17 @@
+<div data-full-screen-page class="fp-block fp-block--events" data-full-screen-page-callback="$('body').removeClass('fp-inverse fp-index-first').addClass('fp-default');">
+  <div class="fp-block__title t-border">
+    <h3 class="o-title"><a class="o-link o-link--dark" href="#">Eventi in città</a></h3>
+  </div>
+  <div class="fp-block__cell fp-block__cell--list">
+    {% render "@v6-story-cover-featured" %}
+  </div>
+  <div class="u-px-size2x">
+    <h4 class="o-serif-display o-color-secondary u-mb-0">Oggi a Roma</h4>
+  </div>
+  <div class="fp-block__cell fp-block__cell--list u-row u-row-wrap">
+    {% render "@v6-story-cover-grid" %}
+    {% render "@v6-story-cover-grid" %}
+    {% render "@v6-story-cover-grid" %}
+    {% render "@v6-story-cover-grid" %}
+  </div>
+</div>

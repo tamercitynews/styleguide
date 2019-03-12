@@ -1,0 +1,20 @@
+<div class="module theme-border">
+	<h5 class="module-title">In Evidenza</h5>
+	<ul class="u-unstyled u-bordered">
+		<li>
+      {% render "@v2015-story-list-sponsor" %}
+		</li>
+    <li>
+      {% render "@v2015-story-list-unordered" %}
+    </li>
+    <li>
+      {% render "@v2015-story-list-unordered" %}
+    </li>
+    <li>
+      {% render "@v2015-story-list-unordered" %}
+    </li>
+    <li>
+      {% render "@v2015-story-list-unordered" %}
+    </li>
+	</ul>
+</div>

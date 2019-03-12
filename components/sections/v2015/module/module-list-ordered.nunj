@@ -1,0 +1,14 @@
+<div class="module most-read theme-border">
+	<h5 class="module-title">I Più Letti</h5>
+	<ul class="u-unstyled u-bordered">
+    {% for story in range(0,4) %}
+      {# {% set loopStart = loop.index %}
+      {% set loopSlice = 5 %}
+      {% if loopStart <= loopSlice %} #}
+        <li>
+          {% render "@v2015-story-list-ordered" %}
+        </li>
+      {# {% endif %} #}
+    {% endfor %}
+	</ul>
+</div>

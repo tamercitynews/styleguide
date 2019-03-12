@@ -1,0 +1,7 @@
+<ul class="u-unstyled l-row">
+  {% for item in range(0,5) %}
+  <li class="unit l-row-item item-span-1 card-item card-item-md">
+    {% render "@v2015-card-event" %}
+  </li>
+  {% endfor %}
+</ul>
