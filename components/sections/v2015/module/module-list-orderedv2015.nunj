@@ -1,14 +1,14 @@
 <div class="module most-read theme-border">
 	<h5 class="module-title">I Più Letti</h5>
 	<ul class="u-unstyled u-bordered">
-    {% for story in stories %}
-      {% set loopStart = loop.index %}
+    {% for story in range(0,4) %}
+      {# {% set loopStart = loop.index %}
       {% set loopSlice = 5 %}
-      {% if loopStart <= loopSlice %}
+      {% if loopStart <= loopSlice %} #}
         <li>
-          {% include "partials/v2015/story/story-list--ordered.njk" %}
+          {% render "@story-list-orderedv2015" %}
         </li>
-      {% endif %}
+      {# {% endif %} #}
     {% endfor %}
 	</ul>
 </div>

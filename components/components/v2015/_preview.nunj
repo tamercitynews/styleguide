@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/v6_fonts.css' | path }}">
     <link rel="stylesheet" href="{{ '/assets/css/v2015_adv.css' | path }}">
     <link rel="stylesheet" href="{{ '/assets/css/v2015_style.css' | path }}">
+    <link rel="stylesheet" href="{{ '/assets/css/v2015_article.css' | path }}">
     <title>versione v2015</title>
 </head>
 <body>
